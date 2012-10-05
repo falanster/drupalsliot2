@@ -3,3 +3,37 @@
 body {
   background: url(../images/fon_stena.jpg) repeat-y;
 }
+
+#page{
+  background: rgba(0, 0, 0, 0.5);
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#zone-branding,
+#zone-menu,
+#region-footer-second {
+  background: rgba(0, 0, 0, 0.3);
+  width: 960px;
+} 
+
+
+/* Main menu */
+
+/* @end main menu */
+
+
+/* Footer menu */
+
+/* @end footer menu */
+
+/* Front page */
+
+
+/* @end front page */
+
+/* Inner page */
+
+
+/* @end inner page */
