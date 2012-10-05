@@ -6,16 +6,12 @@ body {
 
 #page{
   background: rgba(0, 0, 0, 0.5);
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-#zone-branding,
-#zone-menu,
-#region-footer-second {
+#zone-branding-wrapper,
+#zone-menu-wrapper,
+#zone-footer-wrapper {
   background: rgba(0, 0, 0, 0.3);
-  width: 960px;
 } 
 
 
