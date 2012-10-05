@@ -17,6 +17,26 @@ body {
 
 /* Main menu */
 
+#nice-menu-1 {
+  float: right;
+  margin-right: 40px;
+}
+
+#nice-menu-1 li,
+#nice-menu-1 li ul,
+#nice-menu-1 li ul li {
+  background: none;
+  border: none;
+}
+
+#nice-menu-1 li a,
+#nice-menu-1 li ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #f3f3f3;
+}
+
+
 /* @end main menu */
 
 
