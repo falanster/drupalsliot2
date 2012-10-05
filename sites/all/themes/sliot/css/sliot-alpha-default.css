@@ -27,6 +27,7 @@ body {
 #nice-menu-1 li ul li {
   background: none;
   border: none;
+  margin: 0 20px;
 }
 
 #nice-menu-1 li a,
@@ -38,6 +39,31 @@ body {
 
 
 /* @end main menu */
+
+/* Social network */
+#block-block-5 {
+  float: left;
+  margin-left: 40px;
+}
+
+/* @end social network */
+
+
+/* User login */
+
+#user-login-form {
+  float: left;
+}
+
+#user-login-form .form-item-name label,
+#user-login-form .form-item-pass label {
+  float: left;
+}
+
+
+#user-login-form
+
+/* @end user login */
 
 
 /* Footer menu */
