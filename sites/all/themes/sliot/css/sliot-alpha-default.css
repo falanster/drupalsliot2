@@ -132,10 +132,12 @@ body {
 
 /* Front page */
 
+#block-views-front-reg-block-1,
 #block-views-front-reg-block-2 {
   background: #f3f3f3;
 }
 
+#block-views-front-reg-block-1 h2.block-title,
 #block-views-front-reg-block-2 h2.block-title {
   color: #5a9ee0;
   font-size: 45px;
