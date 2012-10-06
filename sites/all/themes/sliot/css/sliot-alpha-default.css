@@ -132,6 +132,14 @@ body {
 
 /* Front page */
 
+
+#block-views-front-reg-block .views-row {
+  background: #f3f3f3;
+  float: left;
+  margin-bottom: 35px;
+}
+
+
 #block-views-front-reg-block-1,
 #block-views-front-reg-block-2 {
   background: #f3f3f3;
