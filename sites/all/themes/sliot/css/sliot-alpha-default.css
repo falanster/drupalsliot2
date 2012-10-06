@@ -128,13 +128,29 @@ body {
 
 /* Footer menu */
 
+#block-menu-menu-footer-menu ul {
+  text-align: center;
+}
+
+#block-menu-menu-footer-menu ul li {
+  display: inline;
+}
+
+#block-menu-menu-footer-menu ul li a {
+  text-decoration: none;
+  color: #dedede;
+  font-size: 24px;
+  list-style: none;
+}
+
 /* @end footer menu */
 
 /* Front page */
 
 
 #top_voting_block_text,
-#block-views-front-reg-block .views-row {
+#block-views-front-reg-block .views-row,
+#block-block-3 {
   background: #f3f3f3;
   float: left;
   margin-bottom: 35px;
