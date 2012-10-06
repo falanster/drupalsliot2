@@ -33,6 +33,10 @@ body {
   margin: 0 20px;
 }  
 
+#nice-menu-1 li ul li {
+  margin: 0px;
+}
+
 #nice-menu-1 li a,
 #nice-menu-1 li ul li a {
   text-decoration: none;
@@ -56,15 +60,68 @@ body {
 
 #user-login-form {
   float: left;
+  margin-left: 40px;
 }
 
 #user-login-form .form-item-name label,
 #user-login-form .form-item-pass label {
   float: left;
+  padding-right: 20px;
+  color: #dddddd;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+#user-login-form .form-item-name label .form-required,
+#user-login-form .form-item-pass label .form-required {
+  display: none;
 }
 
 
-#user-login-form
+
+#user-login-form .form-item-name input {
+  width: 105px;
+  height: 14px;
+  background-color: #dedede;
+  border: none;
+}
+
+#user-login-form .form-item-pass input {
+  width: 88px;
+  height: 14px;
+  background-color: #dedede;
+  border: none;
+}
+
+
+#user-login-form #edit-actions input {
+  background: none;
+  border: none;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  float: right;
+  margin: -50px 0px 10px 0;
+}
+
+#user-login-form .item-list .first {
+  float: right;
+  margin: 10px;
+}
+
+
+#user-login-form .item-list .first a {
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: lowercase;
+  color: #dddddd;
+}
+
+#user-login-form .item-list .last {
+  display: none;
+}
 
 /* @end user login */
 
