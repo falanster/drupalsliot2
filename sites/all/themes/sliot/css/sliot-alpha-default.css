@@ -10,9 +10,13 @@ body {
 
 #zone-branding-wrapper,
 #zone-menu-wrapper,
-#zone-footer-wrapper {
+#zone-footer-wrapper #region-footer-second {
   background: rgba(0, 0, 0, 0.3);
 } 
+
+#zone-branding-wrapper {
+  padding-top: 25px;
+}
 
 
 /* Main menu */
@@ -52,6 +56,15 @@ body {
   float: left;
   margin-left: 40px;
 }
+
+
+#block-block-6 {
+  float: right;
+  margin-right: -140px;
+  margin-top: -180px;
+}
+
+
 
 /* @end social network */
 
@@ -124,6 +137,8 @@ body {
 }
 
 /* @end user login */
+
+
 
 /* Right sidebar*/
 
