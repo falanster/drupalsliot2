@@ -125,6 +125,13 @@ body {
 
 /* @end user login */
 
+/* Right sidebar*/
+
+aside#region-sidebar-first {
+    float: right;
+}
+
+/* @end right sidebar */
 
 /* Footer menu */
 
