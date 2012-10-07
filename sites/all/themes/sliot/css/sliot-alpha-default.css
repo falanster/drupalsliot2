@@ -70,7 +70,7 @@ body {
 }
 
 #nice-menu-1 li a.active,
-#nice-menu-1 li ul li a.ative {
+#nice-menu-1 li ul li a.active {
   color: #5a9ee0;
 }
 
@@ -85,7 +85,7 @@ body {
 
 #block-block-6 {
   float: right;
-  opasity: 0.5;
+  opacity: 0.5;
   margin-right: -140px;
 /*  margin-top: -180px; */
 }
