@@ -248,10 +248,12 @@ aside#region-sidebar-first {
 
 #block-menu-menu-footer-menu ul {
   text-align: center;
+  margin-top: 10px;
 }
 
 #block-menu-menu-footer-menu ul li {
   display: inline;
+  margin: 0 15px;
 }
 
 #block-menu-menu-footer-menu ul li a {
