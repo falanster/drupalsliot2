@@ -37,6 +37,10 @@ body {
   margin: 0 20px;
 }  
 
+#nice-menu-1 li ul {
+  margin-top: 20px;
+}
+
 #nice-menu-1 li ul li {
   margin: 0px;
 }
@@ -52,10 +56,23 @@ body {
   color: #f3f3f3;
 }
 
+#nice-menu-1 li ul li a {
+  font-size: 20px;
+}
+
 #nice-menu-1 li ul li a{
+  background: rgba(0, 0, 0, 0.7);
+  
+}
+
+#nice-menu-1 li a:hover {
   background: rgba(0, 0, 0, 0.7);
 }
 
+#nice-menu-1 li a.active,
+#nice-menu-1 li ul li a.ative {
+  color: #5a9ee0;
+}
 
 /* @end main menu */
 
@@ -70,7 +87,7 @@ body {
   float: right;
   opasity: 0.5;
   margin-right: -140px;
-  margin-top: -180px;
+/*  margin-top: -180px; */
 }
 
 /* @end social network */
