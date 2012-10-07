@@ -86,13 +86,23 @@ h2.block-title {
   margin-left: 40px;
 }
 
+.not-logged-in #block-block-6 {
+   margin-top: -180px;
+}
 
 #block-block-6 {
   float: right;
   opacity: 0.5;
   margin-right: -140px;
-/*  margin-top: -180px; */
 }
+
+/* Twitter block */
+
+#block-views-tweets-block {
+  background: #3f3c40;
+}
+
+/* @end twitter block */
 
 /* @end social network */
 
