@@ -23,7 +23,7 @@ body {
 
 #nice-menu-1 {
   float: right;
-  margin-right: 40px;
+  margin: 10px 40px 0px 0;
 }
 
 #nice-menu-1 li,
@@ -33,12 +33,18 @@ body {
   border: none;
 }
 
-#nice-menu-1 li {
-  margin: 0 20px;
+#nice-menu-1 li,
+#nice-menu-1 li ul li {
+  padding: 0 20px;
 }  
 
+#nice-menu-1 li:hover,
+#nice-menu-1 li ul li {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 #nice-menu-1 li ul {
-  margin-top: 20px;
+  margin-top: 27px;
 }
 
 #nice-menu-1 li ul li {
@@ -54,23 +60,17 @@ body {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
+  margin-top: -10px;
 }
 
 #nice-menu-1 li ul li a {
   font-size: 20px;
 }
 
-#nice-menu-1 li ul li a{
-  background: rgba(0, 0, 0, 0.7);
-  
-}
-
-#nice-menu-1 li a:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
+#nice-menu-1 li a:hover,
+#nice-menu-1 li ul li a:hover,
 #nice-menu-1 li a.active,
-#nice-menu-1 li ul li a.ative {
+#nice-menu-1 li ul li a.active {
   color: #5a9ee0;
 }
 
@@ -85,7 +85,7 @@ body {
 
 #block-block-6 {
   float: right;
-  opasity: 0.5;
+  opacity: 0.5;
   margin-right: -140px;
 /*  margin-top: -180px; */
 }
