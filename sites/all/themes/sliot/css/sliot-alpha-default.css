@@ -44,7 +44,7 @@ body {
 }
 
 #nice-menu-1 li ul {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 #nice-menu-1 li ul li {
@@ -60,12 +60,15 @@ body {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
+  margin-top: -10px;
 }
 
 #nice-menu-1 li ul li a {
   font-size: 20px;
 }
 
+#nice-menu-1 li a:hover,
+#nice-menu-1 li ul li a:hover,
 #nice-menu-1 li a.active,
 #nice-menu-1 li ul li a.active {
   color: #5a9ee0;
