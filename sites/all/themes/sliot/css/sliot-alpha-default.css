@@ -21,6 +21,7 @@ body {
 
 h2.block-title {
   font-size: 32px;
+  color: #fbf169;
 }
 
 /* Main menu */
@@ -101,6 +102,8 @@ h2.block-title {
 #block-views-tweets-block {
   background: #3f3c40;
 }
+
+
 
 /* @end twitter block */
 
