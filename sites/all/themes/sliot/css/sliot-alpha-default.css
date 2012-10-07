@@ -128,7 +128,7 @@ h2.block-title {
 
 .view-tweets .views-field-created-time {
   font-size: 11px; 
-  clear: right;
+  width: 100%;
   color: #f3f3f3;
 }
 
@@ -143,7 +143,10 @@ h2.block-title {
 
 .view-tweets .views-row {
   font-size: 0;
+  margin-bottom: 15px;
 }
+
+
 
 /* @end twitter block */
 
