@@ -252,6 +252,7 @@ aside#region-sidebar-first {
 
 #block-views-sponsor-block-2 h2.block-title {
   color: #c580b0;
+  margin-left: 15px;
 }
 
 #block-views-sponsor-block-2  .views-field-field-image {
@@ -259,7 +260,7 @@ aside#region-sidebar-first {
 }
 
 #block-views-sponsor-block-2  .views-field-field-image img {
-  margin: 25px 8px 0 32px 
+  margin: 10px 8px 20 32px 
 }
 
 
