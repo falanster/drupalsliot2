@@ -41,11 +41,19 @@ body {
   margin: 0px;
 }
 
+#nice-menu-1 li a {
+  background: none;
+}
+
 #nice-menu-1 li a,
 #nice-menu-1 li ul li a {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
+}
+
+#nice-menu-1 li ul li a{
+  background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -64,8 +72,6 @@ body {
   margin-right: -140px;
   margin-top: -180px;
 }
-
-
 
 /* @end social network */
 
