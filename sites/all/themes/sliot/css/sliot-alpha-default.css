@@ -38,12 +38,11 @@ body {
 }  
 
 #nice-menu-1 li ul {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #nice-menu-1 li ul li {
   margin: 0px;
-  padding: 5px 10px;
 }
 
 #nice-menu-1 li a {
@@ -63,8 +62,17 @@ body {
 
 #nice-menu-1 li ul li a{
   background: rgba(0, 0, 0, 0.7);
+  
 }
 
+#nice-menu-1 li a:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#nice-menu-1 li a.active,
+#nice-menu-1 li ul li a.ative {
+  color: #5a9ee0;
+}
 
 /* @end main menu */
 
@@ -79,7 +87,7 @@ body {
   float: right;
   opasity: 0.5;
   margin-right: -140px;
-  margin-top: -180px;
+/*  margin-top: -180px; */
 }
 
 /* @end social network */
