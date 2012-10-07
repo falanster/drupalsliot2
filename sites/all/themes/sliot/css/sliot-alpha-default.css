@@ -128,12 +128,13 @@ h2.block-title {
 
 .view-tweets .views-field-created-time {
   font-size: 11px; 
-  clear: left;
+  clear: right;
   color: #f3f3f3;
 }
 
 .view-tweets .views-field-text {
   font-size: 12px; 
+  clear: left;
 }
 
 .view-tweets .views-field-text span a {
