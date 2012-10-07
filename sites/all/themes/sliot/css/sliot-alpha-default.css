@@ -22,8 +22,9 @@ body {
 h2.block-title {
   font-size: 32px;
   color: #fbf169;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 20px;
+  padding-top: 20px;
 }
 
 /* Main menu */
