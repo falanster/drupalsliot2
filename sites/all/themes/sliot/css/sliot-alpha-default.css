@@ -21,6 +21,10 @@ body {
 
 h2.block-title {
   font-size: 32px;
+  color: #fbf169;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 /* Main menu */
@@ -86,13 +90,23 @@ h2.block-title {
   margin-left: 40px;
 }
 
-
 #block-block-6 {
   float: right;
   opacity: 0.5;
   margin-right: -140px;
-/*  margin-top: -180px; */
+  margin-top: 20px;
 }
+
+/* Twitter block */
+
+#block-views-tweets-block {
+  background: #3f3c40;
+}
+
+
+
+
+/* @end twitter block */
 
 /* @end social network */
 
