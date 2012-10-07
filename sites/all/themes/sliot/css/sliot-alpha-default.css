@@ -108,6 +108,36 @@ h2.block-title {
   margin-left: 25px;
 }
 
+#block-views-tweets-block .view-tweets img {
+  padding-right: 15px;
+}
+
+#block-views-tweets-block .view-tweets a {
+  font-size: 16px;
+}
+
+.view-tweets .views-field-screen-name,
+.view-tweets .views-field-created-time,
+.view-tweets .views-field-text {
+  color: #dedede;
+}
+
+.view-tweets .views-field-screen-name {
+  font-size: 14px; 
+}
+
+.view-tweets .views-field-created-time {
+  font-size: 11px; 
+  clear: left;
+}
+
+.view-tweets .views-field-text {
+  font-size: 12px; 
+}
+
+.view-tweets .views-field-text span a {
+  text-decoration: none;
+}
 
 /* @end twitter block */
 
