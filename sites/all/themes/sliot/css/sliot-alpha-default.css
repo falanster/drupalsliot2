@@ -24,7 +24,7 @@ h2.block-title {
   color: #fbf169;
   margin-top: 30px;
   margin-left: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* Main menu */
@@ -103,7 +103,10 @@ h2.block-title {
   background: #3f3c40;
 }
 
-
+#block-views-tweets-block .view-content li,
+#block-views-tweets-block .view-tweets img {
+  margin-left: 25px;
+}
 
 
 /* @end twitter block */
