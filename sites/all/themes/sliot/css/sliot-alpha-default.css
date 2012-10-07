@@ -19,6 +19,10 @@ body {
 }
 
 
+h2.block-title {
+  font-size: 32px;
+}
+
 /* Main menu */
 
 #nice-menu-1 {
