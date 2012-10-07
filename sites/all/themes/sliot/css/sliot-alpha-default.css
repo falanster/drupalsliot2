@@ -23,7 +23,7 @@ body {
 
 #nice-menu-1 {
   float: right;
-  margin-right: 40px;
+  margin: 10px 40px -8px 0;
 }
 
 #nice-menu-1 li,
@@ -41,6 +41,10 @@ body {
 #nice-menu-1 li:hover,
 #nice-menu-1 li ul li {
   background: rgba(0, 0, 0, 0.7);
+}
+
+#nice-menu-1 li:hover {
+  margin-bottom: -8px;
 }
 
 #nice-menu-1 li ul {
