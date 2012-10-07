@@ -233,6 +233,9 @@ aside#region-sidebar-first {
     float: right;
 }
 
+#block-views-sponsor-block-1 h2.block-title {
+  padding-bottom: 10px;
+}
 
 #block-views-sponsor-block-1 .views-field-field-image img {
   margin-left: 45px;
