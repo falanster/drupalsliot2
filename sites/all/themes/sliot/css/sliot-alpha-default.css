@@ -37,8 +37,13 @@ body {
   margin: 0 20px;
 }  
 
+#nice-menu-1 li ul {
+  margin-top: 10px;
+}
+
 #nice-menu-1 li ul li {
   margin: 0px;
+  padding: 5px 10px;
 }
 
 #nice-menu-1 li a {
@@ -50,6 +55,10 @@ body {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
+}
+
+#nice-menu-1 li ul li a {
+  font-size: 20px;
 }
 
 #nice-menu-1 li ul li a{
