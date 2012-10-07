@@ -118,7 +118,6 @@ h2.block-title {
 }
 
 .view-tweets .views-field-screen-name,
-.view-tweets .views-field-created-time,
 .view-tweets .views-field-text {
   color: #dedede;
 }
@@ -130,6 +129,7 @@ h2.block-title {
 .view-tweets .views-field-created-time {
   font-size: 11px; 
   clear: left;
+  color: #f3f3f3;
 }
 
 .view-tweets .views-field-text {
@@ -138,6 +138,11 @@ h2.block-title {
 
 .view-tweets .views-field-text span a {
   text-decoration: none;
+}
+
+.view-tweets .views-row {
+  font-size: 0;
+  line-height: 0px;
 }
 
 /* @end twitter block */
