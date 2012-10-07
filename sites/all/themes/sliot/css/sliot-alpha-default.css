@@ -99,7 +99,8 @@ h2.block-title {
 
 /* Twitter block */
 
-#block-views-tweets-block {
+#block-views-tweets-block,
+#block-sponsor-block-1 {
   background: #3f3c40;
 }
 
@@ -110,11 +111,13 @@ h2.block-title {
 
 #block-views-tweets-block .view-tweets img {
   padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 #block-views-tweets-block .view-tweets .view-header a {
   font-size: 16px;
   margin-top: -40px;
+  text-decoration: none;
 }
 
 .view-tweets .views-field-screen-name,
