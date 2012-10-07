@@ -233,6 +233,13 @@ aside#region-sidebar-first {
     float: right;
 }
 
+
+#block-views-sponsor-block-1 .views-field-field-image img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
 /* @end right sidebar */
 
 /* Footer menu */
