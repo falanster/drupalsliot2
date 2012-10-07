@@ -244,6 +244,29 @@ aside#region-sidebar-first {
 
 /* @end right sidebar */
 
+/* Content */
+
+#block-views-sponsor-block-2 {
+  background: #f3f3f3;
+}
+
+#block-views-sponsor-block-2 h2.block-title {
+  color: #c580b0;
+}
+
+#block-views-sponsor-block-2  .views-field-field-image {
+  float: left;
+}
+
+#block-views-sponsor-block-2  .views-field-field-image img {
+  margin: 25px 8px 0 32px 
+}
+
+
+/* @end content */
+
+
+
 /* Footer menu */
 
 #block-menu-menu-footer-menu ul {
