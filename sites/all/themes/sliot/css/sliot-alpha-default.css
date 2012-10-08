@@ -435,17 +435,18 @@ aside#region-sidebar-first {
   font-size: 12px;
   padding: 25px 30px 10px 30px;
 }
-
+/*
 #block-views-front-reg-block .views-row .views-field-field-image {
   float: left;
-}
+} */
 
-#block-views-front-reg-block .views-row .views-field-field-image img {  
+#block-views-front-reg-block .views-row .views-field-field-image img {
+  float: left;  
   margin: 10px 0 30px 30px;
 }
 
 #block-views-front-reg-block .views-row .field-content {
-  padding: 0 30px;
+  margin: 10px 30px 0px;
 }
 
 #block-views-front-reg-block .views-row .views-field-body p,
