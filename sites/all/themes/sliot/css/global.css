@@ -32,6 +32,15 @@
 		color: #0e0e0e;
 	}
 
+	body.page-user-register #region-content #edit-profile-registration-field-news-und {
+		padding: 0px 30px;
+	}
+	label[for=edit-profile-registration-field-news-und] {
+		display: none;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
 /*	label#edit-name 
 	{
 		font-size: 18px;
