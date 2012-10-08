@@ -161,12 +161,17 @@ h2.block-title {
 #user-login-form {
   float: left;
   margin-left: 40px;
+  margin-top: -10px;
+}
+
+#user-login-form .form-item-pass {
+  margin-top: -5px;
 }
 
 #user-login-form .form-item-name label,
 #user-login-form .form-item-pass label {
   float: left;
-  padding-right: 20px;
+  padding-right: 10px;
   color: #dddddd;
   font-size: 14px;
   font-weight: normal;
@@ -178,22 +183,24 @@ h2.block-title {
   display: none;
 }
 
-
-
 #user-login-form .form-item-name input {
-  width: 105px;
-  height: 14px;
+  width: 110px;
+  height: 16px;
   background-color: #dedede;
   border: none;
 }
 
 #user-login-form .form-item-pass input {
-  width: 88px;
-  height: 14px;
+  width: 85px;
+  height: 16px;
   background-color: #dedede;
   border: none;
 }
 
+#user-login-form #edit-actions {
+  float: right;
+  margin: -40px -18px 10px 30px;
+}
 
 #user-login-form #edit-actions input {
   background: none;
@@ -202,15 +209,12 @@ h2.block-title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
-  float: right;
-  margin: -50px 0px 10px 0;
 }
 
 #user-login-form .item-list .first {
   float: right;
-  margin: 10px;
+  margin: 10px -2px 0 0;
 }
-
 
 #user-login-form .item-list .first a {
   text-decoration: none;
