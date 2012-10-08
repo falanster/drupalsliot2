@@ -1,8 +1,8 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-/*User Pages*/
-body.page-user #region-content .region-content-inner {
+/*User & Webform Pages*/
+body.page-user #region-content .region-content-inner, body.node-type-webform #region-content .region-content-inner {
 		padding: 10px 30px;
 		background-color: #f3f3f3;
 	}
@@ -69,4 +69,21 @@ dt {
 
 	/*@end login page*/
 
-/*@end user page*/
+	/*Webform pages*/
+	
+	body.node-type-webform #region-content h1#page-title {
+		color: #089fe3;
+	}
+
+	body.node-type-webform #region-content .form-item label {
+		margin-bottom: 10px;
+		font-size: 14px;
+		color: #0e0e0e;
+	}
+	
+	body.node-type-webform #region-content #edit-submit {
+		float: right;
+	}
+
+	/*@end Webform pages*/
+/*@end user & webform page*/
