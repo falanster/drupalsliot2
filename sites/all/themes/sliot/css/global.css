@@ -47,8 +47,13 @@ dt {
 	}
 	label[for=edit-profile-registration-field-news-und] {
 		display: none;
-		padding-top: 0px;
-		padding-bottom: 0px;
+	}
+
+	body.page-user-register #region-content .form-item-profile-registration-field-other-und-0-value {
+		background-color: #fff;
+		position: relative;
+		margin-top: -30px;
+		padding: 0px 30px 20px 30px;
 	}
 
 /*	label#edit-name 
