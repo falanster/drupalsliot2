@@ -26,6 +26,17 @@
 		background-color: transparent;
 	}
 
+	body.page-user-register #region-content .form-item label {
+		margin-bottom: 10px;
+		font-size: 14px;
+		color: #0e0e0e;
+	}
+
+/*	label#edit-name 
+	{
+		font-size: 18px;
+	}
+*/
 	body.page-user-register #region-content #edit-submit {
 		float: right;
 	}
