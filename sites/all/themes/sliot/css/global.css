@@ -12,6 +12,10 @@
 		padding:30px;
 	}
 
+	body.page-user-register #region-content h1#page-title {
+		color: #089fe3;
+	}
+
 	#edit-profile-main, #edit-profile-registration span.fieldset-legend {
 		display: none;
 	}
