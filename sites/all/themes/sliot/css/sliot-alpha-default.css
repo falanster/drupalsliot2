@@ -415,9 +415,71 @@ aside#region-sidebar-first {
   width: 620px;
 }
 
+#block-block-1 {
+}
+
+/*
+#block-views-front-reg-block .views-row {
+  padding: 25px 30px 30px;
+} */
+
+#block-views-front-reg-block .views-row .views-field-title a {
+  font-size: 45px;
+  color: #5a9ee0;
+  text-decoration: none;
+  padding: 25px 30px 0 30px;
+}
+
+#block-views-front-reg-block .views-row .views-field-field-date span {
+  color: #939393;
+  font-size: 12px;
+  padding: 25px 30px 10px 30px;
+}
+
+#block-views-front-reg-block .views-row .views-field-field-image {
+  float: left;
+}
+
+#block-views-front-reg-block .views-row .views-field-field-image img {  
+  margin: 10px 0 30px 30px;
+}
+
+#block-views-front-reg-block .views-row .field-content {
+  padding: 0 30px;
+}
+
+#block-views-front-reg-block .views-row .views-field-body p,
+#block-views-front-reg-block .views-row .views-field-body div,
+#block-views-front-reg-block .views-row .views-field-body span,
+#block-views-front-reg-block .views-row .views-field-body li,
+#block-views-front-reg-block .views-row .views-field-body ul,
+#block-views-front-reg-block .views-row .views-field-body ol {
+  font-size: 15px;
+  color: #0e0e0e;
+}
+
+#block-views-front-reg-block .views-row .views-field-view-node {
+  float: right;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+#block-views-front-reg-block .views-row .views-field-view-node a {
+  text-decoration: none;
+  color: #5a9ee0;  
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+#block-views-front-reg-block .views-row .views-field-title a:hover,
+#block-views-front-reg-block .views-row .views-field-view-node a:hover {
+  text-decoration: underline;
+}
+
 .logged-in #block-views-tweets-block {
   width: 300px;
   float: right;
+  margin-bottom: 40px;
 }
 
 .logged-in #block-views-tweets-block,
@@ -427,7 +489,7 @@ aside#region-sidebar-first {
 
 .view-front-reg .item-list .pager li a {
   color: #fffefe;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
   font-weight: normal;
 }
@@ -437,10 +499,11 @@ aside#region-sidebar-first {
 }
 
 .view-front-reg .item-list .pager .pager-current {
-  font-size: 20px;
+  font-size: 16px;
   color: #fffefe;
   font-weight: normal;
 }
+
 
 
 /* @end register user */
