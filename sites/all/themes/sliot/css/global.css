@@ -1,19 +1,25 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-/* Registration page*/
-
-	body.page-user-register #region-content .tabs {
-		display: none;
+/*User Pages*/
+body.page-user #region-content .region-content-inner {
+		padding: 10px 30px;
+		background-color: #f3f3f3;
 	}
 
-	body.page-user-register #region-content .region-content-inner {
-		background-color: #f3f3f3;
-		padding:30px;
+dt {
+	color: #0e0e0e;
+}
+
+	/* Registration page*/
+
+	body.page-user #region-content .tabs {
+		display: none;
 	}
 
 	body.page-user-register #region-content h1#page-title {
 		color: #089fe3;
+		display: block !important;
 	}
 
 	#edit-profile-main, #edit-profile-registration span.fieldset-legend {
@@ -53,4 +59,14 @@
 	body.page-user-register #region-content #edit-submit {
 		float: right;
 	}
-/* @end registration page*/
+	/* @end registration page*/
+
+	/*Login page*/
+	body.page-user #region-content h1#page-title {
+		display: none;
+	}
+
+
+	/*@end login page*/
+
+/*@end user page*/
