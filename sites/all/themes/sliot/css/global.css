@@ -1,2 +1,32 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* Registration page*/
+
+	body.page-user-register #region-content .tabs {
+		display: none;
+	}
+
+	body.page-user-register #region-content .region-content-inner {
+		background-color: #f3f3f3;
+		padding:30px;
+	}
+
+	#edit-profile-main, #edit-profile-registration span.fieldset-legend {
+		display: none;
+	}
+
+	body.page-user-register #region-content .form-checkboxes {
+		background-color: #fff;
+		padding: 20px 30px;
+	}
+
+	body.page-user-register #region-content #edit-profile-registration-field-news-und {
+		padding-top: 10px;
+		background-color: transparent;
+	}
+
+	body.page-user-register #region-content #edit-submit {
+		float: right;
+	}
+/* @end registration page*/
