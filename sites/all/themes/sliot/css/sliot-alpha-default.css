@@ -415,6 +415,34 @@ aside#region-sidebar-first {
   width: 620px;
 }
 
+.logged-in #block-views-tweets-block {
+  width: 300px;
+  float: right;
+}
+
+.logged-in #block-views-tweets-block,
+.logged-in #block-views-front-reg-block-1 { 
+  margin-top: 25px;
+}
+
+.view-front-reg .item-list .pager li a {
+  color: #fffefe;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.view-front-reg .item-list .pager li a:hover {
+  text-decoration: underline;
+}
+
+.view-front-reg .item-list .pager .pager-current {
+  font-size: 20px;
+  color: #fffefe;
+  font-weight: normal;
+}
+
+
 /* @end register user */
 
 /* @end front page */
