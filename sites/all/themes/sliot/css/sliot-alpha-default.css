@@ -18,14 +18,27 @@ body {
   padding-top: 25px;
 }
 
-
 h2.block-title {
   font-size: 32px;
   color: #fbf169;
-  margin-top: 30px;
   margin-left: 20px;
   padding-top: 10px;
 }
+
+/*
+p {
+  color: #0e0e0e;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+} */
+
 
 /* Main menu */
 
@@ -82,6 +95,10 @@ h2.block-title {
   color: #5a9ee0;
 }
 
+#nice-menu-1 li.menu-342 ul li {
+  width: 175px;
+}
+
 /* @end main menu */
 
 /* Social network */
@@ -102,6 +119,7 @@ h2.block-title {
 #block-views-tweets-block,
 #block-views-sponsor-block-1 {
   background: #3f3c40;
+  margin-top: 30px;
 }
 
 #block-views-tweets-block .view-content li,
@@ -148,8 +166,6 @@ h2.block-title {
   font-size: 0;
   margin-bottom: 15px;
 }
-
-
 
 /* @end twitter block */
 
@@ -252,6 +268,7 @@ aside#region-sidebar-first {
 
 #block-views-sponsor-block-2 {
   background: #f3f3f3;
+  margin-top: 30px;
 }
 
 #block-views-sponsor-block-2 h2.block-title {
@@ -296,6 +313,80 @@ aside#region-sidebar-first {
 
 /* Front page */
 
+/* Anonimus user */
+
+#registration_block_language_switcher { 
+  float: right;
+  margin: -40px 30px 0 0;
+}
+
+#registration_block_language_switcher a { 
+  text-decoration: none;
+  color: #747474;
+  font-size: 16px;
+}
+
+#registration_block_description {
+  padding: 15px 30px 5px 30px;
+}
+
+#registration_block_view_all {
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+#registration_block_view_all a {
+  text-decoration: none;
+  color: #5a9ee0;
+  font-size: 16px;
+}
+
+#registration_block_view_all a:hover {
+  text-decoration: underline;
+}
+
+#block-views-front-reg-block-1,
+#block-views-front-reg-block-2 {
+  background: #f3f3f3;
+  width: 300px;
+  float: left;
+}
+
+#block-views-front-reg-block-2 {
+  margin-right: 20px;
+}
+
+#block-views-front-reg-block-1 h2.block-title,
+#block-views-front-reg-block-2 h2.block-title {
+  color: #5a9ee0;
+  font-size: 45px;
+  margin-left: 30px;
+}
+
+#block-views-front-reg-block-1 .view-content, 
+#block-views-front-reg-block-2 .view-content {
+  float: left;
+  padding: 0px 30px 40px;
+}
+
+#block-views-front-reg-block-1 .view-content .views-field a,
+#block-views-front-reg-block-2 .view-content .views-field a {
+  font-size: 16px;
+  color: #5a9ee0;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+#block-views-front-reg-block-1 .view-content .views-field a:hover,
+#block-views-front-reg-block-2 .view-content .views-field a:hover {
+  text-decoration: underline;
+} 
+
+/* @end anonimus user */
+
+/* register user */
+
 
 #top_voting_block_text,
 #block-views-front-reg-block .views-row,
@@ -306,24 +397,21 @@ aside#region-sidebar-first {
   width: 620px;
 }
 
-
-#block-views-front-reg-block-1,
-#block-views-front-reg-block-2 {
-  background: #f3f3f3;
-}
-
-#block-views-front-reg-block-1 h2.block-title,
-#block-views-front-reg-block-2 h2.block-title {
-  color: #5a9ee0;
-  font-size: 45px;
-}
-
-
-
+/* @end register user */
 
 /* @end front page */
 
 /* Inner page */
 
+#region-content {
+  margin-top: 30px;
+}
+
+#region-content h2.block-title {
+  color: #5a9ee0;
+  font-size: 45px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
 
 /* @end inner page */
