@@ -296,14 +296,25 @@ aside#region-sidebar-first {
   margin-bottom: 20px;
 }
 
-#vote_project_button {
+#vote_project_button,
+#vote_module_button, 
+#vote_speech_button {
   float: right;
   margin-right: 25px;
 }
 
-#vote_project_button a {
+#vote_project_button a,
+#vote_module_button a, 
+#vote_speech_button a {
   color: #cad96b;
   font-size: 32px;
+  text-decoration: none;
+}
+
+#vote_project_button a:hover,
+#vote_module_button a:hover, 
+#vote_speech_button a:hover {
+  text-decoration: underline;
 }
 
 /* @end right sidebar */
