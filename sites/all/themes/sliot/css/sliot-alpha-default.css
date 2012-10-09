@@ -254,8 +254,6 @@ a:hover {
 
 /* @end user login */
 
-
-
 /* Right sidebar*/
 
 aside#region-sidebar-first {
@@ -271,13 +269,15 @@ aside#region-sidebar-first {
   margin-bottom: 40px;
 }
 
-.block-views .view-voting {
+#block-views-voting-block-1,
+#block-views-voting-block-2,
+#block-views-voting-block-3 {
   background: #3f3c40; 
   margin-top: 30px;
 }
 
 .block-views .view-voting .view-content {
-  padding: 25px;
+  padding: 25px 25px 0px 25px;
 }
 
 .block-views .view-voting .view-content .views-field-title {
@@ -464,6 +464,12 @@ aside#region-sidebar-first {
   margin-bottom: 35px;
   width: 620px;
 }
+
+#top_voting_block_text .title {
+  font-size: 16px;
+  padding: 20px 0 0 25px;
+}
+
 
 #block-block-1 {
 }
