@@ -484,7 +484,8 @@ aside#region-sidebar-first {
   float: left;
 }
 
-#top_voting_block_text .top_voting_block_button a {
+#top_voting_block_text .top_voting_block_button a,
+#registration_block_main_button a {
   text-decoration: none;
   color: #fffeff;
   font-size: 40px;
