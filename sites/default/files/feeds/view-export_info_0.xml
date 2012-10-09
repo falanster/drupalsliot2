@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" ?><xml>
+  <node>
+    <nid>257</nid>
+    <title>Перед стартом третьего сезона</title>
+    <body>&lt;p&gt;Невозможно изучать Drupal по сезонам. В клубе мы&amp;nbsp; изучали его постоянно.&lt;/p&gt;
+&lt;p&gt;Сезоны - это лишь повод обозначить себя как-то других людей. Для тех, кто решил изучать эту систему не просто как ремесленник, а как человек, стремящийся к познанию мира вокруг, как человек, который ищет единомышленников с помощую Drupal.&lt;/p&gt;
+&lt;p&gt;Итак. В среду, 10 октября, 19:00 встречаемся для работы над сайтом Слёта. Внешнего вида этого сайта.&lt;/p&gt;
+&lt;p&gt;На повестке:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Продолжаем темизацию&lt;/li&gt;
+&lt;li&gt;Переносим содержимое с 6 на 7 версию&lt;/li&gt;
+&lt;li&gt;Тестируем&lt;/li&gt;
+&lt;li&gt;Заполняем страницы.&lt;/li&gt;
+&lt;li&gt;Загружаем на продакш сервер.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Вы ещё можете влиться в команду создателей и оставить свой след в развитии истории беларусского drupal-cообщества.&lt;/p&gt;
+&lt;p&gt;Место: &lt;a href="http://drupal-sliot.by/node/137" title="http://drupal-sliot.by/node/137"&gt;http://drupal-sliot.by/node/137&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>256</nid>
+    <title>Планы на завтра</title>
+    <body>&lt;p&gt;Завтра (7 октября) у Drupal-клуба 2 большие и важные задачи:&lt;/p&gt;
+&lt;p&gt;1. Будем общаться с сообществом meetup.by по поводу будущего Drupal-слёта в 13:30. Место - кафе Coffee On (&lt;span class="st"&gt;Суражская, 4&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;2. Далее в 15:30 продолжим день уже на базе Фаланстера (Захарова 77а, пом 1, ком. 2б) созданием сайта Слёта.&lt;/p&gt;
+&lt;p&gt;Скоро начало третьего сезона. Вливайся в движение клуба!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>255</nid>
+    <title>Drupal-клуб у линуксоидов</title>
+    <body>&lt;p&gt;&lt;strong&gt;Drupal-клуб в субботу, 29 сентября, с 15.00 посетит минскую линуксовку. Расскажет про себя и задаст вопросы линукс-гуру. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мероприятие состоится по адресу ул. Филимонова, 15, комната 316 (3 этаж, от лестницы прямо и направо).&lt;/p&gt;
+&lt;p&gt;Программа мероприятия:&lt;br /&gt;а) непринуждённые разговоры о Free / Open Source Software;&lt;br /&gt;б) Linux в быту, на учёбе и в кровавом энтерпрайзе;&lt;br /&gt;в) &lt;a href="http://perlrussia.ru/lightningtalks/mjd/"&gt;Ligthning Talks&lt;/a&gt;&amp;nbsp;&amp;ndash; блиц-выступления по 5 мин;&lt;br /&gt;г) Linux/BSD Install and Troubleshooting Party.&lt;/p&gt;
+&lt;p&gt;+ Блицы, мини-доклады, throubleshooting party&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Вопросы, которые будет поднимать Drupal-клуб:&lt;/p&gt;
+&lt;p&gt;- звук и железо на debian и ubuntu: микрофон порой поднимается, порой &amp;ndash; нет;&lt;br /&gt;- иногда слетает wifi в debian;&lt;br /&gt;- приложения adobe: как лучше поднимать?;&lt;br /&gt;- восстановление удалённых файлов: какой софт лучше использовать?;&lt;br /&gt;- чистое удаление файлов;&lt;br /&gt;- какое gpg-десктопное приложение лучше использовать?&lt;/p&gt;
+&lt;p&gt;Подробнее &lt;a href="http://mlug.linux.by/?p=191"&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Все неравнодушные к линукс: приходите и смотрите!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>254</nid>
+    <title>Программа третьего сезона</title>
+    <body>&lt;p&gt;Обсуждаем и дополняем программу третьего сезона &lt;a href="http://bit.ly/ON7DY4" title="http://bit.ly/ON7DY4"&gt;http://bit.ly/ON7DY4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Финальная программа будет готова к началу октября.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>253</nid>
+    <title>Это нужно было видеть! Отчёт с Глобального Дня изучения Drupal</title>
+    <body>&lt;p&gt;&lt;strong&gt;Как 14 сентября прошёл 2й Global Learning Drupal Day в Drupal-клубе? Читайте!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ближе к шести часам собираются желающие посмотреть и прикоснуться к Drupal. Начали ровно в 18:00. Погружаться в технические детали сейчас нет большого смысла . Это нужно было видеть! Работали 4 часа, с небольшими перерывами. В результате получили готовый на 90% блог - &lt;a href="http://pirates.by" target="_blank"&gt;pirates.by&lt;/a&gt;. Допилили его уже в течение этой недели.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Применяли технологии для командной работы: git, drush, IDE, skype, &lt;a href="http://cacoo.com"&gt;cacoo.com&lt;/a&gt;, &lt;a href="http://trello.com"&gt;trello.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_day_1.jpg" style="width: 268px; height: 400px; margin: 10px; " /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Какие выводы можно сделать?&lt;/strong&gt; При развёртывании несложного приложения на Drupal основное время забирает проектирование и темизация. Сборка проходит очень быстро, и заняла у нас около 1,5 часа.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_day_2.jpg" style="width: 400px; height: 268px; margin: 10px; " /&gt;&lt;/p&gt;
+&lt;p&gt;После завершения пятничного четырёхчасового минихакатона разыграли среди участников Drupal-атрибутику с Мюнхенской Конференции и ушли отдыхать. Многие оставшиеся до конца зрители хотели продолжения. Продолжение будет!&lt;/p&gt;
+&lt;p&gt;Сейчас активно готовится начало третьего сезона. Программу можно дополнять и комментировать в &lt;a href="https://docs.google.com/document/d/1QDHfi7h2NgIuX_8bRW_yS5tTn2cOsKYcZZeNrq92rZ0/edit"&gt;открытом документе&lt;/a&gt;.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>252</nid>
+    <title>Вторая линуксовка в Drupal-клубе</title>
+    <body>&lt;p&gt;Время идёт. Накапливаются вопросы, которые можно решать самому или которые можно решить вместе. Завтра 18 сентября Друпал-клуб собирается для линукс-вечеринки в Фаланстере.&lt;/p&gt;
+&lt;p&gt;Вопросы на повестке дня:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Горячие клавиши на разных языках&lt;/li&gt;
+&lt;li&gt;Не обновляется FireFox&lt;/li&gt;
+&lt;li&gt;В скайпе не стабильно работает звук&lt;/li&gt;
+&lt;li&gt;Не сохраняются настройки IDE Eclipse&lt;/li&gt;
+&lt;li&gt;Как сделать кэширование ssh ключей&lt;/li&gt;
+&lt;li&gt;Востановление удалённых файлов&lt;/li&gt;
+&lt;li&gt;Restricted shell&lt;/li&gt;
+&lt;li&gt;Автоматическое монтирование win разделов&lt;/li&gt;
+&lt;li&gt;Настройкая подключения к VPN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Текущие системы &lt;strong&gt;debian, ubuntu, xubuntu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Приглашаем всех, кому интересно совместно изучать linux &amp;nbsp;и помогать новичкам.&lt;/p&gt;
+&lt;p&gt;До встречи на &lt;a href="http://drupal-sliot.by/node/137"&gt;базе Фаланстера &lt;/a&gt;18 сентября в 19:00.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>251</nid>
+    <title>Накануне Drupal Дня. Будь социальным!</title>
+    <body>&lt;p&gt;&lt;iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/WDPDmwPl65w" width="420"&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>250</nid>
+    <title>Запуск сайта Фаланстера</title>
+    <body>&lt;p&gt;&lt;strong&gt;Очередная внеочередная встреча Drupal-клуба в понедельник, 3 сентября, в 19.00 на базе Фаланстера. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Торжественный момент запуска сайта Фаланстера наступает! Создавая сайт, изучали множество модулей, деталей, тонкостей Drupal 7. Месяцы ушли на создание и изучение..&lt;/p&gt;
+&lt;p&gt;На встрече уделим внимание переселению сайта Фаланстера на продакшн сервер и шлифовке мелочей.&lt;/p&gt;
+&lt;p&gt;Также обсуждаем предстоящий День Изучения Drupal, задачи и роли участников. Напоминаем, что на &lt;a href="http://drupal-sliot.by/news/247"&gt;Дне Изучения Drupal&lt;/a&gt;&amp;nbsp;(14 сентября) будет создаваться сайт.&lt;/p&gt;
+&lt;p&gt;Участвуйте в рождении еще одного сайта на Drupal!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>249</nid>
+    <title>Линуксовка в Drupal-клубе</title>
+    <body>&lt;p&gt;&lt;strong&gt;В пятницу - 24 августа - пройдёт Линуксовка в Друпал-клубе.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мы поднимаем следующие вопросы:&lt;br /&gt;1. Установка линукс - убунту? второй системой.&lt;br /&gt;2. Установка фотошопа, корела и других Adobe-продуктов в Linux (и рассмотрение программ аналогов).&lt;br /&gt;3. Debian 6: проблемы со звуком в скайпе, не обновляется firefox, принтер не берёт большие файлы.&lt;br /&gt;4. На закуску серверные фичи: eaccelerator, memcache, varnish, nginx и solr.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Почему мы решили делать линуксовки?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На протяжении встреч клуба накапливалось множество задач, связанных с работой сервера, который работает на Centos. Участники клуба начали постепенно переходить на открытую систему Linux и столкнулись с новым миром. Кто-то выбирает Ubuntu, кто-то Debian.&lt;/p&gt;
+&lt;p&gt;Впереди &quot;непаханное поле&quot; свободных открытых систем и ПО.&lt;/p&gt;
+&lt;p&gt;Начинаем 24 августа&amp;nbsp;в 19:00&lt;br /&gt;По традиционному адресу: &lt;a href="http://drupal-sliot.by/node/137"&gt;Захарова 77а, ком 2б&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Приглашаем линуксоидов и тех, кто хочет погрузиться с нами в СПО-сообщество.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>248</nid>
+    <title>Drupal-терапия</title>
+    <body>&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/dr_stens_terapia.jpg" style="width: 430px; height: 251px; margin-top: 10px; margin-bottom: 10px; " /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Не будем ждать Всемирного Дня.&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Встречаемся изучать&amp;nbsp;Drupal&amp;nbsp;в воскресенье 19 августа в 18.00 и лечим симптомы летней лени новой порцией знаний!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На встрече будем настраивать модули openstreetmap, rules, meta tags, fontyouface. Снова и снова возвращаемся к темизации в Omega. Решаем проблемы с git и drush.&lt;/p&gt;
+&lt;p&gt;Также после встречи обсудим участие клуба во Всемирном Дне Изучения Drupal 14 сентября.&lt;/p&gt;
+&lt;p&gt;Drupal - оздоравливающий комплекс модулей для Вашего мозга!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>247</nid>
+    <title>Глобальный День Изучения Drupal - 2</title>
+    <body>&lt;p&gt;&lt;strong&gt;14 сентября Drupal-клуб второй раз присоединится к глобальному &lt;a href="https://drupal.org/learn-drupal"&gt;Дню Изучения Drupal&lt;/a&gt; и начнёт свой следующий сезон.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/global_drupal_day_2_fin_mini.jpg" style="width: 430px; height: 338px; margin-top: 10px; margin-bottom: 10px; " /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На встрече 14 сентября участники клуба продемонстрируют процесс сборки сайта для некоммерческого проекта.&lt;/p&gt;
+&lt;p&gt;В течение четырёх часов мы будем заниматься:&lt;br /&gt;1. Формированием структуры и функционала сайта (составление ТЗ) -&amp;nbsp;30 минут.&lt;br /&gt;2. Сборкой профиля модулей, необходимых для выполения задачи (только contrib modules) - 2 часа.&lt;br /&gt;3. Параллельно будет вестись администрирование виртуального сервера и среды через такие технологии, как drush, shell и git.&lt;br /&gt;4. Напоследок проведём базовую темизацию и тестирование (установка логотипа, шрифтов, футера, кнопок) - 1 час.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Наша цель&lt;/strong&gt; - раскрыть возможности самых популярных модулей&amp;nbsp;Drupal 7, показать работу над проектом в команде, втянуть вас в деятельность клуба, а также сделать полезный проект.&lt;/p&gt;
+&lt;p&gt;День ориентирован на широкий круг пользователей, как знакомых, так и незнакомых с системой Drupal.&lt;/p&gt;
+&lt;p&gt;Для участия в мероприятии необходимо заполнить &lt;a href="http://drupal-sliot.by/learn-drupal-quiz"&gt;анкету&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Начинаем в 18:00. Продолжительность - 4 часа.&lt;br /&gt;Всё, что будет проходить во время встречи, можно наблюдать в видеорежиме на сайте &lt;a href="http://zabej.info/video"&gt;zabej.info&lt;/a&gt; и твиттер-канале под хэштегами &lt;a href="https://twitter.com/#%21/search/%23learndrupal"&gt;#learndrupal&lt;/a&gt;, &lt;a href="https://twitter.com/#%21/search/%23drupal"&gt;#drupal&lt;/a&gt; пользователя &lt;a href="https://twitter.com/zabej_group"&gt;@zabej_group&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Приглашаем увидеть, как создаются стартапы на Drupal!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Место встречи:&lt;/strong&gt; г.Минск, ул. Захарова, 77а, ком. 2б. &lt;strong&gt;&quot;Фаланстер&quot;&lt;/strong&gt;&lt;br /&gt;Контактный номер: &lt;strong&gt;+375 29 1274267&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>246</nid>
+    <title>Уже Drupal 7.15!</title>
+    <body>&lt;p&gt;&lt;strong&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_7_15.jpg" style="width: 430px; height: 287px; margin-top: 10px; margin-bottom: 10px; " /&gt;Приятное событие в мире Drupal! Вышла новая версия - 7.15.&lt;br /&gt;В честь такого события Drupal-клуб проведет хакатон - доработка сайта Фаланстера. Воскресение, 5 августа в 18.00 &lt;a href="http://drupal-sliot.by/node/137"&gt;на базе Фаланстера&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мир Drupal не дремлет, и выход новой версии служит достойным поводом собраться Drupal-клубу после летнего отдыха.&lt;br /&gt;Также Вас ждет обсуждение предстоящего мероприятия - проведения Глобального дня Drupal 14 сентября.&lt;br /&gt;Мозговой штурм и новые идеи приветствуются!&lt;/p&gt;
+&lt;p&gt;Задач хватит всем!&lt;/p&gt;
+&lt;p&gt;7.15 Drupal - пора проснуться и продолжить изучать систему!)&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>245</nid>
+    <title>вода и камень точит</title>
+    <body>&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/art_sjadziba.jpg" style="margin-top: 10px; margin-bottom: 10px; width: 328px; height: 460px; " /&gt;&lt;/p&gt;
+&lt;p&gt;Культурную площадку &quot;Арт-Сядзіба&quot; выгоняют из &quot;Горизонта&quot; - мы против. Фаланстер поддерживает &amp;ldquo;Арт-Сядзібу&quot; &lt;a href="https://docs.google.com/document/d/10JTirRvCgnwlEPtpFKSLmKEPcRc5yAzJHjNKBSWBXmI/edit"&gt;письмом&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Трудно надеяться на справедливый исход дела, но &amp;ldquo;вода и камень точит&amp;rdquo;. А значит, наше внимание не останется незамеченным!&lt;/p&gt;
+&lt;p&gt;Сегодня команда Фаланстера отправила письмо администрации завода &quot;Горизонт&quot;. Можно уничтожить инициаторов, но инициативу - никогда!&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Поддержать &quot;Арт-Сядзібу&quot; можете и Вы!&lt;/p&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</body>
+  </node>
+  <node>
+    <nid>244</nid>
+    <title>Допилка</title>
+    <body>&lt;p&gt;&lt;strong&gt;Вчера закончился второй сезон встреч Drupal-клуба. Особое внимание уделялось деталям: языкам (меню переключения языков, перевод дат), полям, блокам.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Атмосфера располагала к глубокому погружению в Drupal-темы. Тестировали мультиязычность, разбирали ошибки с полем image и colorbox (картинки выводились в colorbox, но не отображались в типе новостей).&lt;/p&gt;
+&lt;p&gt;Добавлен тип контента - баннеры) Теперь они будут отображаться на внутренних страницах с помощью view slideshow модуля.&lt;/p&gt;
+&lt;p&gt;Допиливали галереи, добавляли или скрывали нужные\ненужные поля в типах контента.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://drupal.org/files/fix_hs_menu_array_warning-1304002-2.patch"&gt;Запатчина&lt;/a&gt; ошибка - Warning: explode() expects parameter 2 to be string, array given в функции menu_node_submit() - hierarhial select модуля.&lt;/p&gt;
+&lt;p&gt;Скоро зритель увидит своими глазами труды Drupal-клуба! Продолжаем изучать и встречаемся в третьем сезоне!&lt;/p&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_klub_9.jpg" style="margin-top: 10px; margin-bottom: 10px; width: 348px; height: 460px; " /&gt;&lt;/div&gt;</body>
+  </node>
+  <node>
+    <nid>243</nid>
+    <title>Drupal-клуб 2.9. Финишная прямая</title>
+    <body>&lt;p&gt;&lt;strong&gt;Казалось, только вошли в drupal-ритм, как сезон уже подошел к концу! В качестве глобального итога встреч выступит сайт Фаланстера. Финишная черта - база Фаланстера, 27 июня, среда, 18.30.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Доводим последние моменты &amp;nbsp;и детали до их логического завершения. Структура сайта успешно реализована. Кипит работа над созданием контента на разных языках (русский, белорусский, английский).&lt;/p&gt;
+&lt;p&gt;Дорабатываем и приводим к совершенству галереи, которые, кажется, ни на одной встрече не давали нам расслабиться.&lt;br /&gt;Остается создать профили пользователей, подобрать модули оптимизации для поисковиков, рассмотреть альтернативы организации медиатеки. Разработка мобильной версии как никогда актуальна.&lt;br /&gt;И, конечно, создание дизайна, лица и обложки сайта, требует не мало времени и сил! После этого начнется интенсивыный процесс верстки, темизации и тестирования. И только потом запуск сайта в интернет-пространство.&lt;/p&gt;
+&lt;p&gt;Как будет проходить заключительная встеча? Смотрите на сайте &lt;a href="http://zabej.info/"&gt;zabej.info&lt;/a&gt; в 18.30. А лучше - подключайтесь к процессу в реале! Это только начало.. изучения drupal)&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>242</nid>
+    <title>Наш баннер!</title>
+    <body>&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_banner_210x170_fin.jpg" style="margin-top: 10px; margin-bottom: 10px; width: 210px; height: 170px; " /&gt;&lt;/p&gt;
+&lt;p&gt;Всем неравнодушным к drupal-клубу!&lt;br /&gt;Вы можете разместить наш баннер на своем сайте.&amp;nbsp;&lt;br /&gt;Волшебный баннер&amp;nbsp;drupal-клуба дарит позитив и заряд бодрости на весь день!)&lt;/p&gt;
+&lt;p&gt;Код баннера:&lt;br /&gt;&lt;a title=&quot;Drupal-клуб&quot; href=&quot;http://drupal-sliot.by&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://drupal-sliot.by/sites/default/files/custom_images/news/drupal_banner_210x170_fin.jpg&quot; alt=&quot;Drupal-клуб&quot;/&gt;&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>241</nid>
+    <title>Drupal-день в Drupal-клубе</title>
+    <body>&lt;p&gt;&lt;strong&gt;Сегодня - 22 июня - участники и слушатели &lt;a href="http://drupal-sliot.by/club"&gt;Drupal-клуба&lt;/a&gt; приобщились к &lt;a href="http://drupal.org/learn-drupal"&gt;Глобальному дню изучения&lt;/a&gt; и мировому сообществу Drupal.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Самые ответственные слушатели прибыли задолго до начала встречи. Постепенно комната базы Фаланстера наполнилась, на столе не осталось свободного места &amp;ndash; все заполнено ноутбуками.&lt;/p&gt;
+&lt;p&gt;Некоторые участники были задержаны в пути сильным дождем, но это не помешало им придти на мероприятие. Михаил (спикер) открыл встречу презентацией о Drupal-клубе. Живо, лаконично и по делу.&lt;/p&gt;
+&lt;p style="text-align: center; "&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/global_drupal_1.jpg" style="width: 350px; height: 274px; " /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что такое Drupal? &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Знали ли Вы, что сайт Белого дома сделан на Drupal? И сайт английского MTV также. И еще ряд больших и маленьких сайтов в различных странах делается на Drupal.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;laquo;&lt;a href="http://Drupal.org"&gt;Drupal.org&lt;/a&gt; &amp;ndash; это то место, куда начинающему друпалисту придется зайти не один раз за время разработки. По всему миру люди комитят, фиксят, что-то добавляют на этот сайт. Сейчас очень интенсивно развивается азиатское направление, в контрибьюции лидерует Северная Америка и Европа&amp;raquo;&lt;/em&gt;, - замечает Михаил.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Составляющие Drupal и с чем его едят? &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Block, Menu, Views, Token, Path&amp;hellip; Разобрались с ключевой терминологией. Понемногу слушатели стали задавать вопросы. Публика, кстати, различная.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;laquo;Drupal.org &amp;ndash; живой сайт. Там всегда можно получить ответы. Есть также множество блогов, которые помогут начинающим друпалистам&amp;raquo;&lt;/em&gt;, - отмечает докладчик.&lt;/p&gt;
+&lt;p&gt;Далее в программе была установка Drupal на локальный сервер и загрузка основных модулей. Аудитория оказалась подготовленной. Почти у всех установлен denver или xampp, необходимый для работы с drupal. Михаил подробно рассказывает о том, с чего нужно начинать, какие модули самые необходимые для создания простого сайта. Серебристая флешка передает минимальный набор модулей.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;laquo;Чем больше вы будете делать сайтов в своей жизни, тем больше у вас будет появляться типов содержимого и используемых модулей&amp;raquo;&lt;/em&gt;, - констатирует Михаил.&lt;/p&gt;
+&lt;p&gt;Участники, установив себе локальный друпал, стали активнее задавать вопросы докладчику.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;laquo;Ну чё, детка? Загрузишься?&amp;raquo; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Вернулись к быстрому развертыванию сайта. Добавили несколько тестовых новостей на сайт, настроили ckeditor, views, создали необходимые поля в типе, вывели картинки новостей на главную.&lt;/p&gt;
+&lt;p style="text-align: center; "&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/global_drupal_4.jpg" style="width: 350px; height: 263px; " /&gt;&lt;/p&gt;
+&lt;p&gt;Слушатели внимательно следят за тем, что происходит на экране, и бросают короткие взгляды в свои мониторы. Пробуют схватить всю актуальную информацию и применить на практике.&lt;/p&gt;
+&lt;p&gt;Но информации слишком много, а с течением встречи Михаил набирает обороты и хочет рассказать слушателям, как можно больше.&lt;/p&gt;
+&lt;p&gt;Во время всей встречи идет прямой эфир на сайте &lt;a href="http://zabej.info"&gt;zabej.info&lt;/a&gt; и &lt;a href="https://twitter.com/zabej_group"&gt;твиттертрансляция&lt;/a&gt; по хэштегам &lt;a href="https://twitter.com/search/%23zabej"&gt;#zabej&lt;/a&gt;, &lt;a href="https://twitter.com/search/%23learndrupal"&gt;#learndrupal&lt;/a&gt;,&lt;a href="https://twitter.com/search/%23drupal"&gt; #drupal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;После встречи вдохновленная Светлана делится впечатлениями: &lt;em&gt;&amp;laquo;В глазах людей горел интерес к изучению Drupal. Они даже не замечали вспышек фотоаппарата. Слова лектора увлекали все дальше и дальше в мир Drupal&amp;raquo;. &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Путь от задумки к реализации зависит от вашей фантазии и технических возможностей. С Drupal даже невероятное оказывается реальностью.&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>240</nid>
+    <title>Нон-стоп.</title>
+    <body>&lt;p&gt;&lt;strong&gt;Предпоследняя встреча. Доделывание деталей, подведение итогов. Работа в подгруппах. На базе Фаланстера было горячо от мыслей о поставленных задачах и еще горячее от бурного их решения и поиска ответов!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Находимся на этапе заполнения сайта контентом: в первую очередь - русский, далее по плану белорусский и английский. Установлены модули перевода. Пришлось покопаться с настройкой выпадающего переключателя языков, никак блок не хотел появляться.&lt;/p&gt;
+&lt;p&gt;Во время работы попробывали свою же белорусскую локализацию. Родной язык, конечно, поднимает настроение и боевой дух, но некоторые моменты и слова все же нужно по смыслу перевести получше!&lt;/p&gt;
+&lt;p&gt;Загруженное на сайт видео никак не хотело выводиться через colorbox. Пробовали различные подходы и схемы. Единственным адекватным решением нашли использовать этот плагин с видео, загруженным на youtube. А почему нет!?&lt;/p&gt;
+&lt;p&gt;Серьезных ошибок на сайте не обнаружено, что радует!&lt;/p&gt;
+&lt;p&gt;К следующему разу - модуль организации медиатеки lexicon, модули оформления страниц профиля пользователей -&lt;br /&gt;&lt;a href="https://drupal.org/project/profile2"&gt;profile2&lt;/a&gt; и &lt;a href="https://drupal.org/project/profile2_regpath"&gt;profile2 registration path&lt;/a&gt;&lt;br /&gt;И, конечно, еще много интересного!&lt;/p&gt;
+&lt;p&gt;А тех, кто еще не &amp;ldquo;на ты&amp;rdquo; с Drupal, приглашаем в пятницу&lt;br /&gt;(22 июня) на &lt;a href="http://drupal-sliot.by/learn-drupal"&gt;Глобальный День Изучения Drupal&lt;/a&gt; на базу Фаланстера.&amp;nbsp;&lt;br /&gt;Приходи и изучай!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>239</nid>
+    <title>Внимание! На горизонте - Drupal.</title>
+    <body>&lt;p&gt;&lt;strong&gt;В преддверии Глобального дня изучения Drupal вышел трек &amp;ldquo;For Drupal-клуб&amp;rdquo;.&lt;/strong&gt;&lt;br /&gt;&lt;a href="http://vk.com/megaant"&gt;Тони Старк&lt;/a&gt; из Гродно уже 5 лет пишет треки на различные тематики. Знает о Drupal совсем немного, но буквально на днях начитал небольшой текст, написанный одним из участников клуба.&lt;br /&gt;&lt;strong&gt;Слушайте!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;object height="94" width="422"&gt;&lt;param value="http://www.divshare.com/flash/audio_embed?data=YTo2OntzOjU6ImFwaUlkIjtzOjE6IjQiO3M6NjoiZmlsZUlkIjtzOjg6IjE4NDAwMDI0IjtzOjQ6ImNvZGUiO3M6MTI6IjE4NDAwMDI0LWM5YiI7czo2OiJ1c2VySWQiO3M6NzoiMjU5Nzg5MSI7czoxMjoiZXh0ZXJuYWxDYWxsIjtpOjE7czo0OiJ0aW1lIjtpOjEzNDAwNTcyMjU7fQ==&amp;autoplay=default" name="movie" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="wmode" value="transparent" /&gt;&lt;embed wmode="transparent" height="94" width="422" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" src="http://www.divshare.com/flash/audio_embed?data=YTo2OntzOjU6ImFwaUlkIjtzOjE6IjQiO3M6NjoiZmlsZUlkIjtzOjg6IjE4NDAwMDI0IjtzOjQ6ImNvZGUiO3M6MTI6IjE4NDAwMDI0LWM5YiI7czo2OiJ1c2VySWQiO3M6NzoiMjU5Nzg5MSI7czoxMjoiZXh0ZXJuYWxDYWxsIjtpOjE7czo0OiJ0aW1lIjtpOjEzNDAwNTcyMjU7fQ==&amp;autoplay=default"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;Напоминаем, что 22 июня день знакомства с Drupal в &lt;a href="http://drupal-sliot.by/club"&gt;Drupal-клубе&lt;/a&gt; в 18.00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;График встречи:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Что такое Drupal-клуб? - 15 минут&lt;/li&gt;
+&lt;li&gt;Успешные проекты на Drupal - 30 минут&lt;/li&gt;
+&lt;li&gt;Среда развёртывания и установка Drupal - 30 минут&lt;/li&gt;
+&lt;li&gt;Делаем простой проект на Drupal - 120 минут&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Предлагайте ваши идеи: какой проект развернуть за 2 часа?&lt;/p&gt;
+&lt;p&gt;Всем желающим придти необходимо &lt;a href="http://drupal-sliot.by/learn-drupal-quiz"&gt;заполнить анкету&lt;/a&gt; и прихватить на встречу ноутбук!&lt;br /&gt;Спешите! Количество мест ограничено.&lt;/p&gt;
+&lt;p&gt;Для тех, кто не сможет посетить мероприятие, будет организованав &lt;strong&gt;видеотрансляция&lt;/strong&gt; на сайте &lt;a href="http://zabej.info/video"&gt;zabej.info&lt;/a&gt;, а также твиттертрансляция (пользователь &lt;a href="https://twitter.com/#%21/zabej_group"&gt;@zabej_group&lt;/a&gt;, хэштеги &lt;a href="https://twitter.com/#%21/search/%23learndrupal"&gt;#learndrupal&lt;/a&gt;, &lt;a href="https://twitter.com/#%21/search/%23drupal"&gt;#drupal&lt;/a&gt;, &lt;a href="https://twitter.com/#!/search/%23zabej"&gt;#zabej&lt;/a&gt;)&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_learning_day_mini.jpg" style="width: 400px; height: 205px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Контактный номер: &lt;/strong&gt;+375 29 1274267&lt;br /&gt;&lt;strong&gt;Место встречи:&lt;/strong&gt; г.Минск, ул. Захарова, 77а, ком. 2б.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>238</nid>
+    <title>Друпал-клуб 2.8. Поднажмём</title>
+    <body>&lt;p&gt;До конца второго сезона осталось 2 встречи, если не считать пятничной открытой.  Поэтому мы их делаем расширенными по 3,5  - 4 часа. Все, кто только узнал про нас, могут подключиться к атмосфере разработки сайта Фаланстера. &lt;/p&gt;
+&lt;p&gt;И так план:&lt;br /&gt;
+Начнём со знакомства с IDE: NetBeans + Eclipse&lt;br /&gt;
+1. Тестируем галерею.&lt;br /&gt;
+2. Завершаем добавлние и тестирование видов на главной и внутренних страницах (QuickTab + ColorBox).&lt;br /&gt;
+3. Добавляем многоязычность (i18n)&lt;br /&gt;
+4. Права доступа разделяем (+ модули Profile 2 и Profile 2 Path Registration)&lt;br /&gt;
+5. Разрабатываем структуру мобильной версии (и всё таже Omega)&lt;br /&gt;
+6. Бонус (если хватит сил): модули Display Suite, Devel&lt;/p&gt;
+&lt;p&gt;Встреча в среду (20 июня) будет проходить с 18:30 до 22:00 по привычному адресу. Приходите!&lt;br /&gt;
+Видеотрансляция встречи на сайте zabej.info. Смотрите!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>237</nid>
+    <title>Кто кого!</title>
+    <body>&lt;p&gt;&lt;strong&gt;Насыщенная встреча drupal-клуба была в среду. Воевали с Apache и mysql в консоли. Ошибки nginx нас окружили, но не победили)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_club_2_7.jpg" style="border-style: initial; border-color: initial; margin-top: 10px; margin-bottom: 10px; width: 430px; height: 355px; " /&gt;В предыдущую встречу бились с настройкой вида fullcalendar, и только в эту среду обнаружили, что есть модуль agenda, который как раз и отображает события google calendar нужным образом.&lt;/p&gt;
+&lt;p&gt;Настроен вывод изображений с помощью colorbox, модуль транслитерации.&lt;/p&gt;
+&lt;p&gt;Проблема локализации бел. мовы заставила призадуматься - пришлось установить сначала русскую локализацию и только сверху - белорусскую.&lt;/p&gt;
+&lt;p&gt;Периодически сайт &amp;ldquo;лежал&amp;rdquo;, но это не остановливало энтузиастов продолжать работу на локалке)&lt;/p&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</body>
+  </node>
+  <node>
+    <nid>236</nid>
+    <title>Глобальный День Изучения Drupal</title>
+    <body>&lt;p&gt;&lt;strong&gt;22 июня в пятницу Drupal-клуб присоединяется к глобальному &lt;a href="https://drupal.org/learn-drupal" target="_blank"&gt;Дню Изучения Drupal&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_lerning_day_fin.jpg" style="width: 299px; height: 400px; " /&gt;&lt;/p&gt;
+&lt;p&gt;Приглашаем на день открытых дверей всех тех, кто хочет начать изучать эту систему с нуля. В течение встречи мы расскажем:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Что такое Drupal?&amp;nbsp; Сайты, сервисы, успешные проекты на Drupal.&lt;/li&gt;
+&lt;li&gt;Что такое Drupal-сообщество? Немного о Клубе.&lt;/li&gt;
+&lt;li&gt;Сделаем простой проект на Drupal с нуля. Основы Drupal:&amp;nbsp;как это работает?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;День ориентирован прежде всего на пользователей незнакомых или немного слышавших о системе.&lt;/p&gt;
+&lt;p&gt;Начинаем в 18:00. Продолжительность 3 часа. Для участия в мероприятии заполните &lt;a href="http://drupal-sliot.by/learn-drupal-quiz" target="_blank"&gt;анкету&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Контактный номер:&lt;strong&gt; +375 29 1274267 &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Место встречи: &lt;/strong&gt;г.Минск, ул. Захарова, 77а, ком. 2б. &lt;strong&gt;&quot;Фаланстер&quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Также будет проходить видеотрансляция Дня Изучения Drupal на сайте &lt;a href="http://zabej.info/video" target="_blank"&gt;zabej.info&lt;/a&gt; и твиттере с хэштегами &lt;a href="https://twitter.com/#%21/search/%23learndrupal"&gt;#learndrupal,&lt;/a&gt;&lt;a href="https://twitter.com/#!/search/%23drupal"&gt; #drupal&lt;/a&gt; пользователя &lt;a href="https://twitter.com/#!/zabej_group" target="_blank"&gt;@zabej_group&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>234</nid>
+    <title>Drupal-клуб 2.7. Детали</title>
+    <body>&lt;p&gt;На новой встрече клуба (база Фаланстера, 13.06.2012, среда, 18.30) доделываем старые задачи предыдущей встречи. &lt;/p&gt;
+&lt;p&gt;Некоторые из задач, которые продолжаем решать - это и интеграция с беларуским языком, и  тюнинг стилей (css), и прикручивание галереи, и мобильная версия (ширина - 320px на Omega), и оформление дизайна. Так же попробуем на вкус IDE Eclips, изучаем сервер nginx.&lt;/p&gt;
+&lt;p&gt;Смотрите видеотрансляцию на сайте zabej.info (в 18.30). Drupal ждет Вас в реале, присоединяйтесь!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>233</nid>
+    <title>Качество, а не количество</title>
+    <body>&lt;p&gt;&lt;strong&gt;Встреча прошлой среды была интенсивной. Сосредоточились на отдельных задачах и максимально их добивали.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--break--&gt;&lt;!--break--&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/dr_kl_2_6.jpg" style="margin-top: 10px; margin-bottom: 10px; width: 430px; height: 332px; " /&gt;Попытка настроить media gallery была не очень удачной и решили остановиться на выводе галереи через views и мультизагрузчик. Основная проблема была в мультизагрузчике, котрый никак не хотел загружать нужное количество изображений (более 10). Решение найдено: plupload + FileField Sources Plupload. Осталось настроить вывод галереи. Изучили вставку google календаря.&lt;/p&gt;
+&lt;p&gt;Остается проблема в отображении даты с событием вместо текущей даты.&lt;/p&gt;
+&lt;p&gt;Переходим на безлимитный интернет. Давно пора.&lt;/p&gt;
+&lt;p&gt;Остались запланированные задачи, которые переносятся на следующую встречу (смотреть анонс 6-й встречи &lt;a href="http://drupal-sliot.by/news/226" title="http://drupal-sliot.by/news/226"&gt;http://drupal-sliot.by/news/226&lt;/a&gt;).&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>232</nid>
+    <title>Видео. Презентация Drupal-клуба на Форуме образовательных инициатив</title>
+    <body>&lt;p&gt;7 июня Drupal-клуб презентовал себя в МОЦ &quot;Фиальта&quot;.&lt;/p&gt;
+&lt;p&gt;Видеоотчет с события&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/01V6VK_PnMY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>231</nid>
+    <title>Презентация Drupal-клуба</title>
+    <body>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style="width:425px" id="__ss_13246117"&gt; &lt;iframe src="http://www.slideshare.net/slideshow/embed_code/13246117" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>230</nid>
+    <title>Фаланстер в Фиальте. Ушли ловить настоящее</title>
+    <body>&lt;p&gt;&lt;strong&gt;Команда Фаланстера приняла участие с презентацией проекта &amp;laquo;Drupal-клуба&amp;raquo; на &amp;nbsp;Форуме образовательных инициатив на базе &amp;laquo;Фиальты&amp;raquo; вчера (7 июня). Семи минут оказалось достаточно для рассказа и ещё немного для исследования обстановки.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Не очень-то и много в Беларуси активистов. Активисток больше. Странная тенденция.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Многие молодые люди хотят менять &amp;laquo;мир к лучшему&amp;raquo;, то ли от нечего делать, то ли по причинам не самореализации. &amp;laquo;Фиальта&amp;raquo; уже давно существует и просвещает молодежь. Интересная у них база: много рисунков, иностранных слов на стенках и печенья.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;В поисках единомышленников Фаланстер пришел и сюда. В начале мы раздали бумажные флаеры. Потом быстрая презентация Drupal-клуба, который = Drupal + пассионарии, рассказ о наших целях и авторитетах. &amp;nbsp;Живых авторитетах: Фиделе Кастро, Линусе Торвальдсе, Рике Фальквинге, Гай Фоксе, Дрисе Байтаерте. &amp;nbsp;Самодельные плакаты добавляли образу Drupal-клуба некий налёт дерзости и старомодности одновременно. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_klub_v_fialte_1.jpg" style="border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; margin-top: 10px; margin-bottom: 10px; float: left; width: 440px; height: 282px; " /&gt;&lt;/p&gt;
+&lt;p&gt;(презентация Drupal-клуба)&lt;/p&gt;
+&lt;p&gt;А вот слушатели много вопросов не задавали, может только при личной беседе, а может, были не в теме - &amp;nbsp;что такое Drupal*. Но все друг другу улыбались и ждали кофе-паузы.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_klub_v_fialte_2.jpg" style="border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; border-style: initial; border-color: initial; margin-top: 10px; margin-bottom: 10px; float: left; width: 440px; height: 304px; " /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(страждущие и внемлющие зрители &quot;Фиальты&quot;)&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Не было возможности присутствовать на событии от начала до конца, поэтому просмотрели только несколько презентаций проектов. &amp;laquo;Арт-Сядзiба&amp;raquo;. Халтура. Ролик может записать каждый. Где живое общение и человеческий фактор?! &amp;nbsp;&amp;laquo;Киноклуб&amp;raquo;. Очень милый мальчик умеет создавать организации по сетевому принципу. Сколько сложных слов. &amp;laquo;Центр оптимизации бизнес процессов&amp;raquo;. За 10 минут докладчик успел провести треннинг и рассказать свой долгий и трудный путь к успеху. Не хватало уверенности и манипуляций. Был замечен расстерянным в обществе женщин, и скромно наливал чай в кофе-паузу. &amp;laquo;34mag.net&amp;raquo;. Рад всем: и &amp;nbsp;художникам, и музыкантам, и писателям, и фанатам татуировок, главное, чтобы активные были. &amp;nbsp;А вот и кофе-пауза, кажется, с нетерпением ждали именно ее.&lt;/p&gt;
+&lt;p&gt;Общение между различными инициативами замечено локально, многие были знакомы и обсуждали, казалось, что-то личное.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;В соседней комнате для кофе и обсуждений проектор крутил &amp;laquo;мнение&amp;raquo; различных, но, в основном, тех же присутствующих. Пугающе смотрелся каждый на белом фоне, болезненно рассказывающий, как нужно &amp;laquo;ловить настоящее&amp;raquo;. Но, вообщем-то, идея с комнатой для бесед неплохая.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Немногочисленная целевая аудитория была найдена. На слуху останется слово &amp;laquo;Drupal&amp;raquo; и может быть что-то еще.. Ключевое слово вечера &amp;nbsp;- &amp;nbsp;кофе-пауза. &amp;nbsp;Что ж, &amp;nbsp;у Фаланстера времени на паузы нет.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;*Drupal - система управления содержимым для создания сайтов, написанная на php. Является свободным ПО.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>229</nid>
+    <title>Презентация клуба</title>
+    <body>&lt;p&gt;Сегодня 7 июня в 17:00 в МОЦ "Фиальта" будем делать презентацию Drupal-клуба. Общаемся, отвечаем на вопросы, делимся планами. Приходите!&lt;br /&gt;
+Адрес: г. Минск, ул. Мясникова, 35)&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>228</nid>
+    <title>Развитие сообщества через Drupal</title>
+    <body>&lt;p&gt;&lt;strong&gt;В субботу - 2 июня - &lt;a href="http://drupal.zabej.info"&gt;Drupal-клуб&lt;/a&gt; принял участие на &lt;a href="http://drupalconf.ru"&gt;конференции в Москве.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Доклад, посвященный администрированию Drupal при помощи Drush, прозвучал предпоследним. До него дошли самые стойкие и интересующиеся. По мнению координатора Drupal-клуба Михаила Волчека, Drush не только ускоряет и упрощает работу, но и экономит время. И это время можно использовать для построения и укрепления сообщества.&lt;/p&gt;
+&lt;div style="text-align: center; "&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupalconf_zabej.info_.jpg" style="width: 192px; height: 300px; " /&gt;&lt;/div&gt;
+&lt;p&gt;Твиттер-трансляция мероприятия поддерживалась в основном командой сообщества Забей (хэштеги &lt;a href="http://twitter.com/#!/search/%23drupalconf"&gt;#drupalconf&lt;/a&gt;, &lt;a href="http://twitter.com/#!/search/%23zabej"&gt;#zabej&lt;/a&gt;).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;День был насыщен прямыми видео-трансляциями. Также был организован двухчасовой семинар для новичков. Участие в конференции приняло около 200 человек. Вниманию слушателей было предоставлено 20 докладов в 2 потока.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Константин Комелин второй раз выступал на DrupalConf Moscow. Он считает, что подобные мероприятия всегда актуальны, и отмечает:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Развитие сообщества в руках каждого из нас, в усилиях, которые направленны на развитие Drupal, на вклад в код и в популяризацию [этой CMS - ред.]&quot;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Впервые на событие прибыли англоговорящие коллеги. Так, Мартин Майер раскрыл тему &amp;ldquo;Друпал и ключи к успешному сообществу&amp;rdquo; и подчеркнул:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Друпал не был бы таким, какой он есть сегодня, без своего сильного и динамичного сообщества. Друпал в этом отношении является примером успешного построения сообщества&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Тем не менее, конференция была организована в традиционном формате, который, как считает Михаил, себя исчерпал:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Кофебрейков и обеда для многих недостаточно, чтобы познакомиться и пообщаться, поэтому люди уходят так и не найдя единомышленников. Особенно это касается тех, кто только начинает изучать drupal. Еще одна причина - перемешан уровень докладов: в одной аудитории идут презентации и для профессионалов, и для начинающих. Всё это приводит к мысли, что нужно менять подход в организации подобных мероприятий&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Доклад Drupal-клуба - ещё один шаг в развитии Drupal-сообщества Беларуси и мира.&lt;/strong&gt;&lt;/p&gt;
+&lt;div id="__ss_13191635" style="width:510px"&gt;&lt;strong style="display:block;margin:12px 0 4px"&gt;&lt;a href="http://www.slideshare.net/zabej/drushdrupal-administration" target="_blank" title="Drush&amp;drupal. administration"&gt;Drush&amp;Drupal. Administration&lt;/a&gt;&lt;/strong&gt;
+&lt;object height="426" id="__sse13191635" width="510"&gt;&lt;param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drushdrupal-administration-120604070052-phpapp02&amp;stripped_title=drushdrupal-administration&amp;userName=zabej" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;param name="allowScriptAccess" value="always" /&gt;&lt;param name="wmode" value="transparent" /&gt;&lt;embed allowfullscreen="true" allowscriptaccess="always" height="355" name="__sse13191635" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drushdrupal-administration-120604070052-phpapp02&amp;stripped_title=drushdrupal-administration&amp;userName=zabej" type="application/x-shockwave-flash" width="425" wmode="transparent"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style="padding:5px 0 12px"&gt;View more &lt;a href="http://www.slideshare.net/" target="_blank"&gt;presentations&lt;/a&gt; from &lt;a href="http://www.slideshare.net/zabej" target="_blank"&gt;zabej&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>227</nid>
+    <title>Приветствие Дриса Байтаерта на московском ДупалКоне</title>
+    <body>&lt;p&gt;Изобретатель Drupal говорит о важности слётов, кэмпов, конференций для развития сообщества.&lt;iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/7aMDVoc3A1s" width="420"&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;p&gt;Почему бы не пригласить его в Drupal-клуб?&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>226</nid>
+    <title>Друпал-клуб 2.6. Media, Display Suite, Features.</title>
+    <body>&lt;p&gt;В предстоящую среду (06.06.2012) на базе Фаланстера в 18.30 состоится уже шестая встреча клуба. Доделываем виды страниц, проектируем мобильную версию, уделяем внимание дизайну.&lt;/p&gt;
+&lt;p&gt;Домашние задачи дополняют план встречи:&lt;br /&gt;
+- интеграция с белорусским языком;&lt;br /&gt;
+- colorbox для фото и видео fields;&lt;br /&gt;
+- тюнинг стилей (css);&lt;br /&gt;
+- прикручиваем галерею;&lt;br /&gt;
+- мобильная версия (ширина - 320px на Omega).&lt;/p&gt;
+&lt;p&gt;И, конечно, Вы можете наблюдать нашу встречу онлайн на сайте zabej.info, а лучше приходите и участвуйте. Научиться можно только на практике!&lt;/p&gt;
+&lt;p&gt;Подробнее про текущую сессию клуба читайте здесь: &lt;a href="http://drupal-sliot.by/news/210" title="http://drupal-sliot.by/news/210"&gt;http://drupal-sliot.by/news/210&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;В дополнение к основной программе будет:&lt;br /&gt;
+1. Рассказ про поекздку на DrupalConf в Москву&lt;br /&gt;
+2. Обсуждение участия Drupal-клуба в форуме образовательных инициатив&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>225</nid>
+    <title>Исправляем ошибки</title>
+    <body>&lt;p&gt;Основные модули уже успешно установлены на сайт Фаланстера. Доделываются особенности. Самое вкусное - на десерт) На пятой встрече был изменен формат проведения: работали не над одной задачей все вместе, а каждому определили свою. Смена режима пошла на пользу, увеличились производительность и интерес. Время пролетело, и, к всеобщему сожалению, встреча завершилась, когда закончился трафик 3G-модема на роутере Фаланстера. Рассматривали disqus, работали с локализацией белорусского языка, интеграцией google-календаря. Пришлось повозиться с ошибками модуля image i hierarchical select после недавнего обновления ядра. Куда без них! Совет дня: паролирование папки, где лежит сайт разработки, помогает сделать процесс создания более защищённым, но внешние сервисы (например, disqus) не работают. Нужно распароливаться. Следующий раз будем работать над проектом, а также затронем работу в интегрированной среда разработки (IDE NetBeans), мультизагрузчики в Drupal и др. Следите за сайтом.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>224</nid>
+    <title>Drupal-клуб 2.5. Анонс. Допиливаем Omega и галереи. Продолжение</title>
+    <body>&lt;p&gt;В cледующую среду (30.05). В том же месте (база Фаланстера). В то же время (18.30). Drupal-клуб. Продолжаем допиливать подтему Omega и ищем подходящую галерею для 7-ки.&lt;/p&gt;
+&lt;p&gt;Внимательный зритель наших трансляций мог заметить, что процесс креатива с сайтом Фаланстера идет открыто и занимательно. &lt;/p&gt;
+&lt;p&gt;На предстоящей встрече будут рассматриваться такие вопросы:&lt;br /&gt;
+ - работа с медиагалереями,&lt;br /&gt;
+ - мультиаплоад,&lt;br /&gt;
+ - ajax,&lt;br /&gt;
+ - работа с css и Omega для блоков социальных сетей,&lt;br /&gt;
+ - исследования с сеткой Omega.&lt;/p&gt;
+&lt;p&gt;Атмосфера планируется горячей. Смотрите трансляцию встречи на сайте zabej.info&lt;/p&gt;
+&lt;p&gt;Приходите. Присоединяйтесь!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>223</nid>
+    <title>Omega. Views. Drush.</title>
+    <body>&lt;p&gt;Четвертая встреча второго сезона Drupal-клуба была о темизации. Рассматривали особенности Omega.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/drupal_club_24.jpg" style="width: 440px; height: 360px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Разработка сайта&amp;nbsp; Фаланстера идет уверенным темпом. Создали&amp;nbsp; подтему Omega (конечно не без drush) и настроили с помощю модулей Delta cоответсвующие шаблоны&amp;nbsp; для главной и &amp;ldquo;других&amp;rdquo; страниц сайта.&lt;/p&gt;
+&lt;p&gt;Игрались с блоками и темизацией (различные виды сортировки: по дате, рандомная - Global: Random интересное свойство). Для выбраных типов контента установлен модуль ShareThis, так необходимый для поддержки связи с социальными сетями.&lt;/p&gt;
+&lt;p&gt;На протяжении встречи шла видеотрансляция, позволяющая наблюдать за творческим процессом Drupal-интузиастов. С Drupal &amp;ndash; время летит незаметно!&lt;/p&gt;
+&lt;p&gt;До встречи в следующую среду!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>216</nid>
+    <title>Друпал-клуб 2.4. Анонс. Темизация и Drupal</title>
+    <body>&lt;p&gt;На 4 встрече Drupal-клуба будем работать в основном с модулем Views и темой Omega&lt;/p&gt;
+&lt;p&gt;1. Настраиваем тему Omega. Отображение для мобильной версии&lt;br /&gt;
+2. Работаем с Views. Представления на главной и внутренних страницах рабочего проекта&lt;br /&gt;
+3. Администрирование. Автоматизируем обновления сервера разработки.&lt;br /&gt;
+4. Media Gallery. Анализируем альтернативные решения галереи для Drupal 7&lt;br /&gt;
+5. Определяем базовые роли на сайте и создаем им лист доступа.&lt;/p&gt;
+&lt;p&gt;Планируется видеотрансляция на сайте zabej.info.&lt;br /&gt;
+Через комментарии можно будет задать вопросы участникам.&lt;/p&gt;
+&lt;p&gt;Встречаемся в среду (23 мая) в 18:30 по адресу: ул.Захарова, 77а, ком. 2б.&lt;br /&gt;
+Карта проезда:&lt;br /&gt;
+&lt;iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=213235740305031919762.0004b12a03d0cb72d68ea&amp;hl=ru&amp;ie=UTF8&amp;t=m&amp;vpsrc=1&amp;ll=53.898976,27.58329&amp;spn=0.018611,0.015061&amp;output=embed"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;Просмотреть &lt;a href="http://maps.google.com/maps/ms?msa=0&amp;msid=213235740305031919762.0004b12a03d0cb72d68ea&amp;hl=ru&amp;ie=UTF8&amp;t=m&amp;vpsrc=1&amp;ll=53.898976,27.58329&amp;spn=0.018611,0.015061&amp;source=embed" style="color:#0000FF;text-align:left"&gt;База Фаланстера&lt;/a&gt; на карте большего размера&lt;/small&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>214</nid>
+    <title>Друпал-клуб 2.3. Как обновить Drupal</title>
+    <body>&lt;p&gt;&lt;strong&gt;Небольшой мануал, для тех, кто вчера присутсвовал, но не всё успевал понимать.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Минорное обновление&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Поломать пароль в Drupal 7 можно также с помощью Drush =)&lt;br /&gt;drush upwd &lt;user&gt; --password=&lt;password&gt;&lt;br /&gt;или&lt;br /&gt;drush uli -l &lt;a href="http://dev.falanster.by" title="http://dev.falanster.by"&gt;http://dev.falanster.by&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1. В начале мы делали бамп базы&lt;br /&gt;drush sql-dump --gzip &gt; backup/dev_`date +%Y-%m-%d`.sql.gz&lt;/p&gt;
+&lt;p&gt;2. Потом всего сайта&lt;br /&gt;&lt;em&gt;drush archive-dump default --destination=backup/falanster_dev_site.tar&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;3. Потом содственно &lt;em&gt;drush up drupal&lt;/em&gt;,&lt;/p&gt;
+&lt;p&gt;4. а потом &lt;em&gt;drush upc &lt;/em&gt;(обновили все модули)&lt;/p&gt;
+&lt;p&gt;5. Внесли все изменения в репозитории&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;git status&lt;br /&gt;git pull [origin master]&lt;br /&gt;......&lt;br /&gt;git add [*] - * означает все добавленные файлы&lt;br /&gt;git commit [-a] -m &amp;#39;comment&amp;#39;&lt;br /&gt;git push [origin master]&lt;br /&gt;git status&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;6. &quot;Случайно&quot; удалили дамп базы и потом его востановили по хэшу коммита&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;git log -l 10&lt;br /&gt;git checkout 4e02fdfc0343bb61f6754c1eb01e4c06dd15441c backup/falanga_dev.sql.zip&lt;br /&gt;git commit [-a] -m &amp;#39;comment&amp;#39;&lt;br /&gt;git push [origin master]&lt;br /&gt;git status&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Всем хорошего дня и до встречи&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>213</nid>
+    <title>Друпал-клуб 2.2. Познаём GIT!</title>
+    <body>&lt;p&gt;Небольшая стенограмма второго сета клуба для тех, кто только включается в работу:&lt;/p&gt;
+&lt;p&gt;1. Заведите аккаунт на github.com&lt;/p&gt;
+&lt;p&gt;2. Если вы ещё не присоеденились к репозиторию, скидывайте свой ник на github.com (сюда или в комментарии &lt;a href="http://vk.com/drupal_sliot" title="http://vk.com/drupal_sliot"&gt;http://vk.com/drupal_sliot&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;3. Создавайте виртуальный хост, на котором будете держать проект (эта тема давно минувших дней) инет кишит мануалами.&lt;/p&gt;
+&lt;p&gt;4. Устанавливаете гит (инструкция тоже на гитхабе неплохая). По ссылке пример для centos &lt;a href="http://www.webtatic.com/packages/git17/" title="http://www.webtatic.com/packages/git17/"&gt;http://www.webtatic.com/packages/git17/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5. Заходите в корневую папку своего хоста и git clone &lt;a href="https://falanster@github.com/falanster/devfalanster.git" title="https://falanster@github.com/falanster/devfalanster.git"&gt;https://falanster@github.com/falanster/devfalanster.git&lt;/a&gt; 6. Беретё дамп базы данных из папки back, распаковывате. unzip &lt;archivename&gt; &lt;/archivename&gt;&lt;/p&gt;
+&lt;p&gt;&lt;archivename&gt;7. создаёте пустую базу данных: mysql -u &lt;username&gt; -p &lt;some_password&gt; create database &lt;db_name&gt;; 8. импортируете: mysql -u &lt;username&gt; -p -h localhost &lt;db_name&gt; &lt; falanga_dev.sql (можете phpmyadmin использовать)&lt;/db_name&gt;&lt;/username&gt;&lt;/db_name&gt;&lt;/some_password&gt;&lt;/username&gt;&lt;/archivename&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;archivename&gt;&lt;username&gt;&lt;some_password&gt;&lt;db_name&gt;&lt;username&gt;&lt;db_name&gt;До встречи в следующую среду!&lt;/db_name&gt;&lt;/username&gt;&lt;/db_name&gt;&lt;/some_password&gt;&lt;/username&gt;&lt;/archivename&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>212</nid>
+    <title>Друпал-клуб 2.1. Начали с Drush</title>
+    <body>&lt;div id="__ss_12532703" style="width:425px"&gt;&lt;strong style="display:block;margin:12px 0 4px"&gt;&lt;a href="http://www.slideshare.net/zabej/drush-drupal-12532703" target="_blank" title="Drush &amp; Drupal"&gt;Drush &amp; Drupal&lt;/a&gt;&lt;/strong&gt;&lt;iframe frameborder="0" height="355" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/12532703" width="425"&gt;&lt;/iframe&gt;&lt;br /&gt;
+&lt;div style="padding:5px 0 12px"&gt;View more &lt;a href="http://www.slideshare.net/thecroaker/death-by-powerpoint" target="_blank"&gt;PowerPoint&lt;/a&gt; from &lt;a href="http://www.slideshare.net/zabej" target="_blank"&gt;zabej&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</body>
+  </node>
+  <node>
+    <nid>211</nid>
+    <title>Вышло обновление Drupal 7</title>
+    <body>&lt;p&gt;Теперь текущая версия &lt;a href="http://ftp.drupal.org/files/projects/drupal-7.14.tar.gz"&gt;Drupal 7.14&lt;/a&gt;. Убран ряд ошибок в безопасности, оптимизированы java-скрипты.&lt;/p&gt;
+&lt;p&gt;Подробнее о всех изменениях можно читать здесь: &lt;a href="http://drupal.org/node/1558424" title="http://drupal.org/node/1558424"&gt;http://drupal.org/node/1558424&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Обновить текущую версию, используя Drush 5.x, можно командой&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;drush up drupal &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;все её возможности изучайте здесь: &lt;a href="http://drush.ws/#pm-update" title="http://drush.ws/#pm-update"&gt;http://drush.ws/#pm-update&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>210</nid>
+    <title>Drupal-клуб 2.0. Стройка продолжается</title>
+    <body>&lt;p&gt;&lt;strong&gt;2 мая &lt;a href="http://drupal-sliot.by/club"&gt;Drupal-клуб&lt;/a&gt; начинает вторую сессию, где продолжит познавать систему. Приглашаются вольные гики, друпал-евангелисты, творческие люди и начинающие программисты.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupalclub2.jpg" style="width: 212px; height: 300px; float: left;" /&gt;Основная цель клуба - завершение создания сайта Фаланстера и обновление текущего сайта - &lt;a href="http://zabej.info"&gt;zabej.info&lt;/a&gt;. Таким образом, Drupal-клуб будет совмещать в себе и теорию, и практику.&lt;/p&gt;
+&lt;p&gt;Ниже &lt;strong&gt;тезисы клуба&lt;/strong&gt;, которые разделяют его участники:&lt;/p&gt;
+&lt;p&gt;- Всякие знания и информация могут свободно распространяться и изменяться для некоммерческих целей;&lt;br /&gt;- Компьютерные программы, научные изобретения, кино, музыка и другое искусство принадлежат создателю и всему человечеству;&lt;br /&gt;- Образование - это право, а не привилегия.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Сезон будет длиться до середины июня. Всего - около 6-7 сетов, которые будут проходить каждую среду. &lt;strong&gt;Начало в 18:30.&lt;/strong&gt; Продолжительность сета - 3 часа. Возможны внеочередные сеты. Каждая встреча будет построена на докладах и мастер-классах участников и возможных экспертов.&lt;/p&gt;
+&lt;p&gt;На сегодня определена следующая&lt;strong&gt; программа:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. Drush. Быстрый старт Drupal.&lt;br /&gt;2. Git. Работа в команде.&lt;br /&gt;3. Темизация. Шаблоны. Omega + Context + Delta.&lt;br /&gt;4. Минорное и значительное обновление Drupal-сайта.&lt;br /&gt;5. Модули Views, Display Suite, Features.&lt;br /&gt;6. Тюнинг сервера. Linux. IDE. Eclipse\NetBeance&lt;br /&gt;7. Модули работы с AJAX в Drupal 7. Мультизагрузчик. Open Layer.&lt;br /&gt;8. Дистрибутивы. Openatrium. Системы задач. Redmine.&lt;br /&gt;9. Модули SEO. XMLsitemap.&lt;/p&gt;
+&lt;p&gt;Пункты программы могут дополняться и изменяться, в том числе и их последовательность.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Приглашаем всех, кто познаёт систему и Drupal!&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>209</nid>
+    <title>Организационная встреча Drupal-клуба</title>
+    <body>&lt;p&gt;&lt;strong&gt;25 апреля в 19:00 состоится организационная встреча Drupal-клуба.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На встрече обсудим:&lt;/p&gt;
+&lt;p&gt;1. &lt;a href="http://zabej.info/afisha/1083"&gt;Тезисы клуба&lt;/a&gt;.&lt;br /&gt;2. Основную программу: темы, модули, технологии, направления.&lt;br /&gt;3. Определим формат клуба: продолжительность, количество встреч, анкеты.&lt;br /&gt;4. Разделим задачи.&lt;/p&gt;
+&lt;p&gt;Приглашаем всем, кто заинтересован максимально участвовать в Клубе.&lt;/p&gt;
+&lt;p&gt;Планируется пилотная видеотрансляция. Ссылку трансляции появится позже.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://drupal-sliot.by/node/137"&gt;Место проведения: ул.Захарова, 77а, ком. 2б&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>208</nid>
+    <title>Drupal-клуб. Возвращение!</title>
+    <body>&lt;p&gt;&lt;strong&gt;Начинается активная подготовка к весенне-летней сессии Drupal-клуба. Первая организационная встреча планируется 25 апреля.&lt;/strong&gt;&lt;strong&gt; На ней будет закреплена программа и тезисы клуба, которые на данный момент могут быть дополнены и изменены. Читайте их ниже:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/drupal_club_logo.jpg" style="width: 173px; height: 300px; margin: 5px; float: left;" /&gt;1. Всякая информация может свободно распространяться для некоммерческих целей.&lt;br /&gt;2. Программы, кино, музыка и другое искусство, научные изобретения принадлежат создателю и всему человечеству, а не продюсерским или транснациональным корпорациям.&lt;br /&gt;3. Доступ в интернет должен быть анонимным и должна сохраняться полная приватность человека в сети.&lt;br /&gt;4. Образование - это право, а не привилегия или предмет торга на рынке. Неформальное клубное образование &amp;ndash; это авангард. Drupal-клуб - авангард.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Предварительная программа на весну-лето 2012&lt;/strong&gt;&lt;br /&gt;Общая тема: Командная разработка.&lt;br /&gt;Цель: создание сайта Фаланстера.&lt;/p&gt;
+&lt;p&gt;1. Drush. Быстрый старт Drupal.&lt;br /&gt;2. Git. Работа в команде&lt;br /&gt;3. Система задач Openatrium, Redmine&lt;br /&gt;4. Темизация Drupal 7 (На базе Omega)&lt;br /&gt;5. Модули: Display Suite, Open Layer, XMLsitemap, Views и другие.&lt;br /&gt;6. Минорное и значительное обновление сайта на Drupal&lt;/p&gt;
+&lt;p&gt;Сами встречи начнуться со 2 мая. Более полная информация появиться на сайте сообщества после 25 апреля.&lt;/p&gt;
+&lt;p&gt;Пишите и вносите ваши предложения.&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>207</nid>
+    <title>Drupal-клуб. Прорыв информационной блокады</title>
+    <body>&lt;p&gt;&lt;strong&gt;14 апреля Drupal-клуб принял участие в научной конференции DrupalСampMinsk&amp;rsquo;12.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Недружественные жесты некоторых организаторов минского события не смогли помешать активистам Drupal-клуба распространить информацию среди участников об инициативах Забей. Буклеты и наклейки увидели своих адресатов. А клубом заинтересовалось множество начинающих разработчиков. Задача выполена!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/club_na_campe_2_zabej.info_.jpg" style="width: 184px; height: 277px; margin: 3px; float: left;" /&gt;&lt;/em&gt;&lt;em&gt;&amp;laquo;В самом начале ко мне подошёл один из организаторов и предупредил, что мы не можем рассказывать про свои инициативы на конференции, а можем только придерживаться темы доклада. Такое предупреждение мы считаем недружественным сигналом, потому что за последний год много полезных дел сделали для Drupal-сообщества Беларуси. Это и перевод ядра Drupal 7 на белорусский язык, и Drupal-слёт, и более чем 4-хмесячная сессия клуба, где прошло около&amp;nbsp; 16 встреч&amp;raquo;, &lt;/em&gt;- говорит докладчик Михаил.&lt;/p&gt;
+&lt;p&gt;Под большим риском быть остановленным и лишиться слова во время презентации всё же удалось кратко раскрыть основные темы клуба. Пока будучи там в меньшинстве, но только пока.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" src="/sites/default/files/custom_images/news/club_na%20campe_zabej.info_.JPG" style="width: 400px; height: 268px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Что же сообщество Забей хотело рассказать на конференции читайте ниже:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Drupal-клуб возвращается!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;В мае &lt;strong&gt;Drupal-клуб &lt;/strong&gt;на базе &lt;strong&gt;Фаланстера&lt;/strong&gt; продолжит свою деятельность.&lt;br /&gt;Если ты не знаешь, что такое Drupal-клуб -&amp;nbsp; знакомься!&lt;br /&gt;&lt;strong&gt;Drupal-клуб &lt;/strong&gt;&amp;ndash; место, где мы изучаем открытую систему Drupal, обмениваемся знаниями и опытом.&lt;br /&gt;&lt;strong&gt;Drupal-клуб &lt;/strong&gt;&amp;ndash; место, где образование - это право, а не привилегия или предмет торга на рынке.&lt;br /&gt;&lt;strong&gt;Drupal-клуб&lt;/strong&gt; &amp;ndash; место, где происходит революция в ваших умах.&lt;br /&gt;&lt;strong&gt;Познай систему!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Планы на весну-лето 2012&lt;/strong&gt;&lt;br /&gt;Общая тема: Командная разработка.&lt;br /&gt;1. Drush. Быстрый старт Drupal.&lt;br /&gt;2. Git. Работа в команде&lt;br /&gt;3. Система задач Openatrium, Redmine&lt;br /&gt;4. Темизация Drupal 7 (На базе Omega)&lt;br /&gt;5. Модули: Display Suite, Open Layer, XMLsitemap и другие.&lt;/p&gt;
+&lt;p&gt;Уровень: начальный, средний.&lt;br /&gt;Программа обсуждается. Предложения принимаются.&lt;br /&gt;Встречи будут проходить по адресу: ул.Захарова, 77 а, ком. 2б&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что мы делаем?&lt;/strong&gt;&lt;br /&gt;Конкурс &lt;strong&gt;&amp;ldquo;Пераклад Drupal на&amp;nbsp; беларускую мову&amp;rdquo; &lt;/strong&gt;проходил с 3 марта по 3 пареля. За это время было переведено ядро Drupal на белорусский язык (около 3000 строк). Участие в конкурсе приняло более 10 человек. Победители получили памятные призы.&lt;br /&gt;Сейчас мы готовы курировать перевод наиболее популярных модулей.&lt;br /&gt;&lt;strong&gt;Drupal-слёт&lt;/strong&gt; &amp;ndash; мероприятие, которое объединило на один день (26 ноября 2011) drupal-разработчиков и социальных активистов, с целью познакомится, обменятся знаниями и опытом.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Наш символ &amp;ndash; Колорадский жук.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Колорадский жук &lt;/strong&gt;&amp;ndash; это вечный спутник и аннигилятор ботвы картофеля.&lt;br /&gt;Жук во время клуба призван уничтожить, превзойти, разрушить провинциальность, замкнутость, закрытость нашего общества в целом и Drupal-сообщества в частности. Он бросает вызов нашей местечковости и зацикленности,часто лишь на себе.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жук Колорадо&lt;/strong&gt;&amp;ndash; это символ освобождения белорусов от клише &amp;laquo;бульбаша&amp;raquo;.&lt;br /&gt;Теперь он &amp;ndash; символ Drupal-клуба!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Наша миссия:&lt;/strong&gt;&lt;br /&gt;Мы развиваем автономные сообщества, которые после развивают нас.&lt;/em&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>206</nid>
+    <title>Вынікі конкурса. Ствараем сітуацыю і штурхаем мову!</title>
+    <body>&lt;p&gt;&lt;strong&gt;&lt;a href="http://drupal-sliot.by/konkurs"&gt;Пераклад ядра Drupal&lt;/a&gt; на беларускую мову скончаны 3 красавіка! Віншуем усіх удзельнікаў!&lt;/strong&gt;&lt;br /&gt;
+&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/zX6ELPRRxJQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Конкурс, арганізаваны &lt;a href="http://zabej.info/clubs/drupal"&gt;Drupal-клубам&lt;/a&gt;, падышоў да сваёй фінальнай часткі. На працягу сакавіка-красавіка з англійскай на беларускую мову было перакладзена каля 3000 радкоў ядра Drupal версіі 7.12. Удзел анлайн і на агульных сустрэчах прынялі самыя розныя людзі: праграмісты, лінгвісты, філолагі і проста неабыякавыя.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Пераклад быў неабходны ў першую чаргу для тых, хто перакладаў. Магчыма беларуская лакалізацыя будзе выкарыстоўвацца на практыцы прасунутымі карыстальнікамі. Ці гатовы я перакладаць далей? Калі будзе час і жаданне - будзе і пераклад!&amp;rdquo;,&lt;/em&gt; - кажа пераможца конкурса Канстанцін.&lt;/p&gt;
+&lt;p&gt;Арганізатары задаволеныя вынікамі, але лічаць, што праца яшчэ не скончана. Сваімі ўражаннямі дзеліцца адна з мадэратараў конкурса Людміла: &lt;em&gt;&amp;ldquo;Зараз паўсюль можна сустрэць сацыяльныя рэкламы - &amp;ldquo;Вывучай родную мову&amp;rdquo;. Пераклад Drupal &amp;ndash; больш глыбокі падыход. Ён адразу дае магчымасць паглыблення ў моўны асяродак. Гэта значыць людзі адразу пачынаюць размаўляць або пісаць на беларускай мове, а не толькі думаць, што было б не дрэнна калі-небудзь пачаць&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal мае ў сваім складзе каля 14000 модуляў.&amp;nbsp; Таму ўсе, хто жадае працягнуць пераклад гэтай веб-сістэмы, могуць далучыцца &lt;a href="http://localize.drupal.org/translate/languages/be"&gt;да группы беларускіх перакладчыкаў&lt;/a&gt; на сайце drupal.org або да&lt;a href="http://zabej.info/clubs/drupal"&gt; Drupal-клуба&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;На дадзены момант беларуская мова не мае развітай IT-тэрміналогіі. Ці можна размаўляць на любой мове, калі яна не забяспечвае гарачыя патрэбы грамадства? Вядома - не.Таму мы вырашылі падштурхнуць развіццё гэтай галіны ў першую чаргу стварэннем рэальнай сітуацыі, калі мова будзе жыць і ў эканамічнай сферы. Гэта і ёсць асноўная мэта конкурса,&amp;rdquo;&lt;/em&gt; &amp;ndash; распавядае каадынатар Міхаіл.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Тым часам, у суботу адбудзецца сустрэча &amp;ldquo;Вынікі і перспектывы&amp;rdquo;, на якой будзе падведзена заключная рыса конкурса і ўзнагарода пераможцаў.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Чакаем ўдзельнікаў і зацікаўленных 7 красавіка а 19.00 па адрасе: вул.Захарава, 77а, пам. 1Н, пак. 2б.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>205</nid>
+    <title>Пераклад Drupal. Паскаральнік</title>
+    <body>&lt;p&gt;&lt;strong&gt;Другая сустрэча конкурса &quot;Пераклад Drupal&quot; адбудзецца 17 сакавіка а 14.00 на Арт-сядзібе.&lt;br /&gt;&quot;Паскаральнік&quot; ставіць за мэту павялічыць хуткасць перакладу, вырашыць спрэчныя моманты і далучыць да конкурса новых удзельнікаў.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/zabej.info_konkurs_paskaralnik.jpg" style="width: 225px; height: 300px; margin: 5px; float: right;" /&gt;Ад пачатку правядзення конкурса каманды перакладчыкаў павялічылася амаль што на 10 чалавек. На дадзены момант перакладзена больш за 80% ядра drupal.&lt;/p&gt;
+&lt;p&gt;Мы запрашаем тых, хто адчувае ў сабе прыбытак сіл і натхнення, на другую сустрэчу па перакладу ядра Drupal на беларускую мову. Нават калі вы перакладзёце некалькі радкоў, вы зробіце свой унёсак у агульную справу, а таксама далучыцеся да руху drupal-супольнасці.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;У суботу вас чакае:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;- Выступ: &quot;Мова і эканоміка&quot;.&lt;br /&gt;- Удакладненне слоўніка і спрэчных момантаў.&lt;br /&gt;- Дапамагаем і перакладаем разам, рухаемся да мэты.&lt;/p&gt;
+&lt;p&gt;Вы можаце далучыцца да перакладу &lt;strong&gt;ў рэальным часе 17 сакавіка а 14.00 на Арт-сядзібе, або праз скайп-канферэнцыю&lt;/strong&gt; (fannrmus).&lt;br /&gt;&lt;strong&gt;Працягласць сустрэчы&lt;/strong&gt; - 4 гадзіны.&lt;/p&gt;
+&lt;p&gt;Удзел кожнага з&amp;#39;яўляецца значным. Разам мы зможам больш!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>204</nid>
+    <title>Прэзентацыя конкурса &quot;Пераклад Drupal&quot;. Як гэта было?</title>
+    <body>&lt;p&gt;&lt;strong&gt;4 сакавіка, нядзеля&lt;/strong&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;16.00&lt;/strong&gt;&lt;br /&gt;Творчае месца &lt;strong&gt;Арт-Сядзібы&lt;/strong&gt;&amp;nbsp;прыняло зацікаўленых перакладам&amp;nbsp;Drupal&amp;nbsp;людзей з ноўтбукамі і без іх. Пачалася &lt;a href="http://drupal-sliot.by/sites/default/files/drupal_konkurs.ppt"&gt;прэзентацыя &lt;/a&gt;конкурса па перакладу ядра Drupal на беларускую мову.&lt;/p&gt;
+&lt;div style="text-align: center; "&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/zabej.info_konkurs_drupal_04.03.2012_4.jpg" style="width: 300px; height: 200px; " /&gt;&lt;/div&gt;
+&lt;p&gt;Каардынатар мерапрыемства і Drupal-распрацоўшчык Міхась&amp;nbsp;пачаў расказваць, што такое Open Sourse і Open Culture, чаму абраны менавіта Drupal і як ён звязаны з МГА &quot;Фаланстэр&quot;. Вось чаму Фаланстэр вырашыў правесці конкурс:&lt;/p&gt;
+&lt;p&gt;1. Плённыя справы &amp;ndash; падтрымка публікі&lt;br /&gt;2. Новыя веды &amp;ndash; думаючая моладзь&lt;br /&gt;3. Аўтаномныя супольнасці!&lt;br /&gt;4. Выпрабаванне сацыяльных навацый&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16.30&lt;/strong&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/zabej.info_konkurs_drupal_04.03.2012_11.jpg" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; float: right; width: 197px; height: 300px; " /&gt;&lt;br /&gt;Пасля прэзентацыі адна з арганізатарак Марына распавяла &amp;nbsp;і паказала, &lt;a href="/konkurs/screencast"&gt;як пачаць перакладаць&lt;/a&gt;. Для прыкладу пераклалі адзін радок. Усё было зразумела.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16.50&lt;/strong&gt;&lt;br /&gt;Перайшлі да ўсталявання Drupal. Але папярэдне трэба было ўсталяваць вэб-сервер.&amp;nbsp;Таму Міхась расказваў пра &lt;a href="http://www.google.by/url?sa=t&amp;rct=j&amp;q=xampp&amp;source=web&amp;cd=1&amp;ved=0CDUQFjAA&amp;url=http%3A%2F%2Fru.wikipedia.org%2Fwiki%2FXAMPP&amp;ei=htdVT82wOsjZtAb9h4GCBw&amp;usg=AFQjCNEj7RWwWeWvH-5XCWVykExPKwDhoQ"&gt;XMAPP&lt;/a&gt;. Пасля скачаў Drupal і патлумачыў, як яго ўсталяваць адразу на беларускай мове. Таксама разгледзелі, што такое базы дадзеных і phpmyadmin. Неўзабаве усталявалі і дадалі навіну на сайт.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;17.20&lt;/strong&gt;&lt;br /&gt;Час заставаўся і тыя, у каго ноўтбук быў з сабой, усталявалі Drupal.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/zabej.info_konkurs_drupal_04.03.2012_1.jpg" style="width: 300px; height: 200px; " /&gt;&lt;/p&gt;
+&lt;p&gt;А пакуль ім дапамагалі, іншыя мелі зносіны, размаўлялі, анкеты запаўнялі.&lt;/p&gt;
+&lt;div style="text-align: right; "&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/zabej.info_konkurs_drupal_04.03.2012_2.jpg" style="width: 300px; height: 200px; " /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;18.00&lt;/strong&gt;&lt;br /&gt;Удзельнікі патроху пачалі разыходзіцца. Мерапрыемства падыйшло да завяршэння.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Што далей?&lt;/strong&gt;&lt;br /&gt;Далей мы будзем працаваць с зацікаўленымі людзьмі: дапамагаць, тлумачыць, калі незразумела, і перакладаць.Наступная сустрэча пад назвай &lt;strong&gt;&quot;Паскаральнік&quot;&lt;/strong&gt; адбудзецца &lt;strong&gt;17 сакавіка&lt;/strong&gt;.&lt;br /&gt;&lt;a href="http://konkurs/zajava"&gt;Далучайцеся да конкурсу!&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>203</nid>
+    <title>Відэа. Як пачаць перакладаць?</title>
+    <body>&lt;p&gt;Вырашылі прыняць удзел, але не ведаеце з чаго пачаць? Глядзіце!&lt;br /&gt;
+&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/pSYPBBjXXlw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>202</nid>
+    <title>Drupal: приди и  переведи!</title>
+    <body>&lt;p style="text-align: right; "&gt;&lt;em&gt;Лузеры строят огороженные сады, а победители - площади.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Фаланстер объявляет конкурс по переводу Drupal-ядра с английского языка на белорусский.&lt;/strong&gt;&lt;br/&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/afisha_1200x1600_by_12.jpg" style="width: 204px; height: 273px; margin: 5px; float: left;" /&gt;С началом зимы все желающие изучали систему создания сайтов Drupal. За это время прошло много встреч клуба и состоялся Drupal-слёт. Но сейчас не время останавливаться. Активисты Фаланстера двигаются дальше и объявляют конкурс перевода, который будет проходить на протяжении марта-апреля 2012 года.&lt;/br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Мы стремимся сделать Drupal понятным для белорусскоязычных людей планеты. Расширить предметное использование и языка, и Drupal. После нам, конечно, хотелось бы, чтобы белорусские достижения переводили на многочисленные языки мира, а не наоборот. Но это в планах. Конкурсом мы хотим сделать первый шаг для того, чтобы лучше понимать мир. Создаем возможность его понимать&quot;,&lt;/em&gt; - делится координатор конкурса Михаил.&lt;/p&gt;
+&lt;p&gt;Друпалеров, лингвистов, программистов, студентов приглашаем присоединиться к вызову весны от Фаланстера.&lt;/p&gt;
+&lt;p&gt;Конкурс состоит &lt;a href="http://konkurs/grafik"&gt;из трех этапов&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1. Презентация о том, как переводить&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2. Перевод в реальном времени&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3. Подведение итогов&lt;/p&gt;
+&lt;p&gt;Для того, что участвовать, необходимо &lt;a href="http://drupal-sliot.by/konkurs/pravila"&gt;ознакомиться с правилами&lt;/a&gt;, &lt;a href="http://drupal-sliot.by/konkurs/zajava"&gt;заполнить анкету&lt;/a&gt; и начать переводить.&lt;/p&gt;
+&lt;p&gt;Вместе мы переведем ядро Drupal и основные модули. Хватит пользоваться и потреблять - нужно действовать!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мы готовы внести свой вклад в развитие мирового сообщества. А вы?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Подробности &lt;a href="/konkurs"&gt;на странице конкурса&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>198</nid>
+    <title>Конкурс &quot;Пераклад Drupal&quot;. Прэзентацыя</title>
+    <body>&lt;p&gt;&lt;strong&gt;Першая сустрэча ў межах конкурса &quot;Пераклад Drupal&quot; адбудзецца 4 сакавіка ў &quot;Арт-сядзібе&quot;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Актывісты Фаланстэра запрашаюць жадаючых далучыцца да перакладу Drupal на беларускую мову. На першым мерапрыемстве вы зможаце даведацца, што такое Drupal, навошта яго перакладаць і як гэта рабіць? Таксама будзе праведзены майстар-клас па ўсталяванню Drupal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мы чакаем вас 4 сакавіка а 16.00 у &quot;Арт-сядзібе&quot;&lt;/strong&gt; па адрасе: вул. Куйбышава, 22, гандлёвы дом &quot;Гарызонт&quot;, другі паверх.&lt;br /&gt;Працягласць сустрэчы - 2 гадзіны&lt;/p&gt;
+&lt;p&gt;Прыходзь сам ды прыводзь сяброў!&lt;/p&gt;
+&lt;p&gt;Не чакайце нядзелі, &lt;a href="http://drupal-sliot.by/konkurs"&gt;пачынайце дзейнічаць&lt;/a&gt; ужо зараз!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>195</nid>
+    <title>Drupal: прыйдзі і перакладзі!</title>
+    <body>&lt;p&gt;&lt;em&gt;Лузеры будуюць абгароджаныя сады, а пераможцы - плошчы.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Фаланстэр аб&amp;#39;яўляе конкурс перакладу Drupal-ядра з англійскай мовы на беларускую.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/konkurs/afisha_1200x1600_by_12.jpg" style="width: 204px; height: 273px; margin: 5px; float: left;" /&gt;З пачаткам зімы ўсе жадаючыя вывучалі сістэму стварэння сайтаў Drupal. За гэты час прайшло шмат сустрэч клубу і адбыўся Drupal-злёт. Але зараз не час спыняцца. Актывісты Фаланстэра рухаюцца далей і абвяшчаюць конкурс перакладу, які&lt;br /&gt;будзе праходзіць на працягу сакавіка-красавіка 2012 году.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Мы імкнемся зрабіць Drupal зразумелым для беларускамоўных людзей планеты. Пашырыць прадметнае выкарыстанне і мовы, і Drupal. Пасля нам, канешне, хацелася б, каб беларускія дасягненні перекладалі на шматлікія мовы свету, а не наадварот. Але гэта у будучых планах.&amp;nbsp; Конкурсам мы робім першы крок для таго, каб лепей разумець свет. Ствараем магчымасць яго разумець&amp;rdquo;,&lt;/em&gt;&amp;nbsp;- дзеліцца каардынатар конкурсу Міхась.&lt;/p&gt;
+&lt;p&gt;Друпалераў, лінгвістаў, праграмістаў, студэнтаў запрашаем далучыцца да выкліку вясны ад Фаланстэра.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Конкурс складаецца з трох этапаў:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1. Прэзентацыя пра тое, як перакладаць&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2. Пераклад у рэальным часе&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3. Падвядзенне вынікаў&lt;/p&gt;
+&lt;p&gt;Для таго, каб удзельнічаць, неабходна &lt;a href="http://drupal-sliot.by/konkurs/pravila"&gt;азнаёміцца з правіламі&lt;/a&gt;, &lt;a href="http://drupal-sliot.by/konkurs/zajava"&gt;запоўніць анкету&lt;/a&gt; і пачаць перакладаць.&lt;br /&gt;Разам мы перакладзем ядро Drupal і асноўныя модулі. Хопіць карыстацца ды спажываць - трэба дзейнічаць!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мы гатовыя ўнесці свой уклад ў развіццё сусветнай супольнасці. А вы?&lt;/strong&gt;&lt;br /&gt;Падрабязнасці &lt;a href="/konkurs"&gt;на старонцы конкурсу.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>185</nid>
+    <title>Спіс пажаданых модуляў</title>
+    <body>&lt;p&gt;Ніжэй прапануем модулі, якія былі абраныя згодна прыярытэтам каманды арганізатараў і статыстыцы іх выкарыстання сусветнай Drupal-супольнасцю.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1. Views&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2. Administration menu&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3. Pathauto&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4. Token&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 5. Date&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6. Webform&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 7. google analytics&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 8. CAPTCHA&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 9. Ckeditor&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 10. i18n&lt;/p&gt;
+&lt;p&gt;А таксама не пакідайце без увагі colorbox, Omega, media_gallery, simple_news&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>156</nid>
+    <title>Што далей?</title>
+    <body>&lt;p&gt;&lt;strong&gt;Drupal-клуб працягвае сустрэчы на базе Маладзёжнага аб&amp;#39;яднання &quot;Фаланстэр&quot;. У снежні было 5 сэтаў, напоўненных зносінамі і рознымі бакамі вывучэння &lt;/strong&gt;&lt;strong&gt;CMF Drupal 7. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Фармат клубу трошкі зменіўся. Яго мэты і сэнс засталіся ранейшымі, але сустрэчы набылі больш мэтавы характар.&lt;/p&gt;
+&lt;p&gt;У блоку для пачаткоўцаў мы займаліся распрацоўкай рэальнага сайт-праэкту з самага нуля і да канчатковай версіі. Праэкт рэалізоўваецца на працягу двух месяцаў на&amp;nbsp; Drupal 7 і дае магчымасць для ўсіх актыўных удзельнікаў не толькі разабрацца з гэтай CMF, але і атрымаць вопыт каманднай працы .&lt;/p&gt;
+&lt;p&gt;У блоку для распрацоўшчыкаў мы спачатку разбіралі цякучыя drupal-праблемы саўдзельнікаў гуртка,&amp;nbsp; а пасля ўжо дзяліліся&amp;nbsp; навінкамі і вопытам паспяховых праэктаў.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://drupal-sliot.by/club"&gt;Час і месца &lt;/a&gt;падзеі застаюцца тымі ж.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps/ms?msa=0&amp;msid=208822636552609774754.0004b2f874fa40d5df8a8&amp;ie=UTF8&amp;ll=53.899066,27.583083&amp;spn=0.018307,0.014978&amp;t=h&amp;vpsrc=1&amp;output=embed" width="425"&gt;&lt;/iframe&gt;&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>155</nid>
+    <title>Расклад сустрэч Drupal-клуба</title>
+    <body>&lt;p&gt;&lt;strong&gt;План працы клуба на перыяд зіма-вясна 2012:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. Сустрэчы клуба працягнуцца ў залежнасці ад назапашвання пытанняў і жадання ўдзельнікаў дзяліцца ведамі з іншымі. Час і месца будем вызначаць з усімі максімальна зацікаўленнымі ў супрацоўніцтве.&lt;/p&gt;
+&lt;p&gt;2. Мы трымаем курс на ўдзел у супольнасці &lt;u&gt;&lt;a href="/konkurs"&gt;перакладу Drupal&lt;/a&gt;&lt;/u&gt;&lt;a href="/konkurs"&gt; &lt;/a&gt;з англійскай на беларускую мову.&lt;/p&gt;
+&lt;p&gt;Таму на працягу лютага мы падрыхтуем конкурс па стымуляванню матывацыі найбольшай колькасці зацікаўленных людзей у перакладзе Drupal на беларускую. Зараз ідзе актыўны набор ў каманду арганізатараў конкурса!&lt;/p&gt;
+&lt;p&gt;3. Працягваецца праца над сайтам Фаланстэра. Занятку на сёння там хопіць ўсім.&lt;/p&gt;
+&lt;p&gt;Дадатковыя пытанні можна задаць па тэлефоне: +375 29 1274267&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Далучайся. Спазнаем сістэму разам!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>154</nid>
+    <title>Drupal-клуб. Першы сезон. Што будзе далей?</title>
+    <body>&lt;p&gt;&lt;strong&gt;Першы сезон&lt;/strong&gt; &lt;strong&gt;Drupal-клуба маладзёжнай арганізацыі Фаланстэр скончыўся. Але актыўным друпалерам будзе, чым заняцца.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Што будзе далей?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Клуб працягне працу ў новым фармаце.&lt;/p&gt;
+&lt;p&gt;Сустрэчы будуць праходіць у залежнасці ад назапашвання пытанняў і жадання ўдзельнікаў дзяліцца ведамі з іншымі. Час і месца будзем вызначаць з усімі максімальна зацікаўленнымі ў супрацоўніцтве.&lt;/p&gt;
+&lt;p&gt;Таксама ў некаторых удзельнікаў ёсць жаданне далучыцца да супольнасці перакладу Drupal з англійскай мовы на беларускую. Таму з лютага пачынаецца падрыхтоўка конкурсу па стымуляванню матывацыі найбольшай колькасці людзей да перакладу Drupal на беларускую мову.&lt;/p&gt;
+&lt;p&gt;Нарэшце, у міжсезонне ўсе тыя, хто наўпрост не паспеў раней, змогуць уключыцца ў канкрэтны напрамак дзейнасці Фаланстэра и вывучаць гэту сістэму на практыцы.&lt;/p&gt;
+&lt;p&gt;Рассказвае Міхась, каардынатар клубу:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Сёння важна працягнуць падтрымку сістэм з адкрытым кодам. Сумесныя намаганні даюць большы вынік, чым крапатлівая праца адзіночак. І Drupal - гэта добрая магчымасць мець зносіны з цікавымі людзьмі. У будучыні яны могуць стаць нашымі аднадумцамі. Мы да гэтага імкнёмся&quot;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Далучайцеся да Drupal-клубу зараз!&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>153</nid>
+    <title>Drupal-клуб. Робім сайт з нуля</title>
+    <body>&lt;p&gt;&lt;span&gt;&lt;span class="full_text"&gt;&lt;strong&gt;Увага! &lt;/strong&gt;Са снежня у Клубе адчынілася дадатковая секцыя. Тут найбольш матываваныя ўдзельнікі займаюцца распрацоўкай сайту Фаланстэра з нуля, пры гэтым праходзяць кожны этап: ад праектавання да рэалізацыі. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://drupal-sliot.by/club"&gt;&lt;span&gt;&lt;span class="full_text"&gt;Чытайце&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span class="full_text"&gt; пра час і месца сустрэч на сайце супольнасці Забей.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>152</nid>
+    <title>Drupal-злёт. Відэа</title>
+    <body>&lt;p&gt;&lt;object height="324px" style="height: 390px; width: 6400px" width="446px"&gt;&lt;param name="movie" value="http://www.youtube.com/v/1mXKW3EbuoI?version=3&amp;feature=player_profilepage" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;param name="allowScriptAccess" value="always" /&gt;&lt;embed allowfullscreen="true" allowscriptaccess="always" height="324px" src="http://www.youtube.com/v/1mXKW3EbuoI?version=3&amp;feature=player_profilepage" type="application/x-shockwave-flash" width="446px"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>151</nid>
+    <title>Фармуем праграму разам</title>
+    <body>&lt;p&gt;&lt;strong&gt;На сёння пачалі паступаць прапановы па дакладах і майстар-класах. Гэта добра. Значыць Drupal-распрацоўшчыкам ёсць што сказаць. Аднак, няма мяжы дасканаласці.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мы заклікаем разнявольваць ініцыятыву ўсім, хто жадае падзяліцца ведамі па CMF Drupal. Вы можаце быць не толькі гуру ў Drupal-супольнасці, але і тымі, хто проста жадае распавесці пра свой праект, зроблены на Drupal, створаным модулі, намаляванай тэме ці аптымізацыі праекта.&lt;/p&gt;
+&lt;p&gt;На Злёце мы будзем прытрымлівацца прынцыпу максімальнага ўдзелу ўсіх, каму цікавы фармат. Таму цалкам праграму вы зможаце ўбачыць толькі на самым мерапрыемстве. Зараз жа мы разам можам вызначыць набор ключавых тэм.&lt;/p&gt;
+&lt;p&gt;Прапановы па дакладах дасылайце &lt;a href="http://drupal-sliot.by/kontakt"&gt;сюды&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Удзельнічайце!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>150</nid>
+    <title>Шырокім крокам насустрач</title>
+    <body>&lt;p style="text-align: right;"&gt;&lt;em&gt;Нішто так не&amp;nbsp; аб&amp;#39;ядноўвае, як агульная справа&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;26 лістапада ўжо не за гарамі!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Засталося ўсяго два тыдні да Drupal-злёту. Падрыхтоўка ў самым разгары. На мерапрыемства ўжо зарэгістравалася больш за 50 чалавек.&amp;nbsp; Праграма складаецца і хуткім часам будзе прадстаўлена на сайце ў гэтай частцы. Цяпер самы час праявіць сябе і ўзяць актыўную ролю: падрыхтаваць даклад, прэзентацыю, распавесці пра мерапрыемства сваім сябрам і знаёмым. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Банэры дапамагаюць лаканічна і ярка прадставіць Drupal-злёт. Калі ў вас ёсць свой блог, IT-сайт, інфармацыйны рэсурс &amp;ndash; змясціце адзін з нашых банэраў у сябе. Такім чынам, больш людзей зможа даведацца пра мерапрыемства. Яно стане яшчэ насычаней і цікавей.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Разам рухаемся да вызначанай мэты &amp;ndash; Злёту, і Разам мы зможам зрабіць больш!&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>149</nid>
+    <title>Сустрэча валанцёраў</title>
+    <body>&lt;p&gt;Увага!&lt;/p&gt;
+&lt;p&gt;У нядзелю, 13 лістапада,&amp;nbsp; а 18.00 адбудзецца сустрэча валанцёраў і ўсіх ахвотных дапамагчы ў арганізацыі і правядзенні Drupal-злёту. Абмяркуем асноўныя задачы і ваш удзел у іх рашэнні.&lt;/p&gt;
+&lt;p&gt;Сустракаемся на базе Фаланстэра па адрасе: г.Мінск, вул. Захарава, 77 а, пам. 1Н, пак. 2б.&lt;br /&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="341" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps/ms?hl=ru&amp;vpsrc=0&amp;ctz=-120&amp;ie=UTF8&amp;msa=0&amp;msid=213235740305031919762.0004b12a03d0cb72d68ea&amp;t=h&amp;z=17&amp;output=embed" width="414"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Кантактны нумар: +375 29 9212921&lt;/p&gt;
+&lt;p&gt;Прыходзьце і прыводзьце сяброў!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>148</nid>
+    <title>Праграма Злёту</title>
+    <body>&lt;p&gt;Дзень Злёту ўсё бліжэй і бліжэй. На сёння пададзена больш за 90 заявак, ёсць 9 дакладаў, майстар-клас (у трох частках). Ніжэй вы можаце азнаёміцца з праграмай. Яна не статычная і можа трохі змяніцца.&lt;/p&gt;
+&lt;p&gt;Мы жадаем, каб першы &lt;strong&gt;Drupal-злёт &lt;/strong&gt;прайшоў з максімальным сумаўленнем усімі ўдзельнікамі. І прадугледзелі блок тэматычных кружкоў, дзе любы ахвотны зможа падняць хвалюючае пытанне і абмеркаваць яго з іншымі зацікаўленымі ўдзельнікамі.&lt;/p&gt;
+&lt;p&gt;У хуткім часе таксама раcпавядзем пра моманты лагістыкі Злёту, бо месца правядзення будзе не зусім звычайнае.&lt;/p&gt;
+&lt;p&gt;Такім чынам, праграма:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9:30 - 9:55&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Рэгістрацыя ўдзельнікаў&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br /&gt;&lt;strong&gt;9:55 - 10:10&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Вітанне. Уступнае слова. Прэзентацыя фундатараў. Міхась Волчак.&lt;br /&gt;&lt;strong&gt;10:15 - 11:00&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;strong&gt;Майстар-клас. Частка 1&lt;/strong&gt;: Разгортванне і канструяванне простага сайта на Drupal (узровень: пачатковец), Дзяніс Рудой.&lt;br /&gt;&lt;strong&gt;11:00 - 11:25&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt; Даклад:&lt;/strong&gt; Drupal і пошукавая аптымізацыя (узровень: пачатковец і SEO-адмысловец), Аляксей Місюра.&lt;br /&gt;&lt;strong&gt;11:25 - 11:40&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Кава-паўза і сумаўленне + запаўненне блока гурткоў (BoF)&lt;br /&gt;&lt;strong&gt;11:40 - 12:15&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад:&lt;/strong&gt; Тэмізацыя - best practices, workflow, tips &amp; tricks (узровень: распрацоўшчык), Глеб Каммунікаў.&lt;br /&gt;&lt;strong&gt;12:15 - 12:45&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад:&lt;/strong&gt; Распрацоўка бізнэс-рашэнняў (Enterprise) (узровень: распрацоўшчык), Глеб Бардоўскі.&lt;br /&gt;&lt;strong&gt;12:45 - 13:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад:&lt;/strong&gt; Што нас чакае ў новай версіі Drupal 8? (узровень: усе + супольнасць), Артур Абаранкаў, Віцебск&lt;br /&gt;&lt;strong&gt;13:00 - 13:40&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Абед і сумаўленне (арганізаваны выхад/уваход) + запаўненне блока кружкоў BoF&lt;br /&gt;&lt;strong&gt;13:40 - 14:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Майстар-клас. Частка 2&lt;/strong&gt;: Напісанне модуля з нуля (выкарыстанне CCK і views). Для сайта з першай часткі (узровень: распрацоўшчык), Дзяніс Рудой.&lt;br /&gt;&lt;strong&gt;14:30 - 15:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад&lt;/strong&gt;: Шматмоўнасць у Drupal (i18n+), (узровень: пачатковец), Андрэй Цыркун&lt;br /&gt;&lt;strong&gt;15:00 - 15:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад&lt;/strong&gt;: Беларускі пераклад Drupal. Ідэі і практыкі (+BoF), (узровень: усе + супольнасць), Ігар Кандыба.&lt;br /&gt;&lt;strong&gt;15:30 - 15:40&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Кава-паўза і сумаўленне&lt;br /&gt;&lt;strong&gt;15:45 - 16:25&amp;nbsp;&amp;nbsp;&amp;nbsp; Тэматычныя кружкі (BoF)&lt;/strong&gt;: Тэмы вызначаюцца ўдзельнікамі на дошцы аб&amp;#39;яў.&lt;br /&gt;&lt;strong&gt;16:25 - 16:55&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад&lt;/strong&gt;: Інструментар прасунутага каманднага распрацоўніка (узровень: распрацоўшчык), Арцём Панькоў, Масква&lt;br /&gt;&lt;strong&gt;16:55 - 17:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Даклад&lt;/strong&gt;: Працэс распрацоўкі на Drupal з выкарыстаннем Features (узровень: распрацоўшчык), Віталь Іаскевіч.&lt;br /&gt;&lt;strong&gt;17:30 - 18:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Майстар-клас. Частка 3&lt;/strong&gt;: Апошнія налады сайта і атрыманне live-версіі (узровень: усе), Дзяніс Рудой&lt;br /&gt;&lt;strong&gt;18:00 - 18:10&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Заключэнне. Міхась Волчак.&lt;br /&gt;&lt;strong&gt;18:10 - 18:40&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Нефармальнае сумаўленне.&lt;/p&gt;
+&lt;p&gt;*Вольны слот можна запоўніць міні-дакладам ці дакладам па Drupal-тэхналогіям. Пішыце, у каго ёсць, што сказаць!&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>147</nid>
+    <title>Drupal Злёт. Напярэдадні</title>
+    <body>&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/456033930.jpg" style="width: 400px; height: 299px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Увага! Заўтра! 26 лістапада а 9:30 пачатак Drupal-злёту.&lt;br /&gt;Апошнія падрыхтоўкі і інфармацыя па лагістыцы ніжэй. А пакуль аб&amp;#39;ява:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Патрэбны валанцёры. Сёння а 19:00 усе, хто яшчэ жадае ўнесці свой уклад у падрыхтоўку Злёту, прыходзьце на месца. Кантактны тэлефон: +375 29 9212921.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;У праграме злёту вы можаце азнаёміцца з распарадкам дня.&lt;br /&gt;Дзень будзе падзелены на 2 паловы: да абеду і пасля. Далей некалькі арганізацыйных момантаў. Мы будзем знаходзіцца на тэрыторыі завода, дзе праход магчымы толькі па пропусках, вонкавыя дзверы ў плоце будуць зачынены. Таму на абед выходзіць мы будзем арганізавана і вяртацца таксама.&lt;/p&gt;
+&lt;p&gt;Туалет&amp;nbsp; будзе знаходзіцца на першым паверсе. Яго можна знайсці рухаючыся па стрэлках. Наогул, амаль усё можна будзе знайсці рухаючыся па стрэлках.&lt;br /&gt;Месца для палення на вуліцы будзе пазначана адмысловым знакам.&lt;br /&gt;Калі па нейкай прычыне даклад вам здасца нецікавым, вы можаце ціха пагутарыць на чырвонай канапе.&lt;br /&gt;Падчас кава-брэйкаў вы зможаце выпіць кубак гарбаты/кавы і падсілкавацца печывам/вафлямі. Гарачая вада будзе ў кулеры пад чырвоным кранікам і ў чайніках. Усе, хто гатовы прынесці з сабой печыва, вафлі ці цукеркі да гарбаты - прыносьце! Просьба скарыстаны аднаразовы посуд выкідваць у пакеты для смецця.&lt;br /&gt;Таксама падчас кава-паўзаў будуць арганізаваны гульні, прапанаваны медыя-частка і сацапытанне Фаланстэра. Прымайце актыўны ўдзел.&lt;/p&gt;
+&lt;p&gt;На сценах будуць павешаны лісты аб&amp;#39;яў - на іх можна пакідаць паведамленні любога drupal-складу.&lt;/p&gt;
+&lt;p&gt;Калі ў вас ёсць тэма ці пытанне для абмеркавання падчас блока кружкоў, вы можаце яе/яго пазначыць пад вызначаным колерам на аркушы для кружкоў.&lt;/p&gt;
+&lt;p&gt;Чакаем вас! Да заўтра!&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>146</nid>
+    <title>Стартуем!</title>
+    <body>&lt;p&gt;Прывітанне ўсім!&lt;/p&gt;
+&lt;p&gt;Пачынаецца адкрытая фаза падрыхтоўкі да Drupal-злёту ў Мінску 26 лістапада.&lt;/p&gt;
+&lt;p&gt;Запрашаем да супрацоўніцтва усіх зацікаўленых у развіцці Drupal-супольнасці Беларусі: распрацоўшчыкаў, групы, фірмы і інтэрнэт-актывістаў.&lt;/p&gt;
+&lt;p&gt;Наш афіцыйны twitter-профіль:&lt;br /&gt;
+https://twitter.com/#!/drupalsliot&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>145</nid>
+    <title>Drupal-злёт. Вынікі</title>
+    <body>&lt;p&gt;&lt;strong&gt;Вось і завяршыўся першы Drupal-злёт. Падвядзем вынікі. &lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/drupal-sliot-headline.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/p&gt;
+&lt;p&gt;26 лістапада актывісты з Маладзёжнага аб&amp;#39;яднання &quot;Фаланстэр&quot; сабралі ў Мінску з розных куткоў краіны больш за 70 распрацоўшчыкаў, інтэрнэт-актывістаў, лінгвістаў і іншых творчых асобаў пад дахам аднаго з цэхаў завода Кастрычніцкай Рэвалюцыі. Таксама прысутнічала мноства тых, хто жадаў упершыню пазнаць, што ж такое Drupal і як з ім працаваць.&lt;/p&gt;
+&lt;p&gt;Пачалася падзея з выступу Міхася Волчака. Тэмай яго дакладу быў &lt;a href="http://drupal-sliot.by/sites/default/files/drupal-sliot.by-2011-Michael-Volchek.zip"&gt;агляд стану спраў у беларускай Drupal-супольнасці&lt;/a&gt; і перспектыў, якія дае Злёт розным аўтаномным групам і актывістам.&lt;/p&gt;
+&lt;p&gt;Далей пачаўся майстар-клас. У трох частках гэты трэнінг на працягу дня адкрываў мноства аспектаў зборкі Drupal і напісання модуляў з выкарыстаннем шэрагу тэхналогій. Потым усё ішло па вызначанай праграме. Дакладчыкі максімальна падрыхтаваліся і здолелі сказаць усё, што жадалі. Гледачы задавалі пытанні. Большасць дакладаў даступныя для спампоўкі ў раздзеле &amp;ldquo;Праграма&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;За тыдзень да Злёту выказаў жаданне ўдзельнічаць прадстаўнік з расійскай Drupal-супольнасці, лідар і арганізатар маскоўскай &lt;a href="http://drupalconf.ru/"&gt;Drupal-канферэнцыі&lt;/a&gt; - Арцём Панькоў. На самым мерапрыемстве Арцём зрабіў даклад пра сучасныя сродкі працы прасунутага каманднага распрацоўшчыка. Злёт нечакана набыў фармат міжнароднага.&lt;/p&gt;
+&lt;p&gt;Падчас дакладаў, прэзентацый і ў паўзах, удзельнікі маглі выходзіць у адмысловае месца для сумаўлення каля кава-сектара, дзе знаёміліся і паднімалі хвалюючыя іх тэмы. Таксама былі дошкі аб&amp;#39;яў, дзе кожны мог пакінуць паведамленне іншым наведвальнікам Drupal-злёту.&lt;/p&gt;
+&lt;p&gt;Падчас дакладаў інтэрнэт-актывісты вялі &lt;a href="http://twitter.com/#search?q=%23drupalsliot"&gt;twitter-рэпартаж&lt;/a&gt;, дзе адлюстроўвалі малапрыкметныя, але важныя атмасферныя дэталі Злёту і выкладвалі амаль у прамым эфіры тэкставыя паведамленні і фота з месца падзеі.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/drupal-sliot-headline3.jpg" style="width: 300px; height: 210px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Першы Drupal-злёт меў на мэце сабраць прафесіяналаў вэб-распрацоўкі і пачаткоўцаў для абмену досведам і ведамі.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Лозунгам Злёту мы абралі лаканічны, але яскравы заклік - Спазнай Сістэму! У гэтых словах складаецца асноўны сэнс сённяшняй падзеі. Сістэму разумейце ў шырокім сэнсе гэтага слова, як вам зручна. Сёння мы прапануем спазнаць Drupal,&lt;/em&gt; &amp;ndash; кажа Міхась, каардынатар Злёту. - &lt;em&gt;Форум заўсёды спрыяе навядзенню мастоў сярод актыўных і зацікаўленых удзельнікаў. Ён таксама стымулюе развіццё розных аўтаномных супольнасцяў у Беларусі. Якім ён атрымаўся - ацэньваць удзельнікам.&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/drupal-sliot-headline4.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Падрабязней пра мэты і ідэі мерапрыемства вы можаце &lt;a href="http://drupal-sliot.by/sites/default/files/drupal-sliot.by-2011-idea.pdf"&gt;прачытаць у буклеце&lt;/a&gt;, які арганізатары прапанавалі кожнаму ўдзельніку. Камандзе арганізатараў Злёту цікавыя вашы каментары, справаздачы пра адбыўшуюся падзею. Прагледзець фота з канферэнцыі вы можаце &lt;a href="http://zabej.info/foto/1007"&gt;на сайце супольнасці Забей.&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>141</nid>
+    <title>Drupal-клуб. Первый сезон. Что будет дальше?</title>
+    <body>&lt;p&gt;&lt;strong&gt;Первый сезон Drupal-клуба молодёжной организации Фаланстер закончился. Но активным друпалерам будет, чем заняться.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что же будет дальше?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Клуб продолжит работу в новом формате.&lt;/p&gt;
+&lt;p&gt;Встречи будут проходить по мере накопления вопросов и желания участников делиться знаниями с другими. Время и место будем определять со всеми максимально заинтересованными в продолжении общения.&lt;/p&gt;
+&lt;p&gt;Также у некоторых участников есть желание присоединиться к сообществу перевода Drupal с английского языка на белорусский. Поэтому с февраля начинается подготовка конкурса по стимулированию наибольшего количества людей к переводу Drupal на белорусский язык.&lt;/p&gt;
+&lt;p&gt;Наконец, в межсезон все те, кто просто не успел раньше, смогут включиться в конкретные направления деятельности Фаланстера и изучать эту систему на практике.&lt;/p&gt;
+&lt;p&gt;Говорит Михаил, координатор кружка:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Сегодня важно продолжить поддержку систем с открытым кодом. Совместные усилия дают больший результат, чем кропотливый труд одиночек.&amp;nbsp; И Drupal - это хорошая возможность общаться с интересными людьми. В будущем они могут стать нашими единомышленниками. Мы к этому стремимся.&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Присоединяйтесь к Drupal-клубу сейчас!&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>140</nid>
+    <title>Расписание встреч Drupal-клуба</title>
+    <body>&lt;p&gt;&lt;strong&gt;План работы клуба на период зима-весна 2012:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. Встречи клуба продолжатся по мере накопления вопросов и желания участников делиться знаниями с другими. Время и место будем определять со всеми максимально заинтересованными в продолжении общения.&lt;/p&gt;
+&lt;p&gt;2. Мы держим курс на участие в сообществе перевода Drupal с английского на белорусский язык.&lt;/p&gt;
+&lt;p&gt;Поэтому в течение февраля мы подготовим конкурс по стимулированию мотивации наиболешего количества заинтересованных людей в переводе Drupal на белорусский. Сейчас идёт активный набор в команды!&lt;/p&gt;
+&lt;p&gt;3. Продолжаются работы над сайтом Фаланстера. Работы на сегодня там хватит всем.&lt;/p&gt;
+&lt;p&gt;Дополнительные вопросы можно задать по телефону: +375 29 1274267&lt;br /&gt;&lt;strong&gt;Включайся. Познаем систему вместе!&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>138</nid>
+    <title>Drupal-клуб. Делаем сайт с нуля</title>
+    <body>&lt;p&gt;&lt;span&gt;&lt;span class="full_text"&gt;&lt;strong&gt;Внимание! &lt;/strong&gt;С декабря в Клубе открылась дополнительная секция. Здесь наиболее мотивированные участники занимаются разработкой сайта Фаланстера с нуля, проходя каждый этап разработки: от проектирования до реализации.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span class="full_text"&gt;О времени и месте встреч читать здесь:&lt;/span&gt;&lt;/span&gt; &lt;a href="http://drupal-sliot.by/club" title="http://drupal-sliot.by/club"&gt;http://drupal-sliot.by/club&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>136</nid>
+    <title>Drupal-слёт. Видеоотчет</title>
+    <body>&lt;p&gt;&lt;object height="324px" style="height: 390px; width: 6400px" width="446px"&gt;&lt;param name="movie" value="http://www.youtube.com/v/1mXKW3EbuoI?version=3&amp;feature=player_profilepage" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;param name="allowScriptAccess" value="always" /&gt;&lt;embed allowfullscreen="true" allowscriptaccess="always" height="324px" src="http://www.youtube.com/v/1mXKW3EbuoI?version=3&amp;feature=player_profilepage" type="application/x-shockwave-flash" width="446px"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>135</nid>
+    <title>Что дальше?</title>
+    <body>&lt;p&gt;&lt;strong&gt;Drupal-клуб продолжает встречи на базе Молодёжного объединения &quot;Фаланстер&quot;. В декабре нас ждёт 5 сетов, насыщенных общением и различными сторонами изучения CMF Drupal 7. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Формат клуба немного изменится. Его &lt;a href="http://zabej.info/clubs/drupal" target="_blank"&gt;цели и смысл&lt;/a&gt; останутся прежними, но встречи приобретут более целевой характер...&lt;/p&gt;
+&lt;p&gt;В блоке для новичков мы начинаем разработку реального сайт-проекта с самого нуля и до конечной версии.&amp;nbsp; Проект будет реализовываться на протяжении двух месяцев на Drupal 7 и даст возможность для всех активных участников&amp;nbsp; не только работать с этой CMF, но и получить опыт командной работы над проектом.&lt;/p&gt;
+&lt;p&gt;В блоке для разработчиков мы вначале будем разбирать текущие drupal-проблемы соучастников кружка, а после уже делиться новинками и опытом успешных проектов.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 декабря пройдет девятое занятие.&lt;/strong&gt;&lt;br /&gt;&lt;a href="http://drupal-sliot.by/club" target="_blank"&gt;Время и место&lt;/a&gt; события остаются прежними.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps/ms?msa=0&amp;msid=208822636552609774754.0004b2f874fa40d5df8a8&amp;ie=UTF8&amp;ll=53.899066,27.583083&amp;spn=0.018307,0.014978&amp;t=h&amp;vpsrc=1&amp;output=embed" width="425"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;Просмотреть &lt;a href="http://maps.google.com/maps/ms?msa=0&amp;msid=208822636552609774754.0004b2f874fa40d5df8a8&amp;ie=UTF8&amp;ll=53.899066,27.583083&amp;spn=0.018307,0.014978&amp;t=h&amp;vpsrc=1&amp;source=embed" style="color: rgb(0, 0, 255); text-align: left;"&gt;Drupal Клуб&lt;/a&gt; на карте большего размера&lt;/small&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>133</nid>
+    <title>Drupal-слёт. Итоги</title>
+    <body>&lt;p&gt;&lt;strong&gt;Вот и завершился первый Drupal-слёт. Подведём итоги.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="../../sites/default/files/custom_images/ds1/drupal-sliot-headline.jpg" style="width: 400px; height: 266px;" /&gt;&lt;/p&gt;
+&lt;p&gt;26 ноября активисты из Молодёжного объединения &lt;a href="http://drupal-sliot.by/team"&gt;&quot;Фаланстер&quot;&lt;/a&gt; собрали в Минске из разных уголков страны более 70 разработчиков, интернет-активистов, лингвистов и других творческих личностей под крышей одного из цехов завода Октябрьской Революции. Также присутстовало множество тех, кто хотел впервые узнать, что же такое Drupal и как с ним работать...&lt;/p&gt;
+&lt;p&gt;Началось событие с выступления Михаила Волчека. Темой его доклада был &lt;a href="http://drupal-sliot.by/sites/default/files/drupal-sliot.by-2011-Michael-Volchek.zip"&gt;обзор состояния дел в белорусском Drupal-сообществе и перспектив, которые даёт Слёт&lt;/a&gt; различным автономным группам и активистам.&lt;/p&gt;
+&lt;p&gt;Далее начался мастер-класс. В трёх частях этот тренинг на протяжении дня раскрывал множество аспектов сборки Drupal и написания модулей с использованием ряда технологий. Потом все шло по намеченной программе. Докладчики подготовились максимально и смогли сказать все, что&amp;nbsp; хотели. Зрители задавали вопросы. Большинство докладов доступны для скачивания в разделе &lt;a href="http://drupal-sliot.by/program"&gt;&amp;ldquo;Программа&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;За неделю до Слёта выразил желание участвовать представитель из российского Drupal-сообщества, лидер и организатор московской &lt;a href="http://drupalconf.ru/"&gt;Drupal-конференции&lt;/a&gt; - Артём Паньков. На самом мероприятии Артём сделал доклад про современные средства работы продвинутого командного разработчика. Слёт неожиданно приобрёл формат международного.&lt;/p&gt;
+&lt;p&gt;Во время докладов, презентаций и в паузах, участники могли выходить в специальное место общения возле кофе-сектора, где знакомились и поднимали волнующие их темы. Также были доски объявлений, где всякий мог оставить сообщение другим посетителям Drupal-слёта.&lt;/p&gt;
+&lt;p&gt;Во время докладов интернет-активисты вели &lt;a href="http://twitter.com/#search?q=%23drupalsliot" target="_blank"&gt;twitter-репортаж&lt;/a&gt;, где отражали малозаметные, но важные атмосферные детали Слёта и выкладывали почти в прямом эфире текстовые сообщения и фото с места события.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/drupal-sliot-headline3.jpg" style="width: 400px; height: 280px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Первый Drupal-слёт преследовал цель собрать профессионалов веб-разработки и начинающих для обмена опытом и знаниями.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Лозунгом Слёта мы выбрали лаконичный, но яркий клич - Познай Систему! В этих словах заключается основной смысл сегодняшнего события. Систему понимайте в широком смысле этого слова, как вам удобно. Сегодня мы предлагаем познать Drupal,&lt;/em&gt; &amp;ndash; говорит Михаил, координатор Слёта.&lt;em&gt; - Форум всегда способствует наведению мостов среди активных и заинтересованных участников. Он также стимулирует развитие различных автономных сообществ в Беларуси. Каким он получился - оценивать участникам.&quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/drupal-sliot-headline4.jpg" style="width: 400px; height: 267px;" /&gt;&lt;/p&gt;
+&lt;p&gt;Подробнее о целях и идеи мероприятия вы можете &lt;a href="http://drupal-sliot.by/sites/default/files/drupal-sliot.by-2011-idea.pdf" target="_blank"&gt;прочесть в буклете&lt;/a&gt;, который организаторы предложили каждому участнику.&lt;/p&gt;
+&lt;p&gt;Команде организаторов Слёта интересны ваши комментарии, отчёты о проделанном событии.&lt;/p&gt;
+&lt;p&gt;Просмотреть фото с конференции вы можете на &lt;a href="http://zabej.info/foto/1007"&gt;сайте сообщества Забей.&lt;/a&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>132</nid>
+    <title>Drupal Cлёт. Накануне</title>
+    <body>&lt;p&gt;&lt;img alt="" src="/sites/default/files/custom_images/ds1/456033930.jpg" style="width: 400px; height: 299px;" /&gt;Внимание! Завтра! 26 ноября в 9:30 начало Drupal-слёта.&lt;/p&gt;
+&lt;p&gt;Последние приготовления и информация по логистике ниже. А пока объявление:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Нужны волонтёры. Сегодня в 19:00 все, кто ещё хочет внести вклад в подготовку Слёта, приходите &lt;a href="http://drupal-sliot.by/way" target="_blank"&gt;на место&lt;/a&gt;. Контактный телефон: +375 29 9212921&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;В &lt;a href="http://drupal-sliot.by/program" target="_blank"&gt;программе слёта&lt;/a&gt; вы можете ознакомится с распорядком дня.&lt;br /&gt;День будет разделен на 2 половины: до обеда и после. Далее несколько организационных моментов. Мы будем находиться на территории завода, где проход возможен по пропускам, внешняя дверь в заборе будет закрыта. Поэтому на обед выходить мы будем организованно и также возвращаться.&lt;/p&gt;
+&lt;p&gt;Туалет&amp;nbsp; будет находиться на первом этаже. Его можно найти двигаясь по стрелкам. Вообще, почти всё можно будет найти двигаясь по стрелкам.&lt;br /&gt;Место для курения на улице будет обозначено специальным знаком.&lt;br /&gt;Если по какой-то причине доклад вам покажется неинтересным, вы можете тихо пообщаться на красном диване.&lt;br /&gt;Во время кофе-брейков мы сможете выпить чашку чая/кофе и подкрепиться печеньем/вафелями. Горячая вода будет в кулере под красным краником и в чайниках. Все, кто готов принести с собой печенье, вафли или конфеты к чаю - приносите! Просьба использованную одноразовую посуду выбрасывать в пакеты для мусора.&lt;br /&gt;Также во время кофе-пауз будет организованы игры, предложены медиа-часть и соцопрос Фаланстера. Принимайте активное участие.&lt;/p&gt;
+&lt;p&gt;На стенах будут повешены листы объявлений - на них можно оставлять сообщения любого drupal-содержания.&lt;/p&gt;
+&lt;p&gt;Если у вас есть тема или вопрос для обсуждения во время блока кружков, вы можете ее обозначить под определенным цветом на листе для кружков.&lt;/p&gt;
+&lt;p&gt;Ждём вас! До завтра!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>129</nid>
+    <title>Программа Слёта</title>
+    <body>&lt;p&gt;День Слёта всё ближе и ближе. На сегодня подано более 90 заявок, есть 9 докладов, мастер-класс (в трёх частях). Ниже вы можете ознакомиться с программой. Она не статична и может немного измениться.&lt;/p&gt;
+&lt;p&gt;Мы хотим, чтобы первый &lt;strong&gt;Drupal-слёт&lt;/strong&gt; прошёл с максимальным общением всех участников. И предусмотрели блок тематических кружков, где любой желающий сможет поднять волнующий вопрос и обсудить его с другими заинтересованными участниками.&lt;/p&gt;
+&lt;p&gt;В ближайшее время также раcскажем про моменты логистики Слёта, т.к. место проведения будет не совсем обычное.&lt;/p&gt;
+&lt;p&gt;Итак, программа:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9:30 - 9:55&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Регистрация участников&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br /&gt;&lt;strong&gt;9:55 - 10:10&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Приветствие. Вступительное слово. Презентация спонсоров. Михаил Волчек&lt;br /&gt;&lt;strong&gt;10:15 - 11:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Мастер-класс. Часть 1:&lt;/strong&gt; Развёртывание и конструирование простого сайта на Drupal (уровень: начинающий), Денис Рудой&lt;br /&gt;&lt;strong&gt;11:00 - 11:25&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад:&lt;/strong&gt; Drupal и поисковая оптимизация (уровень: начинающий и SEO-специалист), Алексей Мисюро&lt;br /&gt;&lt;strong&gt;11:25 - 11:40&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Кофе-пауза и общение + заполнение блока кружков (BoF)&lt;br /&gt;&lt;strong&gt;11:40 - 12:15&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад:&lt;/strong&gt; Темизация - best practices, workflow, tips &amp; tricks (уровень: разработчик), Глеб Коммуников&lt;br /&gt;&lt;strong&gt;12:15 - 12:45&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад: &lt;/strong&gt;Разработка бизнес-решений (Enterprise) (уровень: разработчик), Глеб Бордовский&lt;br /&gt;&lt;strong&gt;12:45 - 13:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад: &lt;/strong&gt;Что нас ждет в новой версии Drupal 8? (уровень: все + сообщество), Артур Баранок, Витебск&lt;br /&gt;&lt;strong&gt;13:00 - 13:40&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp; Обед и общение (организованный выход/вход) + заполнение блока кружков BoF&lt;br /&gt;&lt;strong&gt;13:40 - 14:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Мастер-класс. Часть 2:&lt;/strong&gt; Написание модуля с нуля (использование CCK и views). Для сайта с первой части (уровень: разработчик), Денис Рудой&lt;br /&gt;&lt;strong&gt;14:30 - 15:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад: &lt;/strong&gt;Мультиязычнось в Drupal (i18n+), (уровень: начинающий), Андрей Циркун&lt;br /&gt;&lt;strong&gt;15:00 - 15:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад:&lt;/strong&gt; Беларускі пераклад Drupal. Ідэі і практыкі (+BoF), (уровень: все + сообщество), Игорь Кандыба&lt;br /&gt;&lt;strong&gt;15:30 - 15:40&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&amp;nbsp; Кофе-пауза и общение&lt;br /&gt;&lt;strong&gt;15:45 - 16:25&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt; Тематические кружки (BoF): Темы определяются участниками на доске объявлений.&lt;br /&gt;&lt;strong&gt;16:25 - 16:55&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад: &lt;/strong&gt;Инструментарий продвинутого командного разработчика (уровень: разработчик), Артём Паньков, Москва&lt;br /&gt;&lt;strong&gt;16:55 - 17:30&amp;nbsp;&amp;nbsp;&amp;nbsp; Доклад:&lt;/strong&gt; Процесс разработки на Drupal с использование Features (уровень: разработчик), Виталий Иоскевич&lt;br /&gt;&lt;strong&gt;17:30 - 18:00&amp;nbsp;&amp;nbsp;&amp;nbsp; Мастер-класс. Часть 3:&lt;/strong&gt; Последние настройки сайта и получение live-версии (уровень: все), Денис Рудой&lt;br /&gt;&lt;strong&gt;18:00 - 18:10&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Заключительная часть. Михаил Волчек&lt;br /&gt;&lt;strong&gt;18:10 - 18:40&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Неформальное общение&lt;/p&gt;
+&lt;p&gt;*Свободный слот можно заполнить мини-докладом или докладом по Drupal-технологиям. Пишите, у кого есть, что сказать!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>127</nid>
+    <title>Встреча волонтеров</title>
+    <body>&lt;p&gt;Внимание!&lt;/p&gt;
+&lt;p&gt;В воскресенье, 13 ноября,&amp;nbsp; в 18.00 состоится встреча волонтеров и всех желающих помочь в организации и проведении Drupal-слёта. Обудим основные задачи и ваше участие в их решении.&lt;/p&gt;
+&lt;p&gt;Встречаемся на базе Фаланстера по адресу: г.Минск, ул. Захарова, 77 а, пом. 1Н, ком. 2б.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="341" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.com/maps/ms?hl=ru&amp;vpsrc=0&amp;ctz=-120&amp;ie=UTF8&amp;msa=0&amp;msid=213235740305031919762.0004b12a03d0cb72d68ea&amp;t=h&amp;z=17&amp;output=embed" width="414"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Контактный номер: +375 29 9212921&lt;/p&gt;
+&lt;p&gt;Приходите и приводите друзей!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>126</nid>
+    <title>Широким шагом наВстречу</title>
+    <body>&lt;p style="text-align: right;"&gt;&lt;em&gt;Ничто так не&amp;nbsp; объединяет, как общее дело&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;26 ноября уже не за горами!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Осталось всего две недели до Drupal-слёта. Подготовка в самом разгаре. На мероприятие уже зарегистрировалось более 50 человек.&amp;nbsp; Программа составляется и в ближайшее время будет представлена на сайте &lt;a href="http://drupal-sliot.by/program"&gt;в этом разделе&lt;/a&gt;. Сейчас самое время проявить себя и взять активную роль: подготовить доклад, презентацию, рассказать о мероприятии своим друзьям и знакомым. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://drupal-sliot.by/banners"&gt;Баннеры&lt;/a&gt; помогают лаконично и ярко представить Drupal-слёт. Если у вас есть свой блог, IT-сайт, информационный ресурс &amp;ndash; разместите один из наших баннеров у себя. Таким образом, больше людей сможет узнать о мероприятии. Оно станет еще насыщенней и интереснее.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вместе движемся к намеченной цели - Слёту и Вместе мы сможем сделать больше!&lt;/strong&gt;&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>118</nid>
+    <title>Формируем программу вместе</title>
+    <body>&lt;p&gt;&lt;strong&gt;На сегодня начали поступать предложения по докладам и мастер-классам. Это хорошо. Значит Drupal-разработчикам есть что сказать. Однако, нет предела совершенству. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мы призываем раскрепощать инициативу всем, кто желает поделиться знаниями по CMF Drupal. Вы можете быть не только гуру в Drupal-сообществе, но и теми, кто просто хочет рассказать о своем проекте, сделанном на Drupal, созданном модуле, нарисованной теме или оптимизации проекта.&lt;/p&gt;
+&lt;p&gt;На Слёте мы будем придерживаться принципа максимального участия всех, кому интересен формат. Поэтому полностью программу вы сможете увидеть лишь на самом мероприятии. Сейчас же мы вместе можем определить набор ключевых тем.&lt;/p&gt;
+&lt;p&gt;Предложения по докладам высылайте &lt;a href="http://drupal-sliot.by/kontakt"&gt;сюда&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Участвуйте!&lt;/p&gt;</body>
+  </node>
+  <node>
+    <nid>108</nid>
+    <title>Стартуем!</title>
+    <body>&lt;p&gt;Привет всем!&lt;/p&gt;
+&lt;p&gt;Начинается открытая фаза подготовки к Drupal-слёту в Минске 26 ноября.&lt;/p&gt;
+&lt;p&gt;Приглашаем к сотрудничеству всех заинтересованных разработчиков, группы, фирмы и интернет-активистов в развитии Drupal-сообщества Беларуси.&lt;/p&gt;
+&lt;p&gt;Наш официальный twitter-профиль:&lt;br /&gt;
+https://twitter.com/#!/drupalsliot&lt;/p&gt;</body>
+  </node>
+</xml>
