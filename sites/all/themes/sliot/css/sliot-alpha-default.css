@@ -301,6 +301,7 @@ aside#region-sidebar-first {
 #vote_speech_button {
   float: right;
   margin-right: 25px;
+  margin-bottom: 20px;
 }
 
 #vote_project_button a,
@@ -498,7 +499,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-field-image img {
   float: left;  
-  margin: 0px 0px 30px 30px;
+  margin: 0px 20px 30px 30px;
 }
 
 #block-views-front-reg-block .views-row .field-content {
