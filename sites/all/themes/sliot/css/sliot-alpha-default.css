@@ -452,6 +452,15 @@ aside#region-sidebar-first {
   text-decoration: underline;
 } 
 
+#block-block-3 {
+  margin-top: 30px;
+}
+
+#block-block-3 h2.block-title {
+  color: #5a9ee0;
+  margin-left: 30px;
+}
+
 /* @end anonimus user */
 
 /* register user */
