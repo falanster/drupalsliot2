@@ -112,6 +112,10 @@ a:hover {
   margin-left: 40px;
 }
 
+#block-block-5 .content p a:hover {
+  opacity: 0.7;
+}
+
 #block-block-6 {
   float: right;
   opacity: 0.5;
@@ -255,7 +259,7 @@ a:hover {
 /* Right sidebar*/
 
 aside#region-sidebar-first {
-    float: right;
+  float: right;
 }
 
 #block-views-sponsor-block-1 h2.block-title {
@@ -265,6 +269,41 @@ aside#region-sidebar-first {
 #block-views-sponsor-block-1 .views-field-field-image img {
   margin-left: 45px;
   margin-bottom: 40px;
+}
+
+.block-views .view-voting {
+  background: #3f3c40; 
+  margin-top: 30px;
+}
+
+.block-views .view-voting .view-content {
+  padding: 25px;
+}
+
+.block-views .view-voting .view-content .views-field-title {
+  color: #dedede;
+  font-size: 20px;
+  line-height: 1;  
+}
+
+.block-views .view-voting .view-content .fivestar-summary {
+  margin-bottom: 20px;
+}
+
+.block-views .view-voting .view-content .fivestar-summary span {
+  font-size: 18px;
+  color: #dedede;
+  margin-bottom: 20px;
+}
+
+#vote_project_button {
+  float: right;
+  margin-right: 25px;
+}
+
+#vote_project_button a {
+  color: #cad96b;
+  font-size: 32px;
 }
 
 /* @end right sidebar */
@@ -442,11 +481,11 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-field-image img {
   float: left;  
-  margin: 10px 0 30px 30px;
+  margin: 0px 0px 30px 30px;
 }
 
 #block-views-front-reg-block .views-row .field-content {
-  margin: 10px 30px 0px;
+  margin: 10px 30px 0px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-body p,
