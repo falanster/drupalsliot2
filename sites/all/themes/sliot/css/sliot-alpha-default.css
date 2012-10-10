@@ -651,8 +651,9 @@ aside#region-sidebar-first {
   margin-left: 135px;
 }
 
-#block-block-21 {
-  
+#block-block-21 img {
+  margin-top: -100px;
+  margin-left: 30px;
 }
 
 /* @end zhuki blocks */
