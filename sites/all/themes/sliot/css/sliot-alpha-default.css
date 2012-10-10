@@ -257,8 +257,18 @@ h2.block-title {
 
 .block-logintoboggan {
   clear: left;
+  float: right;
+  margin-right: 92px; 
 }
 
+.block-logintoboggan a {
+  color: #dedede;
+  font-size: 16px;
+}
+
+.block-logintoboggan a:hover {
+  text-decoration: underline;
+}
 
 /* @end user login */
 
@@ -373,7 +383,7 @@ aside#region-sidebar-first {
 /* @end footer menu */
 
 #block-views-sponsor-block-3 {
-  padding-bottom: 145px;
+  padding-bottom: 80px;
 }
 
 #block-views-sponsor-block-3 h2.block-title {
@@ -652,7 +662,13 @@ aside#region-sidebar-first {
 }
 
 #block-block-20 {
-  margin-left: -30px;
+  position: absolute;
+  z-index: 99;
+  float: left;
+  width: 60px;
+  margin-left: -140px;
+  margin-top: 620px;
+  
 }
 
 #block-block-20 img {
