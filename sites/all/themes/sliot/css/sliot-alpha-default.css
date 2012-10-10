@@ -333,7 +333,7 @@ aside#region-sidebar-first {
 #block-views-sponsor-block-2 {
   background: #f3f3f3;
   margin-top: 30px;
-  margin-bottom: 90px;
+/*  margin-bottom: 90px; */
 }
 
 #block-views-sponsor-block-2 h2.block-title {
@@ -652,12 +652,11 @@ aside#region-sidebar-first {
 }
 
 #block-block-21 {
-  position: relative;
-  z-index: 999;
+  margin-bottom: 90px;
 }
 
 #block-block-21 img {
-  margin-top: -100px;
+  margin-top: -5px;
   margin-left: 30px;
 }
 
