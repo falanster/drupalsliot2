@@ -683,5 +683,22 @@ aside#region-sidebar-first {
   margin-top: -6px;
   margin-left: 30px;
 }
-
 /* @end zhuki blocks */
+
+/*user list page*/
+.page-attendees {
+  background: red;
+}
+
+.page-attendees .view-id-users.view-id-users {
+  float: left;
+  width: 100%;
+}
+
+.page-attendees .view-id-users .views-row {
+  float: left;
+  width: 115px;
+  background: red;
+}
+/* @end user list page*/
+
