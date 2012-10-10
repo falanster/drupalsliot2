@@ -30,21 +30,6 @@ h2.block-title {
 }
 
 
-/*
-p {
-  color: #0e0e0e;
-  font-size: 15px;
-}
-
-a {
-  text-decoration: none;
-}
- 
-a:hover {
-  text-decoration: underline;
-} */
-
-
 /* Main menu */
 
 #nice-menu-1 {
@@ -268,6 +253,11 @@ a:hover {
   display: none;
 }
 
+.block-logintoboggan {
+  clear: left;
+}
+
+
 /* @end user login */
 
 /* Right sidebar*/
@@ -475,6 +465,7 @@ aside#region-sidebar-first {
 #block-block-3 h2.block-title {
   color: #5a9ee0;
   margin-left: 30px;
+  margin-top: 15px;
 }
 
 #registration_block_main_button {
@@ -645,3 +636,17 @@ aside#region-sidebar-first {
 
 
 /* @end inner page */
+
+/* Zhuki blocks */
+
+#block-block-19 {
+  width: 60px;
+  height: 40px;
+}
+
+#block-block-19 img {
+  float: rigth;
+  margin-top: 15px;
+}
+
+/* @end zhuki blocks */
