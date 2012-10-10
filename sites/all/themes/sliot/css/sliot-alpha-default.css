@@ -615,7 +615,7 @@ aside#region-sidebar-first {
 .page-node #region-content .field-items div,
 .page-node #region-content .field-items ol,
 .page-node #region-content .field-items ul {
-  front-size: 15px;
+  font-size: 15px;
   color: #0e0e0e;
 }
 
