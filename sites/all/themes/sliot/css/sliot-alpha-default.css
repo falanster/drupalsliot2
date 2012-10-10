@@ -461,6 +461,10 @@ aside#region-sidebar-first {
   margin-left: 30px;
 }
 
+#registration_block_main_button {
+  margin: 40px 110px 55px 110px;
+}
+
 /* @end anonimus user */
 
 /* register user */
@@ -485,6 +489,11 @@ aside#region-sidebar-first {
 
 #top_voting_block_text a img {
   margin: 15px 20px 40px 20px;
+}
+
+#top_voting_block_text a:hover,
+ {
+  opacity: 0.7;
 }
 
 #block-views-front-reg-block .views-row .views-field-title {
