@@ -223,12 +223,14 @@ h2.block-title {
   border: none;
 }
 
-#user-login-form #edit-actions {
+#user-login-form #edit-actions,
+#edit-actions--2 {
   float: right;
   margin: -40px -18px 10px 30px;
 }
 
-#user-login-form #edit-actions input {
+#user-login-form #edit-actions input,
+#edit-actions--2 input {
   background: none;
   border: none;
   color: #dddddd;
@@ -647,6 +649,10 @@ aside#region-sidebar-first {
 #block-block-19 img {
   margin-top: 13px;
   margin-left: 135px;
+}
+
+#block-block-21 {
+  
 }
 
 /* @end zhuki blocks */
