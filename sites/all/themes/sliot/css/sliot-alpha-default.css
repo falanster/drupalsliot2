@@ -257,8 +257,17 @@ h2.block-title {
 
 .block-logintoboggan {
   clear: left;
+   
 }
 
+.block-logintoboggan a {
+  color: #dedede;
+  font-size: 16px;
+}
+
+.block-logintoboggan a:hover {
+  text-decoration: underline;
+}
 
 /* @end user login */
 
