@@ -3,7 +3,7 @@
 
 /*User & Webform Pages*/
 body.page-user #region-content .region-content-inner, body.node-type-webform #region-content .region-content-inner {
-		padding: 10px 30px;
+		padding: 30px;
 		background-color: #f3f3f3;
 	}
 
@@ -78,6 +78,9 @@ dt {
 	
 	body.node-type-webform #region-content h1#page-title {
 		color: #089fe3;
+		font-size: 45px;
+		margin: 0;
+		padding: 0;
 	}
 
 	body.node-type-webform #region-content .form-item label {
