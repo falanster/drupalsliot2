@@ -261,7 +261,8 @@ h2.block-title {
   margin-right: 92px; 
 }
 
-.block-logintoboggan a {
+.block-logintoboggan a,
+.block-logintoboggan .username {
   color: #dedede;
   font-size: 16px;
 }
