@@ -141,12 +141,6 @@ a:hover {
   padding-bottom: 10px;
 }
 
-#block-views-tweets-block .view-tweets .view-header a {
-  font-size: 16px;
-  margin-top: -40px;
-  text-decoration: none;
-}
-
 .view-tweets .views-field-screen-name,
 .view-tweets .views-field-text {
   color: #dedede;
@@ -174,6 +168,10 @@ a:hover {
 .view-tweets .views-row {
   font-size: 0;
   margin-bottom: 15px;
+}
+
+.view-tweets .view-header .account {
+  float: right;
 }
 
 /* @end twitter block */
