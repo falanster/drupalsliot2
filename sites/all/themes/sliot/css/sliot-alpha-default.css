@@ -257,7 +257,8 @@ h2.block-title {
 
 .block-logintoboggan {
   clear: left;
-   
+  float: right;
+  margin-right: 92px; 
 }
 
 .block-logintoboggan a {
