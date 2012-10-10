@@ -160,6 +160,7 @@ a:hover {
 .view-tweets .views-field-text {
   font-size: 12px; 
   float: left;
+  padding-bottom: 10px;
 }
 
 .view-tweets .views-field-text span a {
