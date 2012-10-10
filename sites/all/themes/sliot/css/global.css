@@ -20,6 +20,7 @@ dt {
 	body.page-user-register #region-content h1#page-title {
 		color: #089fe3;
 		display: block !important;
+		font-size: 45px;
 	}
 
 	#edit-profile-main, #edit-profile-registration span.fieldset-legend {
