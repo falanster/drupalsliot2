@@ -705,7 +705,8 @@ aside#region-sidebar-first {
 
 .page-attendees .view-id-users .views-row {
   float: left;
-  width: 115px;	
+  width: 115px;
+  background: red;
 }
 /*user list page*/
 
