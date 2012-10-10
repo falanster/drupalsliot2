@@ -30,21 +30,6 @@ h2.block-title {
 }
 
 
-/*
-p {
-  color: #0e0e0e;
-  font-size: 15px;
-}
-
-a {
-  text-decoration: none;
-}
- 
-a:hover {
-  text-decoration: underline;
-} */
-
-
 /* Main menu */
 
 #nice-menu-1 {
@@ -267,6 +252,11 @@ a:hover {
 #user-login-form .item-list .last {
   display: none;
 }
+
+.block-logintoboggan {
+  clear: left;
+}
+
 
 /* @end user login */
 
@@ -652,6 +642,11 @@ aside#region-sidebar-first {
 #block-block-19 {
   width: 60px;
   height: 40px;
+}
+
+#block-block-19 img {
+  float: rigth;
+  margin-top: 15px;
 }
 
 /* @end zhuki blocks */
