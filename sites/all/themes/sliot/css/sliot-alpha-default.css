@@ -699,6 +699,10 @@ aside#region-sidebar-first {
 
 /*user list page*/
 .page-attendees .view-id-users {
+  background: red;
+}
+
+.page-attendees .view-id-users.view-id-users {
   float: left;
   width: 100%;
 }
