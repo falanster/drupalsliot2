@@ -159,11 +159,16 @@ a:hover {
 
 .view-tweets .views-field-text {
   font-size: 12px; 
-  clear: left;
+  float: left;
 }
 
 .view-tweets .views-field-text span a {
   text-decoration: none;
+  color: #5a9ee0;
+}
+
+.view-tweets .views-field-text span a:hover {
+  text-decoration: underline;
 }
 
 .view-tweets .views-row {
