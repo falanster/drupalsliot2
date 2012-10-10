@@ -652,7 +652,13 @@ aside#region-sidebar-first {
 }
 
 #block-block-20 {
-  margin-left: -30px;
+  position: absolute;
+  z-index: 99;
+  float: left;
+  width: 60px;
+  margin-left: -140px;
+  margin-top: 620px;
+  
 }
 
 #block-block-20 img {
