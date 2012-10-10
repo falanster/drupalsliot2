@@ -77,6 +77,9 @@ dt {
 		display: none;
 	}
 
+	div.form-item div.password-suggestions {
+		padding-left: 20px;
+	}
 
 	/*@end login page*/
 
