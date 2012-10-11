@@ -8,12 +8,21 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
-#section-content {
-  background: url(../images/nadpisi_stena_2.png) no-repeat;
+.not-logged-in #zone-content-wrapper {
+  background: url(../images/nadpisi_stena_1.png) no-repeat;
+  overflow: visible;
+  min-height: 1310px;
+  position: relative;
+  z-index: 2;
 }
 
-.not-logged-in .page {
-  
+.not-logged-in #section-footer {
+  position: absolute;
+  z-index: 999;
+}
+
+.logged-in  {
+  background: url(../images/nadpisi_stena_2.png) no-repeat;
 }
 
 #zone-branding-wrapper,
@@ -352,7 +361,8 @@ aside#region-sidebar-first {
 #block-views-sponsor-block-2 {
   background: #f3f3f3;
   margin-top: 30px;
-/*  margin-bottom: 90px; */
+  float: left;
+  width: 960px;
 }
 
 #block-views-sponsor-block-2 h2.block-title {
