@@ -3,7 +3,7 @@
 
 /*User & Webform Pages*/
 body.page-user #region-content .region-content-inner, body.node-type-webform #region-content .region-content-inner {
-		padding: 10px 30px;
+		padding: 10px 30px 30px 30px;
 		background-color: #f3f3f3;
 	}
 
@@ -55,6 +55,10 @@ dt {
 		display: none;
 	}
 
+	label[for=edit-profile-registration-field-other-und-0-value] {
+		font-weight: normal;
+	}
+
 	body.page-user-register #region-content .form-item-profile-registration-field-other-und-0-value {
 		background-color: #fff;
 		position: relative;
@@ -69,7 +73,18 @@ dt {
 */
 	body.page-user-register #region-content #edit-submit {
 		float: right;
+		width: 164px;
+		height: 70px;
+		background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
+		border: none;
+		text-indent: -1000em;
 	}
+
+	body.page-user-register #region-content #edit-submit:hover {
+		opacity: 0.7;
+	}
+
+
 	/* @end registration page*/
 
 	/*Login page*/
@@ -77,6 +92,9 @@ dt {
 		display: none;
 	}
 
+	div.form-item div.password-suggestions {
+		padding-left: 20px;
+	}
 
 	/*@end login page*/
 
@@ -100,7 +118,23 @@ dt {
 	}
 	
 	body.node-type-webform #region-content #edit-submit {
+		width: 164px;
+		height: 70px;
 		float: right;
+		background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
+		border: none;
+		text-indent: -1000em;
+	}
+	
+	body.node-type-webform #region-content #node-webform-13 #edit-submit, body.node-type-webform #region-content #node-webform-19 #edit-submit, body.node-type-webform #region-content #node-webform-18 #edit-submit {
+		width: 154px;
+		height: 74px;
+		background: url("/sites/default/files/images_stpage/kn_dobavit.png") no-repeat center top;
+	
+	}
+
+	body.node-type-webform #region-content #edit-submit:hover {
+		opacity: 0.7;
 	}
 
 	/*@end Webform pages*/
