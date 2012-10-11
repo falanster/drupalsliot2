@@ -8,8 +8,12 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.not-logged-in #section-content {
+  background: url(../images_stpage/nadpisi_stena_1.png) no-repeat;
+}
+
 .not-logged-in .page {
-  background: url(../images_stpage/stena_nadpisi_1.png)
+  
 }
 
 #zone-branding-wrapper,
