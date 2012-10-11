@@ -460,7 +460,8 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block-2 {
-  margin-right: 20px;
+  margin-left: 20px;
+  float: right;
 }
 
 #block-views-front-reg-block-1 h2.block-title,
