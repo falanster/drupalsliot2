@@ -10,18 +10,9 @@ body {
 
 .not-logged-in #zone-content-wrapper {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
-  overflow: visible;
-  min-height: 1310px;
-  position: relative;
-  z-index: 2;
 }
 
-.not-logged-in #section-footer {
-  position: absolute;
-  z-index: 999;
-}
-
-.logged-in  {
+.logged-in  #section-footer {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
 }
 
