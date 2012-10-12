@@ -371,7 +371,7 @@ aside#region-sidebar-first {
 }
 
 #block-views-sponsor-block-2  .views-field-field-image img,
-.view-sponsor .views-field-field-image img {
+#block-system-main .views-field-field-image img {
   float: left;
   margin: 10px 8px 20px 32px; 
 }
@@ -729,6 +729,5 @@ aside#region-sidebar-first {
 
 /* Sponsors page */
 
-.
 
 /* @end sponsors page */
