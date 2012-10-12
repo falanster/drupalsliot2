@@ -617,15 +617,18 @@ aside#region-sidebar-first {
 
 /* Inner page */
 
-.page-node #region-content {
+.page-node #region-content,
+.page-sponsors #region-content  {
   margin-top: 30px;
 }
 
-.page-node #region-content .region-content-inner {
+.page-node #region-content .region-content-inner,
+.page-sponsors #region-content .region-content-inner {
   background: #f3f3f3;  
 }
 
-.page-node #region-content h1#page-title {
+.page-node #region-content h1#page-title,
+.page-sponsors #region-content h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
   margin-left: 30px;
@@ -713,3 +716,8 @@ aside#region-sidebar-first {
 }
 /* @end user list page*/
 
+/* Sponsors page */
+
+.
+
+/* @end sponsors page */
