@@ -729,5 +729,8 @@ aside#region-sidebar-first {
 
 /* Sponsors page */
 
+.page-sponsors .block-sponsor-block-2 {
+  margin-bottom: 40px;
+}
 
 /* @end sponsors page */
