@@ -8,12 +8,20 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.not-logged-in #section-content {
+.page-frontpage #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
 }
 
-.logged-in  #section-content {
+.node-type-static-page  #section-content,
+.page-speeches #section-content,
+.page-projects #section-content,
+.page-codesprint-modules #section-content,
+.page-sponsors #section-content{
   background: url(../images/nadpisi_stena_2.png) no-repeat;
+}
+
+.node-type-webform #section-content {
+  background: url(../images/nadpisi_stena_3.png) no-repeat;
 }
 
 #zone-branding-wrapper,
