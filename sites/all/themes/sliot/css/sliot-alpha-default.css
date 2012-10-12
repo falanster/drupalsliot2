@@ -8,11 +8,11 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.not-logged-in #zone-content-wrapper {
+.not-logged-in #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
 }
 
-.logged-in  #zone-content-wrapper {
+.logged-in  #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
 }
 
