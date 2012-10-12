@@ -12,7 +12,8 @@ body {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
 }
 
-.node-type-static-page  #section-content,
+.node-type-static-page #section-content,
+.node-type-news #section-content,
 .page-speeches #section-content,
 .page-projects #section-content,
 .page-codesprint-modules #section-content,
