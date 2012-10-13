@@ -808,7 +808,7 @@ aside#region-sidebar-first {
   font-size: 15px;
   line-height: 20px;
   float: left;
-  margin: 20px 0 0px;
+  margin: 20px 0 20px;
   color: #0e0e0e;
   font-family: Arial, Tahoma;  
   
@@ -833,12 +833,25 @@ aside#region-sidebar-first {
 
 .page-speeches #fivestar-custom-widget {
   margin: 15px 0;
-  float: left; 
+  float: left;
+  clear: left;
 }
 .page-speeches .views-field .views-label {
   float: left;
   font-size: 20px;
   color: #000;
+}
+
+.page-speeches .add_speech_button a {
+  background: "/sites/default/files/images_stpage/dobavit_doclad.png" no-repeat;
+  width: 155px;
+  height: 77px;  
+}
+.page-speeches .add_speech_button {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 20px;
 }
 
 
