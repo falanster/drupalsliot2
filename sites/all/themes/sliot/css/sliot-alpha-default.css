@@ -779,6 +779,7 @@ aside#region-sidebar-first {
   float: left;
   width: 620px;
   background: none repeat scroll 0 0 #F3F3F3;
+  margin: 30px 0 0 0;
 }
 
 
@@ -786,15 +787,43 @@ aside#region-sidebar-first {
 .page-speeches .ui-accordion-content {
   float: left;
   width: 576px;
-  margin: 22px;  
-}
-
-.page-speeches {
   
 }
 
+.page-speeches .ui-accordion-header {
+  margin: 22px 22px 0 22px;
+}
+.page-speeches .ui-accordion-content {
+  margin: 0 22px 22px 22px;
+  padding: 0;
+}
+.page-speeches .views-row {
+  padding: 15px 20px;
+  width: 546px;
+}
 
-.page-speeches {
+.page-speeches .views-row .field-content {
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  margin: 20px 0 0px;
+  color: #0e0e0e;
+  
+}
+
+.page-speeches div.fivestar-widget-static .star {
+  height: 19px;
+}
+
+.page-speeches .ui-accordion-header a {
+  font-size: 30px;
+  color: #161616;
+  
+}
+
+.page-speeches #fivestar-custom-widget {
+  margin: 15px 0;
+  float: left;
   
 }
 
