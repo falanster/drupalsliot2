@@ -671,7 +671,9 @@ aside#region-sidebar-first {
 .page-node #region-content h1#page-title,
 .page-sponsors #region-content h1#page-title,
 .page-attendees h1#page-title,
-.page-speeches h1#page-title {
+.page-speeches h1#page-title,
+.page-codesprint-modules h1#page-title,
+.page-projects h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
   margin-left: 30px;
@@ -833,6 +835,7 @@ aside#region-sidebar-first {
 .page-speeches #region-content .views-row {
   padding: 15px 20px;
   width: 536px;
+  background: #fff;
 }
 
 .page-codesprint-modules #region-content .views-row .field-content,
@@ -889,8 +892,8 @@ aside#region-sidebar-first {
   margin: 20px 0 0 0;
 }
 
-.page-codesprint-modules #region-content #add_speech_button a,
-.page-projects #region-content #add_speech_button a,
+.page-codesprint-modules #region-content #add_module_button a,
+.page-projects #region-content #add_project_button a,
 .page-speeches #region-content #add_speech_button a {
   width: 155px;
   height: 77px;
@@ -898,14 +901,14 @@ aside#region-sidebar-first {
   line-height: 0;
 }
 
-.page-codesprint-modules #region-content #add_speech_button a:hover,
-.page-projects #region-content #add_speech_button a:hover,
+.page-codesprint-modules #region-content #add_module_button a:hover,
+.page-projects #region-content #add_project_button a:hover,
 .page-speeches #region-content #add_speech_button a:hover {
   -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;  
 }
 
-.page-codesprint-modules #region-content #add_speech_button,
-.page-projects #region-content #add_speech_button,
+.page-codesprint-modules #region-content #add_module_button,
+.page-projects #region-content #add_project_button,
 .page-speeches #region-content #add_speech_button {
   float: left;
   width: 90%;
@@ -928,5 +931,10 @@ aside#region-sidebar-first {
   width: 100%;
 }
 
+.page-codesprint-modules #block-views-front-reg-block .views-row, #block-system-main,
+.page-projects #block-views-front-reg-block .views-row, #block-system-main,
+.page-speeches #block-views-front-reg-block .views-row, #block-system-main {
+  margin-bottom: 0;
+}
 
 /*@end vote page*/
