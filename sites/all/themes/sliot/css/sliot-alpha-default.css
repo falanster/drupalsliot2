@@ -8,7 +8,9 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
-a, p, ul, ol, li, img, span, strong, em, div {
+a, p, ul, ol, li, img, span, strong, em,
+#block-views-front-reg-block .views-row .views-field-body div,
+.page-news-drupalclub .views-row .views-field-body div {
   color: #0e0e0e;
   font-size: 15px;
 }
