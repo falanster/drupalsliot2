@@ -604,7 +604,7 @@ aside#region-sidebar-first {
 } */
 
 #block-views-front-reg-block .views-row .views-field-view-node,
-#block-system-main .views-row .views-field-view-node{
+#block-system-main .views-row .views-field-view-node {
   float: right;
   padding-bottom: 30px;
 }
@@ -618,7 +618,9 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .views-field-title a:hover,
-#block-views-front-reg-block .views-row .views-field-view-node a:hover {
+#block-views-front-reg-block .views-row .views-field-view-node a:hover,
+#block-system-main .views-row .views-field-title a:hover,
+#block-system-main .views-row .views-field-view-node a:hover {
   text-decoration: underline;
 }
 
