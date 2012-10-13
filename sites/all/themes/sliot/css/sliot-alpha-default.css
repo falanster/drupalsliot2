@@ -726,22 +726,22 @@ aside#region-sidebar-first {
 
 .page-attendees #region-content .region-inner {
   float: left;
-  width: 590px;
+  width: 600px;
   background: none repeat scroll 0 0 #F3F3F3;
-  padding: 15px 15px 15px 0;
+  padding: 0px 0px 15px 15px;
   margin: 30px 0 0 0;
 }
 
-.page-attendees #region-content .content {
+.page-attendees #region-content #block-block-20 .content {
   float: left;
   margin: 0 0 0 10px;
 }
 
 .page-attendees .view-id-users .views-row {
   float: left;
-  width: 115px;
+  width: 110px;
   height: 145px;
-  padding: 7px 4px 2px;
+  padding: 7px 6px 2px;
 }
 
 .page-attendees .view-id-users .view-id-users {
