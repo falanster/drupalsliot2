@@ -8,6 +8,16 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+a:link,
+a:visited {
+  color: #4d87bf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .page-frontpage #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
 }
@@ -612,18 +622,24 @@ aside#region-sidebar-first {
   margin-top: 25px;
 }
 
-.view-front-reg .item-list .pager li a {
+.view-front-reg .item-list .pager li a,
+.page-attendees .item-list .pager li a,
+.page-news-drupalclub .item-list .pager li a {
   color: #fffefe;
   font-size: 14px;
   text-decoration: none;
   font-weight: normal;
 }
 
-.view-front-reg .item-list .pager li a:hover {
+.view-front-reg .item-list .pager li a:hover,
+.page-attendees .item-list .pager li a:hover,
+.page-news-drupalclub .item-list .pager li a:hover {
   text-decoration: underline;
 }
 
-.view-front-reg .item-list .pager .pager-current {
+.view-front-reg .item-list .pager .pager-current,
+.page-attendees .item-list .pager .pager-current,
+.page-news-drupalclub .item-list .pager .pager-current {
   font-size: 16px;
   color: #fffefe;
   font-weight: normal;
