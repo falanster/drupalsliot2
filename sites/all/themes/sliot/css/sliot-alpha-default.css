@@ -540,7 +540,7 @@ aside#region-sidebar-first {
 
 #top_voting_block_text,
 #block-views-front-reg-block .views-row,
-#block-system-main .views-row,
+.page-news-drupalclub #block-system-main .views-row,
 #block-block-3 {
   background: #f3f3f3;
   float: left;
@@ -563,42 +563,42 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .views-field-title,
-#block-system-main .views-row .views-field-title {
+.page-news-drupalclub #block-system-main .views-row .views-field-title {
   margin-top: 25px;
 } 
 
 #block-views-front-reg-block .views-row .views-field-title a,
-#block-system-main .views-row .views-field-title a {
+.page-news-drupalclub #block-system-main .views-row .views-field-title a {
   font-size: 45px;
   color: #5a9ee0;
   text-decoration: none;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-date span,
-#block-system-main .views-row .views-field-field-date span {
+.page-news-drupalclub #block-system-main .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-image img,
-#block-system-main .views-row .views-field-field-image img{
+.page-news-drupalclub #block-system-main .views-row .views-field-field-image img{
   float: left;  
   margin: 0px 20px 30px 0px;
 }
 
 #block-views-front-reg-block .views-row .field-content,
-#block-system-main .views-row .field-content {
+.page-news-drupalclub #block-system-main .views-row .field-content {
   margin: 10px 30px 0px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node,
-#block-system-main .views-row .views-field-view-node {
+.page-news-drupalclub #block-system-main .views-row .views-field-view-node {
   float: right;
   padding-bottom: 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node a,
-#block-system-main .views-row .views-field-view-node a {
+.page-news-drupalclub #block-system-main .views-row .views-field-view-node a {
   text-decoration: none;
   color: #5a9ee0;  
   font-size: 16px;
@@ -607,8 +607,8 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title a:hover,
 #block-views-front-reg-block .views-row .views-field-view-node a:hover,
-#block-system-main .views-row .views-field-title a:hover,
-#block-system-main .views-row .views-field-view-node a:hover {
+.page-news-drupalclub #block-system-main .views-row .views-field-title a:hover,
+.page-news-drupalclub #block-system-main .views-row .views-field-view-node a:hover {
   text-decoration: underline;
 }
 
