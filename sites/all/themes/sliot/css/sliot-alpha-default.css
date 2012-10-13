@@ -793,6 +793,7 @@ aside#region-sidebar-first {
 
 .page-speeches .ui-accordion-header {
   margin: 22px 22px 0 22px;
+  background: #c1c1c1;
 }
 .page-speeches .ui-accordion-content {
   margin: 0 22px 22px 22px;
@@ -800,7 +801,7 @@ aside#region-sidebar-first {
 }
 .page-speeches .views-row {
   padding: 15px 20px;
-  width: 546px;
+  width: 536px;
 }
 
 .page-speeches .views-row .field-content {
@@ -809,24 +810,37 @@ aside#region-sidebar-first {
   float: left;
   margin: 20px 0 0px;
   color: #0e0e0e;
+  font-family: Arial, Tahoma;  
   
 }
 
-.page-speeches div.fivestar-widget-static .star {
-  height: 19px;
+.page-speeches div.fivestar-widget-static {
+  float: left;
+  width: auto;
+  -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;  
+}
+
+.page-speeches div.fivestar-widget-static .star,
+.page-speeches div.fivestar-widget .star{
+  height: 17px;
 }
 
 .page-speeches .ui-accordion-header a {
   font-size: 30px;
   color: #161616;
-  
+  font-family: Arial, Tahoma, Helvetica;  
 }
 
 .page-speeches #fivestar-custom-widget {
   margin: 15px 0;
-  float: left;
-  
+  float: left; 
 }
+.page-speeches .views-field .views-label {
+  float: left;
+  font-size: 20px;
+  color: #000;
+}
+
 
 
 /*@end vote page*/
