@@ -803,6 +803,7 @@ aside#region-sidebar-first {
   margin: 30px 0 0 0;
 }
 
+.ui-accordion,
 .page-codesprint-modules #region-content .ui-accordion-header,
 .page-codesprint-modules #region-content .ui-accordion-content,
 .page-projects #region-content .ui-accordion-header,
@@ -943,11 +944,15 @@ aside#region-sidebar-first {
 
 /* Webform */
 
-.page-node-9 .webform-confirmation {
+.page-node-9 .webform-confirmation,
+.page-node-18 .webform-confirmation,
+.page-node-13 .webform-confirmation,{
   margin: 10px 0 0 30px;
 }
 
-.page-node-9 .links {
+.page-node-9 .links,
+.page-node-18 .links,
+.page-node-13 .links,{
   margin: 0 0 20px 30px;
 } 
 
