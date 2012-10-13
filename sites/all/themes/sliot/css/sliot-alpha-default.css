@@ -590,8 +590,9 @@ aside#region-sidebar-first {
   margin: 10px 30px 0px 30px;
 }
 
-#block-views-front-reg-block .views-row .views-field-body p,
+/*
 
+#block-views-front-reg-block .views-row .views-field-body p,
 #block-views-front-reg-block .views-row .views-field-body div,
 #block-views-front-reg-block .views-row .views-field-body span,
 #block-views-front-reg-block .views-row .views-field-body li,
@@ -599,7 +600,7 @@ aside#region-sidebar-first {
 #block-views-front-reg-block .views-row .views-field-body ol {
   font-size: 15px;
   color: #0e0e0e;
-}
+} */
 
 #block-views-front-reg-block .views-row .views-field-view-node,
 #block-system-main .views-row .views-field-view-node{
