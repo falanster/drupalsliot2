@@ -723,7 +723,7 @@ aside#region-sidebar-first {
 .page-attendees {
 }
 
-.page-attendees .region-inner {
+.page-attendees #region-content .region-inner {
   float: left;
   width: 100%;
   background: none repeat scroll 0 0 #F3F3F3;
