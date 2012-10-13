@@ -591,18 +591,6 @@ aside#region-sidebar-first {
   margin: 10px 30px 0px 30px;
 }
 
-/*
-
-#block-views-front-reg-block .views-row .views-field-body p,
-#block-views-front-reg-block .views-row .views-field-body div,
-#block-views-front-reg-block .views-row .views-field-body span,
-#block-views-front-reg-block .views-row .views-field-body li,
-#block-views-front-reg-block .views-row .views-field-body ul,
-#block-views-front-reg-block .views-row .views-field-body ol {
-  font-size: 15px;
-  color: #0e0e0e;
-} */
-
 #block-views-front-reg-block .views-row .views-field-view-node,
 #block-system-main .views-row .views-field-view-node {
   float: right;
@@ -657,6 +645,12 @@ aside#region-sidebar-first {
   color: #fffefe;
   font-weight: normal;
 }
+
+.page-news-drupalclub h1#page-title {
+  font-size: 50px;
+  color: #FBF169;
+}
+
 
 /* @end register user */
 
