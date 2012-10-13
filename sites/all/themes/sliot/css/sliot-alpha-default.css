@@ -859,7 +859,7 @@ aside#region-sidebar-first {
 }
 
 .page-speeches .add_speech_button a {
-  background: "/sites/default/files/images_stpage/dobavit_doclad.png" no-repeat;
+  background: url("/sites/default/files/images_stpage/dobavit_doclad.png") no-repeat;
   width: 155px;
   height: 77px;  
 }
