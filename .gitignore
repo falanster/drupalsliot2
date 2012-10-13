@@ -6,3 +6,5 @@ sites/*/settings*.php
 
 sites/*/private
 /nbproject/private/
+nbproject
+nbproject/*

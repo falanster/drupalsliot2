@@ -645,8 +645,6 @@ aside#region-sidebar-first {
   font-weight: normal;
 }
 
-
-
 /* @end register user */
 
 /* @end front page */
@@ -665,7 +663,8 @@ aside#region-sidebar-first {
 
 .page-node #region-content h1#page-title,
 .page-sponsors #region-content h1#page-title,
-.page-attendees h1#page-title {
+.page-attendees h1#page-title,
+.page-speeches h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
   margin-left: 30px;
@@ -858,16 +857,23 @@ aside#region-sidebar-first {
   color: #000;
 }
 
-.page-speeches .add_speech_button a {
-  background: url("/sites/default/files/images_stpage/dobavit_doclad.png") no-repeat;
+.page-speeches .add_speech_button a {  
   width: 155px;
-  height: 77px;  
+  height: 77px;
+  font-size: 0;
+  line-height: 0;
 }
 .page-speeches .add_speech_button {
   float: left;
   width: 100%;
   text-align: center;
   margin: 20px;
+}
+
+.page-speeches .block-sharethis-sharethis-block {
+  float: left;
+  width: auto;
+  margin: 0 0 15px 22px;
 }
 
 
