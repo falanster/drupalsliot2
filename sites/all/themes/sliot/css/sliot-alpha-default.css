@@ -8,6 +8,11 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+a, p, ul, ol, li, img, span, strong, em {
+  color: #0e0e0e;
+  font-size: 15px;
+}
+
 a:link,
 a:visited {
   color: #4d87bf;
@@ -556,35 +561,37 @@ aside#region-sidebar-first {
   opacity: 0.7;
 }
 
-#block-views-front-reg-block .views-row .views-field-title {
+#block-views-front-reg-block .views-row .views-field-title,
+#block-system-main .views-row .views-field-title {
   margin-top: 25px;
 } 
 
-#block-views-front-reg-block .views-row .views-field-title a {
+#block-views-front-reg-block .views-row .views-field-title a,
+#block-system-main .views-row .views-field-title a {
   font-size: 45px;
   color: #5a9ee0;
   text-decoration: none;
 }
 
-#block-views-front-reg-block .views-row .views-field-field-date span {
+#block-views-front-reg-block .views-row .views-field-field-date span,
+#block-system-main .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
 }
-/*
-#block-views-front-reg-block .views-row .views-field-field-image {
-  float: left;
-} */
 
-#block-views-front-reg-block .views-row .views-field-field-image img {
+#block-views-front-reg-block .views-row .views-field-field-image img,
+#block-system-main .views-row .views-field-field-image img{
   float: left;  
   margin: 0px 20px 30px 0px;
 }
 
-#block-views-front-reg-block .views-row .field-content {
+#block-views-front-reg-block .views-row .field-content,
+#block-system-main .views-row .field-content {
   margin: 10px 30px 0px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-body p,
+
 #block-views-front-reg-block .views-row .views-field-body div,
 #block-views-front-reg-block .views-row .views-field-body span,
 #block-views-front-reg-block .views-row .views-field-body li,
@@ -594,12 +601,14 @@ aside#region-sidebar-first {
   color: #0e0e0e;
 }
 
-#block-views-front-reg-block .views-row .views-field-view-node {
+#block-views-front-reg-block .views-row .views-field-view-node,
+#block-system-main .views-row .views-field-view-node{
   float: right;
   padding-bottom: 30px;
 }
 
-#block-views-front-reg-block .views-row .views-field-view-node a {
+#block-views-front-reg-block .views-row .views-field-view-node a,
+#block-system-main .views-row .views-field-view-node a {
   text-decoration: none;
   color: #5a9ee0;  
   font-size: 16px;
