@@ -647,7 +647,8 @@ aside#region-sidebar-first {
 }
 
 .page-node #region-content h1#page-title,
-.page-sponsors #region-content h1#page-title {
+.page-sponsors #region-content h1#page-title,
+.page-attendees h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
   margin-left: 30px;
@@ -725,7 +726,7 @@ aside#region-sidebar-first {
 
 .page-attendees #region-content .region-inner {
   float: left;
-  width: 100%;
+  width: 590px;
   background: none repeat scroll 0 0 #F3F3F3;
   padding: 15px;
   margin: 30px 0 0 0;
@@ -750,7 +751,7 @@ aside#region-sidebar-first {
 }
 
 .page-attendees .view-id-users .views-row .views-field-name a {
-  color: #fff;
+  color: #5A9EE0;
 }
 
 /* @end user list page*/
