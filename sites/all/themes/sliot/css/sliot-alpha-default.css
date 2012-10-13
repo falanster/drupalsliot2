@@ -728,13 +728,15 @@ aside#region-sidebar-first {
   float: left;
   width: 600px;
   background: none repeat scroll 0 0 #F3F3F3;
-  padding: 0px 0px 15px 15px;
+  padding: 0px 0px 15px 0px;
   margin: 30px 0 0 0;
 }
 
-.page-attendees #region-content #block-block-20 .content {
+.page-attendees #region-content #block-system-main .content {
   float: left;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
+  width: 600px;
+  background: red;
 }
 
 .page-attendees .view-id-users .views-row {
