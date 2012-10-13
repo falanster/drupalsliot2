@@ -1,7 +1,7 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 body {
-  background: url(../images/fon_stena.jpg) repeat-y;
+  background: url(../images/fon_stena.jpg) repeat-y middle;
 }
 
 #page{
