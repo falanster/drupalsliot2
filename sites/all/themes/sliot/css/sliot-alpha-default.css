@@ -808,83 +808,87 @@ aside#region-sidebar-first {
 }
 
 
-.page-speeches .ui-accordion-header,
-.page-speeches .ui-accordion-content {
+.page-speeches #zone-content .ui-accordion-header,
+.page-speeches #zone-content .ui-accordion-content {
   float: left;
   width: 576px;
   
 }
 
-.page-speeches .ui-accordion-header {
+.page-speeches #zone-content .ui-accordion-header {
   margin: 22px 22px 0 22px;
   background: #c1c1c1;
 }
-.page-speeches .ui-accordion-content {
+.page-speeches #zone-content .ui-accordion-content {
   margin: 0 22px 22px 22px;
   padding: 0;
 }
-.page-speeches .views-row {
+.page-speeches #zone-content .views-row {
   padding: 15px 20px;
   width: 536px;
 }
 
-.page-speeches .views-row .field-content {
+.page-speeches #zone-content .views-row .field-content {
   font-size: 15px;
   line-height: 20px;
   float: left;
-  margin: 20px 0 20px;
   color: #0e0e0e;
-  font-family: Arial, Tahoma;  
-  
+  font-family: Arial, Tahoma;
+  width: 100%;  
 }
 
-.page-speeches div.fivestar-widget-static {
+.page-speeches #zone-content div.fivestar-widget-static {
   float: left;
   width: auto;
   -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;  
 }
 
-.page-speeches div.fivestar-widget-static .star,
-.page-speeches div.fivestar-widget .star{
+.page-speeches #zone-content div.fivestar-widget-static .star,
+.page-speeches #zone-content div.fivestar-widget .star{
   height: 17px;
 }
 
-.page-speeches .ui-accordion-header a {
+.page-speeches #zone-content .ui-accordion-header a {
   font-size: 30px;
   color: #161616;
   font-family: Arial, Tahoma, Helvetica;  
 }
 
-.page-speeches #fivestar-custom-widget {
+.page-speeches #zone-content #fivestar-custom-widget {
   margin: 15px 0;
   float: left;
   clear: left;
 }
-.page-speeches .views-field .views-label {
+.page-speeches #zone-content .views-field .views-label {
   float: left;
   font-size: 20px;
   color: #000;
+  margin: 20px 0 0 0;
 }
 
-.page-speeches .add_speech_button a {  
+.page-speeches #zone-content #add_speech_button a {  
   width: 155px;
   height: 77px;
   font-size: 0;
   line-height: 0;
 }
-.page-speeches .add_speech_button {
+.page-speeches #zone-content #add_speech_button {
   float: left;
   width: 100%;
   text-align: center;
   margin: 20px;
 }
 
-.page-speeches .block-sharethis-sharethis-block {
+.page-speeches #zone-content .block-sharethis-sharethis-block {
   float: left;
   width: auto;
   margin: 0 0 15px 22px;
 }
 
+.page-speeches #zone-content .view-footer {
+  float: left;
+  width: 100%;
+}
 
 
 /*@end vote page*/
