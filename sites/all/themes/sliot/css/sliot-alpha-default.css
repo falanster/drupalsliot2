@@ -933,3 +933,15 @@ aside#region-sidebar-first {
 }
 
 /*@end vote page*/
+
+/* Webform */
+
+.page-node-9 .webform-confirmation {
+  margin: 10px 0 0 30px;
+}
+
+.page-node-9 .links {
+  margin: 0 0 20px 30px;
+} 
+
+/* @end webform */
