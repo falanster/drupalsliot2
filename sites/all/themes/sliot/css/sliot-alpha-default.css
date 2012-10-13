@@ -649,8 +649,8 @@ aside#region-sidebar-first {
 .page-news-drupalclub h1#page-title {
   font-size: 50px;
   color: #FBF169;
+  margin-bottom: 10px;
 }
-
 
 /* @end register user */
 
@@ -727,12 +727,7 @@ aside#region-sidebar-first {
   float: left;
   width: 60px;
   margin-left: -140px;
-  margin-top: 620px;
-  
-}
-
-#block-block-20 img {
-  
+  margin-top: 620px; 
 }
 
 #block-block-21 {
