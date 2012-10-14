@@ -653,10 +653,10 @@ aside#region-sidebar-first {
   margin-top: 25px;
 }
 
-.view-front-reg .item-list,
-.page-attendees .item-list,
-.page-news-drupalclub .item-list {
-  width: 100%;
+.view-front-reg .item-list .pager li,
+.page-attendees .item-list .pager li,
+.page-news-drupalclub .item-list .pager li {
+  padding: 0;
 }
 
 .view-front-reg .item-list .pager li a,
