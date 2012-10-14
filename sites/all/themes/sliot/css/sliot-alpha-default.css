@@ -942,6 +942,13 @@ div.warning {
   margin: 20px 0 0 0;
 }
 
+.not-logged-in .page-codesprint-modules #region-content #add_module_button a,
+.not-logged-in .page-projects #region-content #add_project_button a,
+.not-logged-in .page-speeches #region-content #add_speech_button a {
+  display: none;  
+}
+
+
 .logged-in .page-codesprint-modules #region-content #add_module_button a,
 .logged-in .page-projects #region-content #add_project_button a,
 .logged-in .page-speeches #region-content #add_speech_button a {
@@ -963,11 +970,6 @@ div.warning {
   display: none;  
 }
 
-.not-logged-in .page-codesprint-modules #region-content #add_module_button a,
-.not-logged-in .page-projects #region-content #add_project_button a,
-.not-logged-in .page-speeches #region-content #add_speech_button a {
-  display: none;  
-}
 
 .logged-in .page-codesprint-modules #region-content #add_module_button,
 .logged-in .page-projects #region-content #add_project_button,
