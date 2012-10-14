@@ -616,8 +616,8 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title,
 .page-news-drupalclub #block-system-main .views-row .views-field-title {
-/*  margin-top: 25px; */
   margin: 25px 30px 10px 30px;
+  line-height: 1;
 } 
 
 #block-views-front-reg-block .views-row .views-field-title a,
