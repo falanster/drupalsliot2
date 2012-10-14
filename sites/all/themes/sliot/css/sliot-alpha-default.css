@@ -611,8 +611,8 @@ aside#region-sidebar-first {
   margin: 0px 20px 30px 0px;
 }
 
-#block-views-front-reg-block .views-row .field-content,
-.page-news-drupalclub #block-system-main .views-row .field-content {
+#block-views-front-reg-block .views-row  .views-field-body div,
+.page-news-drupalclub #block-system-main .views-row .views-field-body div {
   margin: 10px 30px 0px 30px;
 }
 
