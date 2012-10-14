@@ -710,6 +710,11 @@ aside#region-sidebar-first {
 .breadcrumb a {
   color: #ffffff;
   font-size: 11px;
+  text-transform: lowercase;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
 }
 
 .page-node #region-content,
