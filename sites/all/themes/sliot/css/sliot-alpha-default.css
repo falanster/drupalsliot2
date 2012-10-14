@@ -198,13 +198,13 @@ h2.block-title {
   margin-right: 10px;
 }
 
-.view-tweets .views-field-text span a {
+.view-tweets .views-field-text .field-content a {
   text-decoration: none;
   color: #5a9ee0;
   font-size: 12px;
 }
 
-.view-tweets .views-field-text span a:hover {
+.view-tweets .views-field-text .field-content a:hover {
   text-decoration: underline;
 }
 
