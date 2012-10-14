@@ -637,7 +637,7 @@ aside#region-sidebar-first {
 #block-views-front-reg-block .views-row .views-field-field-image img,
 .page-news-drupalclub #block-system-main .views-row .views-field-field-image img{
   float: left;  
-  margin: 0px 20px 0px 30px;
+  margin: 10px 20px 20px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-body .field-content,
