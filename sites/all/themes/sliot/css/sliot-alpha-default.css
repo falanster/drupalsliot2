@@ -382,7 +382,7 @@ aside#region-sidebar-first {
 }
 
 .block-views .view-voting .view-content .views-row {
-  list-style: circle;
+  list-style: disc;
 }
 
 .block-views .view-voting .view-content .fivestar-summary {
