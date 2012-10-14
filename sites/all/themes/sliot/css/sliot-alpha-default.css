@@ -702,7 +702,9 @@ aside#region-sidebar-first {
 /* Inner page */
 
 .breadcrumb {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  color: #fff;
 }
 
 .breadcrumb a {
