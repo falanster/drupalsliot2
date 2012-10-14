@@ -612,9 +612,12 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .field-content,
-#block-views-front-reg-block .views-row .views-field-body ul li,
 .page-news-drupalclub #block-system-main .views-row .field-content {
   margin: 10px 30px 0px 30px;
+}
+
+#block-views-front-reg-block .views-row .views-field-body ul li {
+  margin-left: 20px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node,
