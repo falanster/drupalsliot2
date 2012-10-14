@@ -381,7 +381,7 @@ aside#region-sidebar-first {
   line-height: 1;  
 }
 
-.block-views .view-voting .view-content .views-field-title span {
+.block-views .view-voting .view-content .views-row {
   list-style: circle;
 }
 
