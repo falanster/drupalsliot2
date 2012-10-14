@@ -938,9 +938,9 @@ aside#region-sidebar-first {
   display: none;  
 }
 
-.page-codesprint-modules #region-content #add_module_button,
-.page-projects #region-content #add_project_button,
-.page-speeches #region-content #add_speech_button {
+.logged-in .page-codesprint-modules #region-content #add_module_button,
+.logged-in .page-projects #region-content #add_project_button,
+.logged-in .page-speeches #region-content #add_speech_button {
   float: left;
   width: 90%;
   text-align: center;
