@@ -330,6 +330,15 @@ h2.block-title {
 
 #block-jquery-countdown-jquery-countdown {
   background: #3f3c40;
+  margin-top: 10px;
+}
+
+#jquery-countdown-jquery-countdown {
+  background: none;
+}
+
+#jquery-countdown-jquery-countdown .countdown_section span {
+  color: #dedede;
 }
 
 /* @end timer block */
