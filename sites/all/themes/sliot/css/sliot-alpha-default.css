@@ -834,6 +834,13 @@ aside#region-sidebar-first {
 
 /*vote page*/
 
+.warning {
+  background-image: none;
+  border: 3px;
+  margin-top: -40px;
+}
+
+
 .page-codesprint-modules #zone-content #region-content,
 .page-projects #zone-content #region-content,
 .page-speeches #zone-content #region-content {
