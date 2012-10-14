@@ -243,6 +243,7 @@ h2.block-title {
 
 #user-login-form .form-item-pass {
   margin-top: -5px;
+  float: right;
 }
 
 #user-login-form .form-item-name label,
@@ -277,7 +278,9 @@ h2.block-title {
 #user-login-form #edit-actions,
 #edit-actions--2 {
   float: right;
-  margin: -40px -18px 10px 30px;
+/*  margin: -40px -18px 10px 30px; */
+  width: 60px;
+  margin: -10px -103px 0 0;
 }
 
 #user-login-form #edit-actions input,
@@ -293,6 +296,7 @@ h2.block-title {
 
 #user-login-form .item-list .first {
   float: right;
+  clear: right;
   margin: 10px -2px 0 0;
 }
 
