@@ -104,7 +104,7 @@ h2.block-title {
 }
 
 #nice-menu-1 li ul {
-  margin-top: 27px;
+  margin-top: 23px;
 }
 
 #nice-menu-1 li ul li {
@@ -324,6 +324,13 @@ h2.block-title {
 /* @end user login */
 
 /* Right sidebar*/
+
+/* Timer block */
+
+
+
+/* @end timer block */
+
 
 aside#region-sidebar-first {
   float: right;
