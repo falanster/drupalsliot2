@@ -616,7 +616,8 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title,
 .page-news-drupalclub #block-system-main .views-row .views-field-title {
-  margin-top: 25px;
+/*  margin-top: 25px; */
+  margin: 25px 30px 10px 30px;
 } 
 
 #block-views-front-reg-block .views-row .views-field-title a,
@@ -630,17 +631,18 @@ aside#region-sidebar-first {
 .page-news-drupalclub #block-system-main .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
+  margin: 10px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-image img,
 .page-news-drupalclub #block-system-main .views-row .views-field-field-image img{
   float: left;  
-  margin: 0px 20px 30px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
-#block-views-front-reg-block .views-row .field-content,
-.page-news-drupalclub #block-system-main .views-row .field-content {
-/*  margin: 10px 30px 0px 30px; */
+#block-views-front-reg-block .views-row .views-field-body .field-content,
+.page-news-drupalclub #block-system-main .views-row .views-field-body .field-content {
+  margin: 10px 30px 0px 30px; 
 }
 
 #block-views-front-reg-block .views-row .views-field-body ul li,
