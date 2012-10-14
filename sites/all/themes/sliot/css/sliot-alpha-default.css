@@ -701,6 +701,15 @@ aside#region-sidebar-first {
 
 /* Inner page */
 
+.breadcrumb {
+  margin-top: 10px;
+}
+
+.breadcrumb a {
+  color: #ffffff;
+  font-size: 11px;
+}
+
 .page-node #region-content,
 .page-sponsors #region-content  {
   margin-top: 30px;
