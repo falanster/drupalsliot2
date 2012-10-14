@@ -704,17 +704,18 @@ aside#region-sidebar-first {
 .breadcrumb {
   margin-top: 15px;
   margin-bottom: -15px;
-  color: #fff;
+  color: #cfd1d3;
 }
 
 .breadcrumb a {
-  color: #ffffff;
+  color: #cfd1d3;
   font-size: 11px;
   text-transform: lowercase;
 }
 
 .breadcrumb a:hover {
   text-decoration: underline;
+  color: #4d87bf;
 }
 
 .page-node #region-content,
