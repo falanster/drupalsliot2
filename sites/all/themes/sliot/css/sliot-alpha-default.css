@@ -473,6 +473,14 @@ aside#region-sidebar-first {
   font-size: 16px;
 }
 
+#registration_block_language_switcher a:hover {
+  text-decoration: underline;
+}
+
+#registration_block_language_switcher a.active {
+  color: #ffffff;
+}
+
 #registration_block_description {
   padding: 15px 30px 5px 30px;
 }
