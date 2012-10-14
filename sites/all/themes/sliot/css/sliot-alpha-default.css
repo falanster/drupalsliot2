@@ -335,6 +335,8 @@ h2.block-title {
 
 #jquery-countdown-jquery-countdown {
   background: none;
+  border: none;
+  padding-bottom: 15px;
 }
 
 #jquery-countdown-jquery-countdown .countdown_section span {
