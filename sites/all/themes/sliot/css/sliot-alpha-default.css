@@ -377,8 +377,12 @@ aside#region-sidebar-first {
 
 .block-views .view-voting .view-content .views-field-title {
   color: #dedede;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;  
+}
+
+.block-views .view-voting .view-content .views-field-title span {
+  list-style: circle;
 }
 
 .block-views .view-voting .view-content .fivestar-summary {
@@ -386,7 +390,7 @@ aside#region-sidebar-first {
 }
 
 .block-views .view-voting .view-content .fivestar-summary span {
-  font-size: 18px;
+  font-size: 15px;
   color: #dedede;
   margin-bottom: 20px;
 }
