@@ -654,6 +654,7 @@ aside#region-sidebar-first {
 .page-news-drupalclub #block-system-main .views-row .views-field-view-node {
   float: right;
   padding-bottom: 30px;
+  margin-right: 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node a,
