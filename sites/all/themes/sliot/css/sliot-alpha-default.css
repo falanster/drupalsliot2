@@ -328,7 +328,9 @@ h2.block-title {
 
 /* Timer block */
 
-
+#block-jquery-countdown-jquery-countdown {
+  background: #3f3c40;
+}
 
 /* @end timer block */
 
