@@ -382,6 +382,7 @@ aside#region-sidebar-first {
 }
 
 .block-views .view-voting .view-content .views-row {
+  display: list-item;
   list-style: disc;
 }
 
