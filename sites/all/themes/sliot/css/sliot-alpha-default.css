@@ -201,6 +201,7 @@ h2.block-title {
 .view-tweets .views-field-text span a {
   text-decoration: none;
   color: #5a9ee0;
+  font-size: 12px;
 }
 
 .view-tweets .views-field-text span a:hover {
