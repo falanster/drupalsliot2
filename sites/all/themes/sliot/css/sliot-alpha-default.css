@@ -834,9 +834,7 @@ aside#region-sidebar-first {
 
 /*vote page*/
 
-.page-codesprint-modules div.warning,
-.page-projec div.warning,
-.page-speeches div.warning {
+div.warning {
   background-image: none;
   background-color: #FFD600;
   border: #FFA300 3px solid;
