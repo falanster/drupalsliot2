@@ -288,6 +288,7 @@ h2.block-title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
+  text-transform: lowercase;
 }
 
 #user-login-form .item-list .first {
