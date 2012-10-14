@@ -983,7 +983,7 @@ div.warning {
 .not-logged-in .page-codesprint-modules #region-content #add_module_button,
 .not-logged-in .page-projects #region-content #add_project_button,
 .not-logged-in .page-speeches #region-content #add_speech_button {
-  display: none;  
+  display: none !important;  
 }
 
 
