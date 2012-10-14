@@ -676,6 +676,13 @@ aside#region-sidebar-first {
   font-weight: normal;
 }
 
+.view-front-reg .item-list .pager .pager-ellipsis,
+.page-attendees .item-list .pager .pager-ellipsis,
+.page-news-drupalclub .item-list .pager .pager-ellipsis {
+  display: none;
+}
+
+
 .page-news-drupalclub h1#page-title {
   font-size: 50px;
   color: #FBF169;
