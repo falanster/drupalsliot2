@@ -834,10 +834,10 @@ aside#region-sidebar-first {
 
 /*vote page*/
 
-.warning {
+div.warning {
   background-image: none;
   border: 3px;
-  margin-top: -40px;
+  margin-top: -140px;
 }
 
 
