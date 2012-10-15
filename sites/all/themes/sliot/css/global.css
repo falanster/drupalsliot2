@@ -117,7 +117,8 @@ dt {
 		color: #0e0e0e;
 	}
 	
-	body.node-type-webform #region-content #edit-submit {
+	body.node-type-webform #region-content #edit-submit,
+    .page-settings #region-content #edit-submit {
 		width: 164px;
 		height: 70px;
 		float: right;

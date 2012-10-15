@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_install()
+ */
+function pux_profile_install() {
+	// Disable the history content block in the user profile page
+	// to achive the blank profile page
+	$settings = array(
+		'extra_fields' => array(
+			'display' => array(
+				'summary' => array(
+					'default' => array(
+						'visible' => FALSE,
+						'weight' => 0,
+					),
+				),
+			),
+		),
+	);
+	
+	field_bundle_settings("user", "user", $settings);
+}

@@ -769,7 +769,8 @@ aside#region-sidebar-first {
 .page-attendees h1#page-title,
 .page-speeches h1#page-title,
 .page-codesprint-modules h1#page-title,
-.page-projects h1#page-title {
+.page-projects h1#page-title,
+.page-settings h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
   margin-left: 30px;
@@ -1084,6 +1085,7 @@ div.warning {
 
 /* @end webform */
 
+
 /* User page */
 
 #block-system-user-menu h2.block-title {
@@ -1104,3 +1106,28 @@ div.warning {
 }
 
 /* @end user page */
+
+/*User profile page*/
+
+.page-settings #region-content .region-inner {
+  float: left;
+  width: 560px;
+  background: #F3F3F3;
+  padding: 10px 30px 30px;
+  margin: 20px 0 0 0;
+}
+
+.page-settings h1#page-title {
+  margin-left: 0;
+}
+
+.page-settings {
+  
+}
+
+.page-settings {
+  
+}
+
+/*@end User profile page*/
+
