@@ -1095,6 +1095,10 @@ div.warning {
   margin: 20px 0 0 0;
 }
 
+.page-settings h1#page-title {
+  margin-left: 0;
+}
+
 .page-settings {
   
 }
