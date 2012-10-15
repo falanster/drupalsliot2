@@ -1,0 +1,13 @@
+diff --git a/pux_settings/includes/password.settings.inc b/pux_settings/includes/password.settings.inc
+index 8046994..d528995 100644
+--- a/pux_settings/includes/password.settings.inc
++++ b/pux_settings/includes/password.settings.inc
+@@ -50,7 +50,7 @@ function pux_settings_password_form($form, $form_state, $account) {
+ 	
+ 	$form['#user_category'] = 'account';
+ 	
+-	module_load_include("inc", "user", "user.pages");
++	form_load_include($form_state, "inc", "user", "user.pages");
+ 	$form['#submit'][] = 'user_profile_form_submit';
+ 	
+ 	return $form;

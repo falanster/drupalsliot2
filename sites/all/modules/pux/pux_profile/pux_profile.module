@@ -1,0 +1,201 @@
+<?php
+
+/**
+ * Redirects
+ */
+function pux_profile_login_redirect() {
+	drupal_goto("user/login");
+}
+
+function pux_profile_logout_redirect() {
+	drupal_goto("user/logout");
+}
+
+function pux_profile_profile_redirect() {
+	drupal_goto("user");
+}
+
+/**
+ * End redirects
+ */
+
+/**
+ * Implements hook_permission()
+ */
+function pux_profile_permission() {
+	return array(
+		'access own profile' => array(
+      'title' => t('Access own profile'), 
+      'description' => t('Allows a user to access its own profile.'),
+    ),
+  );
+}
+
+function pux_profile_access_profile() {
+	if(user_access("access own profile") || user_access("access user profiles")) {
+		return TRUE;
+	}
+}
+
+/**
+ * Implements hook_menu()
+ */
+function pux_profile_menu() {
+	
+	$items['login'] = array(
+		'title' => "Log in",
+		'page callback' => 'pux_profile_login_redirect',
+		'access callback' => 'user_is_anonymous',
+		'type' => MENU_NORMAL_ITEM,
+		'menu_name' => 'user-menu',
+		'weight' => -1000,
+	);
+	
+	$items['logout'] = array(
+		'title' => "Log out",
+		'page callback' => 'pux_profile_logout_redirect',
+		'access callback' => 'user_is_logged_in',
+		'type' => MENU_NORMAL_ITEM,
+		'menu_name' => 'user-menu',
+		'weight' => 1000,
+	);
+	
+	$items['profile'] = array(
+		'title' => "Profile",
+		'page callback' => 'pux_profile_profile_redirect',
+		'access callback' => 'pux_profile_access_profile',
+		'type' => MENU_NORMAL_ITEM,
+		'menu_name' => 'user-menu',
+		'weight' => -101,
+	);
+	
+  return $items;
+}
+
+/**
+ * Implements hook_menu_alter()
+ */
+function pux_profile_menu_alter(&$items) {
+	
+	$items['user']['type'] = MENU_SUGGESTED_ITEM;
+	$items['user/login']['type'] = MENU_SUGGESTED_ITEM;
+	$items['user/logout']['type'] = MENU_SUGGESTED_ITEM;
+	
+	// Change the tabs name
+	$items['user/%user/view']['title'] = 'Profile';
+	
+	$items['user/%user']['access callback'] = 'pux_profile_access_profile';
+	$items['user/%user']['access arguments'] = array();
+}
+
+/**
+ * Implements hook_theme()
+ */
+function pux_profile_theme($existing, $type, $theme, $path) {
+  return array(
+		'create_account' => array(
+      'variables' => array(),
+			'template' => 'create-account',
+    ),
+		'about_user' => array(
+      'render element' => 'elements', 
+			'template' => 'about-user',
+    ),
+  );
+}
+
+function pux_profile_preprocess_about_user(&$variables) {
+	$account = $variables['account'];
+	
+	field_attach_prepare_view('user', array($account->uid => $account), "block");
+  entity_prepare_view('user', array($account->uid => $account));
+	$variables['profile'] = field_attach_view("user", $account, "block", $langcode = NULL);
+}
+
+/**
+ * Implement hook_block_info()
+ */
+function pux_profile_block_info() {
+  $blocks['create-account'] = array(
+    'info' => t('Create account'), 
+  );
+	$blocks['about-user'] = array(
+    'info' => t('About user'), 
+  );
+	$blocks['user-pic'] = array(
+    'info' => t('User picture'), 
+  );
+	
+	return $blocks;
+}
+
+/**
+ * Implement hook_block_configure()
+ */
+function pux_profile_block_configure($delta = '') {
+  // Show a help message indicating where to configure the fields for this block.
+  $form = array();
+  if ($delta == 'about-user') {
+    $form['help-message'] = array(
+      '#markup' => t('<strong>Important Message:</strong> If you want to configure what fields to show in this block, go to !url and configure the Block display', array('!url' => l(t("Account Settings"), 'admin/config/people/accounts/display/block'))),
+			'#weight' => -1000,
+		);
+  }
+  return $form;
+}
+
+/**
+ * Implement hook_block_view()
+ */
+function pux_profile_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'create-account':
+			if(user_is_anonymous()) {
+				$block['subject'] = t('Create your account');
+				$block['content'] = theme('create_account');
+			}
+      break;
+		
+		case 'about-user':
+			if(arg(0) == "user" && is_numeric(arg(1))) {
+				if(pux_profile_access_profile()) {
+					$account = user_load(arg(1));
+					$block['subject'] = t('About this user');
+					$block['content'] = theme('about_user', array('account' => $account));
+				}
+			}
+      break;
+		
+		case 'user-pic':
+			if(arg(0) == "user" && is_numeric(arg(1))) {
+				if(pux_profile_access_profile()) {
+					$account = user_load(arg(1));
+					$block['subject'] = t('%name', array('%name' => $account->name));
+					$block['content'] = theme('user_picture', array("account" => $account));
+				}
+			}
+      break;
+  }
+	
+  return $block;
+}
+
+/**
+ * Implements hook_entity_info_alter()
+ */
+function pux_profile_entity_info_alter(&$entity_info) {
+	// Add a new Block display (view mode) to the user bundle. We'll use this in the block 'about-user'
+  $entity_info['user']['view modes']['block']['label'] = "Block";
+	$entity_info['user']['view modes']['block']['custom settings'] = TRUE;
+}
+
+function pux_profile_page_alter(&$page) {
+  // Add help text to the user login block.
+  // dsm($page);
+	
+	// Hide the picture in the profile page
+	// @todo find a more elegant way to do this
+	unset($page['content']['system_main']['user_picture']);
+}
