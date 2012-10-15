@@ -29,6 +29,7 @@ a:hover {
 .page-frontpage #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
   width: 1280px;
+  min-height: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,6 +41,7 @@ a:hover {
 .page-codesprint-modules #section-content,
 .page-sponsors #section-content{
   background: url(../images/nadpisi_stena_2.png) no-repeat;
+  min-height: 850px;
   width: 1280px;
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +50,7 @@ a:hover {
 .node-type-webform #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
   width: 1280px;
+  min-height: 850px;
   margin-left: auto;
   margin-right: auto;
 }
