@@ -1093,10 +1093,6 @@ div.warning {
   font-size: 45px;
 }
 
-#block-system-user-menu ul {
-  display: inline;
-  list-stile: none;
-}
 #block-system-user-menu ul li a {
   font-size: 35px;
 }
