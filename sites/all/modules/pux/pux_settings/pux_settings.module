@@ -1,0 +1,232 @@
+<?php
+
+/**
+ * Get all hook_profile_page_category
+ *
+ * Use it as hook_profile_page_category()
+ *
+ * Build a menu link in the form of settings/uid/category
+ * and load a page callback
+ *
+ * @todo query the menu_router to transform every menu link starting with
+ * user/%uid into the form of settings/uid/category.
+ * This could be done here or in a hook_menu_alter
+ */
+function _pux_account_settings($account = NULL) {
+  $categories = array();
+
+  foreach (module_list() as $module) {
+    if ($data = module_invoke($module, 'account_settings', $account, '')) {
+      $categories = array_merge($data, $categories);
+    }
+  }
+
+  usort($categories, '_user_sort');
+  return $categories;
+}
+
+/**
+ * Get all hook_settings_disable()
+ */
+function _pux_settings_disable() {
+  $links = array();
+
+  foreach (module_list() as $module) {
+    if ($data = module_invoke($module, 'settings_disable', '')) {
+      $links = array_merge($data, $links);
+    }
+  }
+
+  return $links;
+}
+
+
+/**
+ * Implements hook_account_settings()
+ */
+function pux_settings_account_settings() {
+  $items = array();
+	
+	$items[] = array(
+    'name' => 'profile', 
+    'title' => t('Profile'), 
+    'weight' => 2,
+		'page arguments' => array('pux_settings_profile_form', 1, 2),
+		'file path' => drupal_get_path("module", "pux_settings") . '/includes',
+		'file' => 'profile.settings.inc'
+  );
+	$items[] = array(
+    'name' => 'password', 
+		'title' => t('Password'), 
+		'weight' => 1,
+		'page arguments' => array('pux_settings_password_form', 1, 2),
+		'file path' => drupal_get_path("module", "pux_settings") . '/includes',
+		'file' => 'password.settings.inc'
+  );
+	if(module_exists("shortcut")) {
+		$items[] = array(
+			'name' => 'shortcuts', 
+			'title' => t('Shortcuts'), 
+			'weight' => 3,
+			'page arguments' => array('shortcut_set_switch'),
+			'file path' => drupal_get_path("module", "shortcut"),
+			'file' => 'shortcut.admin.inc'
+		);
+	}
+	if(module_exists("openid")) {
+		$items[] = array(
+			'name' => 'openid', 
+			'title' => t('OpenID Identities'), 
+			'weight' => 10,
+			'page callback' => 'pux_settings_openid_form',
+			'page arguments' => array(1),
+			'file path' => drupal_get_path("module", "pux_settings") . '/includes',
+			'file' => 'openid.settings.inc'
+		);
+	}
+	
+	return $items;
+}
+
+/**
+ * Implements pux_settings_disable()
+ */
+function pux_settings_settings_disable() {
+	return array(
+		'user/%user/openid',
+		'user/%user/shortcuts'
+	);
+}
+
+/***** API ENDS **/
+
+/***** Redirects **/
+
+/**
+ * Redirect to the own settings page
+ */
+function pux_settings_settings_redirect() {
+	global $user;
+	
+	drupal_goto("settings/{$user->uid}");
+}
+
+/**
+ * Access callback to give user access
+ */
+function pux_settings_settings_access() {
+	global $user;
+	
+	if(user_edit_access($user)) {
+		return TRUE;
+	}
+}
+
+/** END Redirects **/
+
+/**
+ * Implements hook_permission()
+ */
+function pux_settings_permission() {
+	return array(
+    'administer pux settings' => array(
+      'title' => t('Administer Pux Settings'), 
+      'description' => t('Perform administration tasks for Profile User Experience Settings.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu()
+ */
+function pux_settings_menu() {
+	
+	$items['settings'] = array(
+		'title' => "Settings",
+		'page callback' => 'pux_settings_settings_redirect',
+		'access callback' => 'pux_settings_settings_access',
+		'type' => MENU_NORMAL_ITEM,
+		'menu_name' => 'user-menu',
+		'weight' => -100,
+	);
+
+	$items['settings/%user'] = array(
+		'title' => 'Settings', 
+		'page callback' => 'drupal_get_form', 
+		'page arguments' => array('pux_settings_account_form', 1), 
+		'access callback' => 'user_edit_access', 
+		'access arguments' => array(1), 
+		'file path' => drupal_get_path("module", "pux_settings") . '/includes',
+		'file' => 'account.settings.inc',
+	);
+	
+	$items['settings/%user/account'] = array(
+		'title' => 'Account', 
+		'type' => MENU_DEFAULT_LOCAL_TASK, 
+		'load arguments' => array('%map', '%index'),
+	);
+
+	if ($categories = _pux_account_settings()) {
+		foreach ($categories as $key => $category) {
+			// 'account' is already handled by the MENU_DEFAULT_LOCAL_TASK.
+			if ($category['name'] != 'account') {
+				$items['settings/%user/' . $category['name']] = array(
+					'title callback' => 'check_plain', 
+					'title arguments' => array($category['title']), 
+					'page callback' => isset($category['page callback']) ? $category['page callback'] : 'drupal_get_form',
+					'page arguments' => isset($category['page arguments']) ? $category['page arguments'] : '', 
+					'access callback' => isset($category['access callback']) ? $category['access callback'] : 'user_edit_access', 
+					'access arguments' => isset($category['access arguments']) ? $category['access arguments'] : array(1), 
+					'type' => MENU_LOCAL_TASK, 
+					'weight' => $category['weight'], 
+					'load arguments' => array('%map', '%index'),
+					'file path' => $category['file path'],
+					'file' => $category['file'],
+				);
+			}
+		}
+	}
+	
+  return $items;
+}
+
+
+/**
+ * Implements hook_menu_alter()
+ */
+function pux_settings_menu_alter(&$items) {	
+	// We don't really disable this so admins can access this page
+	// This is temporary
+	$items['user/%user/edit']['type'] = MENU_CALLBACK;
+	
+	
+	// Disable all links implemented in hook_profile_page_menu_disable()
+	if ($links = _pux_settings_disable()) {
+		foreach ($links as $link) {
+			// 'account' is already handled by the MENU_DEFAULT_LOCAL_TASK.
+			$items[$link]['type'] = MENU_CALLBACK;
+		}
+	}
+}
+
+/**
+ * Call some default settings in a form we always use
+ */
+function pux_settings_default_settings(&$form, &$form_state, &$account) {
+
+  // During initial form build, add the entity to the form state for use during
+  // form building and processing. During a rebuild, use what is in the form
+  // state.
+  if (!isset($form_state['user'])) {
+    $form_state['user'] = $account;
+  }
+  else {
+    $account = $form_state['user'];
+  }
+
+  // @todo Legacy support. Modules are encouraged to access the entity using
+  //   $form_state. Remove in Drupal 8.
+  $form['#user'] = $account;
+}
+
+

@@ -1,0 +1,13 @@
+diff --git a/pux_settings/includes/profile.settings.inc b/pux_settings/includes/profile.settings.inc
+index 6403549..91abc83 100644
+--- a/pux_settings/includes/profile.settings.inc
++++ b/pux_settings/includes/profile.settings.inc
+@@ -48,7 +48,7 @@ function pux_settings_profile_form($form, $form_state, $account) {
+ 	
+ 	$form['#user_category'] = 'account';
+ 	
+-	module_load_include("inc", "user", "user.pages");
++	form_load_include($form_state, "inc", "user", "user.pages");
+ 	$form['#submit'][] = 'user_profile_form_submit';
+ 
+ 	return $form;
