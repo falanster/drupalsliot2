@@ -1083,3 +1083,22 @@ div.warning {
 } 
 
 /* @end webform */
+
+/*User profile page*/
+
+.page-settings #region-content .region-inner {
+  float: left;
+  width: 660px;
+  background: #F3F3F3;
+  padding: 10px 30px 30px;
+}
+
+.page-settings {
+  
+}
+
+.page-settings {
+  
+}
+
+/*@end User profile page*/
