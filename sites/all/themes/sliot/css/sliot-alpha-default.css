@@ -1094,7 +1094,7 @@ div.warning {
 }
 
 #block-system-user-menu ul li a {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #block-system-user-menu ul li.leaf {
@@ -1102,7 +1102,7 @@ div.warning {
 }
 
 .page-user .profile .field-label {
-  margin: 3px 0 7px 0;
+  margin: 7px 0 3px 0;
 }
 
 /* @end user page */
