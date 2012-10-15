@@ -562,6 +562,11 @@ aside#region-sidebar-first {
   padding: 0px 30px 40px;
 }
 
+#block-views-front-reg-block-1 .view-content .views-field-title,
+#block-views-front-reg-block-2 .view-content .views-field-title {
+  margin-bottom: 10px;
+}
+
 #block-views-front-reg-block-1 .view-content .views-field a,
 #block-views-front-reg-block-2 .view-content .views-field a {
   font-size: 16px;
