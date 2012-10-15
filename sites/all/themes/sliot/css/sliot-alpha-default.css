@@ -1089,7 +1089,7 @@ div.warning {
 /* User page */
 
 #block-system-user-menu h2.block-title {
-  color: ##5A9EE0;
+  color: #5A9EE0;
   font-size: 45px;
 }
 
@@ -1097,7 +1097,7 @@ div.warning {
   display: inline;
   list-stile: none;
 }
-#block-system-user-menu ul li {
+#block-system-user-menu ul li a {
   font-size: 35px;
 }
 
