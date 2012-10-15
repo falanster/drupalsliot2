@@ -1083,3 +1083,24 @@ div.warning {
 } 
 
 /* @end webform */
+
+/* User page */
+
+#block-system-user-menu h2.block-title {
+  color: ##5A9EE0;
+  font-size: 45px;
+}
+
+#block-system-user-menu ul {
+  display: inline;
+  list-stile: none;
+}
+#block-system-user-menu ul li {
+  font-size: 35px;
+}
+
+#block-system-user-menu ul li.leaf {
+  display: none;
+}
+
+/* @end user page */
