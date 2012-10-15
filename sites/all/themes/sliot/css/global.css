@@ -134,7 +134,8 @@ dt {
 	
 	}
 
-	body.node-type-webform #region-content #edit-submit:hover {
+	body.node-type-webform #region-content #edit-submit:hover,
+    .page-settings #region-content #edit-submit:hover {
 		opacity: 0.7;
 	}
 
