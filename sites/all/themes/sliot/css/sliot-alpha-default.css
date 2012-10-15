@@ -1101,6 +1101,10 @@ div.warning {
   display: none;
 }
 
+.page-user .profile .field-label {
+  margin: 5px 0;
+}
+
 /* @end user page */
 
 /*User profile page*/
