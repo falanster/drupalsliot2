@@ -1086,7 +1086,7 @@ div.warning {
 /* @end webform */
 
 
-/* User page */
+/*User profile page*/
 
 #block-system-user-menu h2.block-title {
   color: #5A9EE0;
@@ -1105,10 +1105,6 @@ div.warning {
   margin: 7px 0 3px 0;
 }
 
-/* @end user page */
-
-/*User profile page*/
-
 .page-settings #region-content .region-inner {
   float: left;
   width: 560px;
@@ -1119,14 +1115,6 @@ div.warning {
 
 .page-settings h1#page-title {
   margin-left: 0;
-}
-
-.page-settings {
-  
-}
-
-.page-settings {
-  
 }
 
 /*@end User profile page*/
