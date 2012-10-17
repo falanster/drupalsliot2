@@ -3,6 +3,7 @@
 body {
   background: url(../images/fon_stena.jpg) repeat-y;
   align: center;
+  width: 100%;
 }
 
 #page{
