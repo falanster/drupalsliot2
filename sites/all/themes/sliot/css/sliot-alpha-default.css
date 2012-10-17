@@ -7,7 +7,7 @@ body {
 
 #page{
   background: rgba(0, 0, 0, 0.5) repeat-y;
-  min-width: 1280px;
+/*  min-width: 1280px; */
 }
 
 a, p, ul, ol, li, strong, em,
