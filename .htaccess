@@ -132,3 +132,7 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+AuthType Basic
+AuthName "drupalsliot"
+AuthUserFile "/home/falanste/.htpasswds/public_html/drupal-sliot.by/passwd"
+require valid-user
