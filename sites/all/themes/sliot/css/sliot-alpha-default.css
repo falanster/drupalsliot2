@@ -783,9 +783,8 @@ aside#region-sidebar-first {
 .page-settings h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
-  margin-left: 30px;
-  margin-bottom: 10px;
-  padding-top: 20px;
+  margin: 0 30px 10px 30px;
+  padding-top: 30px;
   line-height: 1;
 }
 
