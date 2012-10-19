@@ -2,7 +2,6 @@
 
 body {
   background: url(../images/fon_stena.jpg) repeat-y;
-  align: center;
   width: 100%;
 }
 
@@ -597,6 +596,7 @@ aside#region-sidebar-first {
   color: #5a9ee0;
   margin-left: 30px;
   margin-top: 15px;
+  font-size: 45px;
 }
 
 #registration_block_main_button {
