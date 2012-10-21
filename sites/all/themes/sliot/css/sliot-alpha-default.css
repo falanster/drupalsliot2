@@ -41,7 +41,8 @@ a:hover {
 .page-speeches #section-content,
 .page-projects #section-content,
 .page-codesprint-modules #section-content,
-.page-sponsors #section-content{
+.page-sponsors #section-content,
+.node-type-drupal-club #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
   min-height: 850px;
   width: 1280px;
