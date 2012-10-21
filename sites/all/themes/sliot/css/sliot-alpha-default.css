@@ -820,15 +820,16 @@ aside#region-sidebar-first {
 }
 
 .page-node .field-name-field-image {
-  align: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.page-node .field-name-field-image img {
+/*.page-node .field-name-field-image img {
   margin-top: 20px;
-/*  width: auto;
+  width: auto;
   margin-left: 15%;
-  margin-right: 15%; */
-}
+  margin-right: 15%; 
+} */
 
 
 /* @end inner page */
