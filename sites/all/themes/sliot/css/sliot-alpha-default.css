@@ -819,6 +819,10 @@ aside#region-sidebar-first {
   margin-bottom: 10px;
 }
 
+.page-node .field-name-field-image {
+  align: center;
+}
+
 .page-node .field-name-field-image img {
   margin-top: 20px;
   width: auto;
