@@ -30,10 +30,10 @@ a:hover {
 
 .page-frontpage #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
-/*  width: 1280px; */
+  width: 1260px; 
   min-height: 850px;
-/*  margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .node-type-static-page #section-content,
@@ -45,14 +45,14 @@ a:hover {
 .node-type-drupal-club #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
   min-height: 850px;
-  width: 1280px;
+  width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .node-type-webform #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
-  width: 1280px;
+  width: 1260px;
   min-height: 850px;
   margin-left: auto;
   margin-right: auto;
