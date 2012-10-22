@@ -1148,7 +1148,8 @@ div.warning {
 /* Disqus comments */
 
 #disqus_thread {
-  width: 580px;
+  width: 550px;
+  margin: 20px auto 0px;
 }
 
 /* @end disqus comments */
