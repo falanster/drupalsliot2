@@ -832,6 +832,11 @@ aside#region-sidebar-first {
 } */
 
 
+.page-node .field-name-body img {
+  text-align: center;
+}
+
+
 /* @end inner page */
 
 /* Zhuki blocks */
