@@ -1145,3 +1145,10 @@ div.warning {
 
 /*@end User profile page*/
 
+/* Disqus comments */
+
+#disqus_thread {
+  width: 580px;
+}
+
+/* @end disqus comments */
