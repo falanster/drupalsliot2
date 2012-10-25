@@ -1163,6 +1163,10 @@ div.warning {
 
 /*@end User profile page*/
 
+.statistics_counter {
+  margin-left: 30px;
+}
+
 /* Disqus comments */
 
 #disqus_thread {
