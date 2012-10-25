@@ -874,8 +874,8 @@ aside#region-sidebar-first {
   z-index: 99;
   float: left;
   width: 60px;
-  margin-left: -140px;
-  margin-top: 620px; 
+  left: -140px;
+  bottom: 0px; 
 }
 
 #block-block-21 {
