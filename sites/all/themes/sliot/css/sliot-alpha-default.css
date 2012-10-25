@@ -1,12 +1,14 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 body {
-  background: url(../images/fon_stena.jpg) repeat-y;
-  align: center;
+  background: url(../images/fon_stena.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
 }
 
 #page{
-  background: rgba(0, 0, 0, 0.5) repeat-y;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 1260px;
 }
 
 a, p, ul, ol, li, strong, em,
@@ -28,10 +30,10 @@ a:hover {
 
 .page-frontpage #section-content {
   background: url(../images/nadpisi_stena_1.png) no-repeat;
-  width: 1280px;
+  width: 1260px; 
   min-height: 850px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
 .node-type-static-page #section-content,
@@ -39,17 +41,18 @@ a:hover {
 .page-speeches #section-content,
 .page-projects #section-content,
 .page-codesprint-modules #section-content,
-.page-sponsors #section-content{
+.page-sponsors #section-content,
+.node-type-drupal-club #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
   min-height: 850px;
-  width: 1280px;
+  width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .node-type-webform #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
-  width: 1280px;
+  width: 1260px;
   min-height: 850px;
   margin-left: auto;
   margin-right: auto;
@@ -58,7 +61,7 @@ a:hover {
 #zone-branding-wrapper,
 #zone-menu-wrapper,
 #zone-footer2-wrapper {
-  background: rgba(0, 0, 0, 0.3) repeat-y;
+  background: rgba(0, 0, 0, 0.3);
 } 
 
 #zone-branding-wrapper {
@@ -491,6 +494,10 @@ aside#region-sidebar-first {
 
 /* Anonimus user */
 
+.block-block-24 {
+  margin-top: 30px;
+}
+
 #registration_block_language_switcher { 
   float: right;
   margin: -40px 30px 0 0;
@@ -591,6 +598,7 @@ aside#region-sidebar-first {
   color: #5a9ee0;
   margin-left: 30px;
   margin-top: 15px;
+  font-size: 45px;
 }
 
 #registration_block_main_button {
@@ -781,9 +789,9 @@ aside#region-sidebar-first {
 .page-settings h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
-  margin-left: 30px;
-  margin-bottom: 0px;
-  padding-top: 10px;
+  margin: 0 25px 10px 25px;
+  padding-top: 30px;
+  line-height: 1;
 }
 
 .page-node #region-content .date-display-single {
@@ -811,11 +819,21 @@ aside#region-sidebar-first {
   margin-bottom: 10px;
 }
 
-.page-node .field-name-field-image img {
+.page-node .field-name-field-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*.page-node .field-name-field-image img {
   margin-top: 20px;
   width: auto;
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 15%; 
+} */
+
+
+.page-node .field-name-body img {
+  text-align: center;
 }
 
 
@@ -1127,3 +1145,11 @@ div.warning {
 
 /*@end User profile page*/
 
+/* Disqus comments */
+
+#disqus_thread {
+  width: 550px;
+  margin: 20px auto 0px;
+}
+
+/* @end disqus comments */
