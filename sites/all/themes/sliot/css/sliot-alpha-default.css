@@ -51,7 +51,10 @@ a:hover {
   margin-right: auto;
 }
 
-.node-type-webform #section-content {
+.node-type-webform #section-content,
+.page-news #section-content,
+.page-news-drupalclub #section-content,
+.page-user #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
   width: 1260px;
   min-height: 850px;
