@@ -1181,3 +1181,11 @@ div.warning {
 }
 
 /* @end disqus comments */
+/* Donatation block */
+#block-block-25 {
+  width: 320px;
+  float: left;
+  margin: 20px 0;
+}
+
+/* @end donatation block */
