@@ -9,7 +9,7 @@ body.page-user #region-content .region-content-inner, body.node-type-webform #re
 
 dt {
 	color: #0e0e0e;
-}
+} body.page-user #region-content .tabs {
 
 	/* Registration page*/
 	
@@ -153,3 +153,8 @@ dt {
 }
 
 /*@end thematic pages*/
+
+
+.page-attendees .views-row .views-field-picture {
+  height: 100px;
+}
