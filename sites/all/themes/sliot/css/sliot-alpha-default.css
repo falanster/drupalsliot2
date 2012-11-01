@@ -1186,9 +1186,16 @@ div.warning {
 /* @end disqus comments */
 /* Donatation block */
 #block-block-25 {
-  width: 320px;
+  width: 260px;
   float: left;
   margin: 20px 0;
+  padding: 0 30px 30px 30px;
+  background-color: #F3F3F3;
+}
+
+#block-block-25 h2.block-title {
+  color: #5A9EE0;
+  margin-left: 0px;
 }
 
 /* @end donatation block */
