@@ -155,6 +155,7 @@ dt {
 /*@end thematic pages*/
 
 
-.view-users .views-row .views-field-picture {
+.page-attendees .view-users .views-row .views-field-picture {
   height: 100px;
+  background: red;
 }
