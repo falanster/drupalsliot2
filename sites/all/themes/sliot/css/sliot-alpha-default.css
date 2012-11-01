@@ -892,9 +892,9 @@ aside#region-sidebar-first {
 /* @end zhuki blocks */
 
 /*user list page*/
-.page-attendees {
+/*.page-attendees {
 }
-
+*/
 .page-attendees #region-content .region-inner {
   float: left;
   width: 600px;
@@ -920,14 +920,17 @@ aside#region-sidebar-first {
   width: 100%;
 }
 
-.page-attendees .view-id-users .views-row .views-field-name {
+.page-attendees .view-id-users .views-row .views-field-field-name {
   float: left;
   width: 100px;
   text-align: center;
 }
 
-.page-attendees .view-id-users .views-row .views-field-name a {
+
+.page-attendees .view-id-users .views-field-field-name a {
   color: #5A9EE0;
+  line-height: 0.8;
+  font-size: 13px;
 }
 
 /* @end user list page*/
