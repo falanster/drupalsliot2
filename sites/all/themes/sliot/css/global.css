@@ -8,13 +8,11 @@ body.page-user #region-content .region-content-inner, body.node-type-webform #re
 }
 
 dt {
-<<<<<<< HEAD
     color: #0e0e0e;
 }
-=======
-	color: #0e0e0e;
-} body.page-user #region-content .tabs {
->>>>>>> ab5958b6ae195142d15c2be265e6d1e91d9a6f05
+
+body.page-user #region-content .tabs {
+}
 
 /* Registration page*/
 
