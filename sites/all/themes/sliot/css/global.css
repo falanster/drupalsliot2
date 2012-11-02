@@ -3,153 +3,153 @@
 
 /*User & Webform Pages*/
 body.page-user #region-content .region-content-inner, body.node-type-webform #region-content .region-content-inner {
-		padding: 10px 30px 30px 30px;
-		background-color: #f3f3f3;
-	}
-
-dt {
-	color: #0e0e0e;
+    padding: 10px 30px 30px 30px;
+    background-color: #f3f3f3;
 }
 
-	/* Registration page*/
-	
-	body.page-user #region-content {
-		margin-top: 30px;
-	}
-	
-	body.page-user #region-content .tabs {
-		/* display: none; */
-	}
+dt {
+    color: #0e0e0e;
+}
 
-	body.page-user-register #region-content h1#page-title {
-		color: #089fe3;
-		display: block !important;
-		font-size: 45px;
-	}
+/* Registration page*/
 
-	#edit-profile-main, #edit-profile-registration span.fieldset-legend {
-		display: none;
-	}
+body.page-user #region-content {
+    margin-top: 30px;
+}
 
-	body.page-user-register #region-content .form-checkboxes {
-		background-color: #fff;
-		padding: 20px 30px;
-	}
+body.page-user #region-content .tabs {
+    display: none;
+}
 
-	body.page-user-register #region-content #edit-profile-registration-field-news-und {
-		padding-top: 10px;
-		background-color: transparent;
-	}
+body.page-user-register #region-content h1#page-title {
+    color: #089fe3;
+    display: block !important;
+    font-size: 45px;
+}
 
-	body.page-user-register #region-content .form-item label {
-		margin-bottom: 10px;
-		font-size: 14px;
-		color: #0e0e0e;
-	}
+#edit-profile-main, #edit-profile-registration span.fieldset-legend {
+    display: none;
+}
 
-	body.page-user-register #region-content #edit-profile-registration-field-news-und {
-		padding: 0px 30px;
-	}
-	label[for=edit-profile-registration-field-news-und] {
-		display: none;
-	}
+body.page-user-register #region-content .form-checkboxes {
+    background-color: #fff;
+    padding: 20px 30px;
+}
 
-	label[for=edit-profile-registration-field-other-und-0-value] {
-		font-weight: normal;
-	}
+body.page-user-register #region-content #edit-profile-registration-field-news-und {
+    padding-top: 10px;
+    background-color: transparent;
+}
 
-	body.page-user-register #region-content .form-item-profile-registration-field-other-und-0-value {
-		background-color: #fff;
-		position: relative;
-		margin-top: -30px;
-		padding: 0px 30px 20px 30px;
-	}
+body.page-user-register #region-content .form-item label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+body.page-user-register #region-content #edit-profile-registration-field-news-und {
+    padding: 0px 30px;
+}
+label[for=edit-profile-registration-field-news-und] {
+    display: none;
+}
+
+label[for=edit-profile-registration-field-other-und-0-value] {
+    font-weight: normal;
+}
+
+body.page-user-register #region-content .form-item-profile-registration-field-other-und-0-value {
+    background-color: #fff;
+    position: relative;
+    margin-top: -30px;
+    padding: 0px 30px 20px 30px;
+}
 
 /*	label#edit-name 
 	{
-		font-size: 18px;
+	font-size: 18px;
 	}
-*/
-	body.page-user-register #region-content #edit-submit {
-		float: right;
-		width: 164px;
-		height: 70px;
-		background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
-		border: none;
-		text-indent: -1000em;
-	}
+	*/
+body.page-user-register #region-content #edit-submit {
+    float: right;
+    width: 164px;
+    height: 70px;
+    background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
+    border: none;
+    text-indent: -1000em;
+}
 
-	body.page-user-register #region-content #edit-submit:hover {
-		opacity: 0.7;
-	}
+body.page-user-register #region-content #edit-submit:hover {
+    opacity: 0.7;
+}
 
 
-	/* @end registration page*/
+/* @end registration page*/
 
-	/*Login page*/
-	body.page-user #region-content h1#page-title {
-		display: none;
-	}
+/*Login page*/
+body.page-user #region-content h1#page-title {
+    display: none;
+}
 
-	div.form-item div.password-suggestions {
-		padding-left: 20px;
-	}
+.form-item div.password-suggestions {
+    padding-left: 20px;
+}
 
-	/*@end login page*/
+/*@end login page*/
 
-	/*Webform pages*/
-	
-	body.node-type-webform #region-content {
-		margin-top: 30px;
-	}
+/*Webform pages*/
 
-	body.node-type-webform #region-content h1#page-title {
-		color: #089fe3;
-		font-size: 45px;
-		margin: 0;
-		padding: 0;
-	}
+body.node-type-webform #region-content {
+    margin-top: 30px;
+}
 
-	body.node-type-webform #region-content .form-item label {
-		margin-bottom: 10px;
-		font-size: 14px;
-		color: #0e0e0e;
-	}
-	
-	body.node-type-webform #region-content #edit-submit,
-    .page-settings #region-content #edit-submit {
-		width: 164px;
-		height: 70px;
-		float: right;
-		background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
-		border: none;
-		text-indent: -1000em;
-	}
-	
-	body.node-type-webform #region-content #node-webform-13 #edit-submit, body.node-type-webform #region-content #node-webform-19 #edit-submit, body.node-type-webform #region-content #node-webform-18 #edit-submit {
-		width: 154px;
-		height: 74px;
-		background: url("/sites/default/files/images_stpage/kn_dobavit.png") no-repeat center top;
-	
-	}
+body.node-type-webform #region-content h1#page-title {
+    color: #089fe3;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
 
-	body.node-type-webform #region-content #edit-submit:hover,
-    .page-settings #region-content #edit-submit:hover {
-		opacity: 0.7;
-	}
+body.node-type-webform #region-content .form-item label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #0e0e0e;
+}
 
-	/*@end Webform pages*/
+body.node-type-webform #region-content #edit-submit,
+.page-settings #region-content #edit-submit {
+    width: 164px;
+    height: 70px;
+    float: right;
+    background: url("/sites/default/files/images_stpage/kn_opravit.png") no-repeat center top;
+    border: none;
+    text-indent: -1000em;
+}
+
+body.node-type-webform #region-content #node-webform-13 #edit-submit, body.node-type-webform #region-content #node-webform-19 #edit-submit, body.node-type-webform #region-content #node-webform-18 #edit-submit {
+    width: 154px;
+    height: 74px;
+    background: url("/sites/default/files/images_stpage/kn_dobavit.png") no-repeat center top;
+    
+}
+
+body.node-type-webform #region-content #edit-submit:hover,
+.page-settings #region-content #edit-submit:hover {
+    opacity: 0.7;
+}
+
+/*@end Webform pages*/
 /*@end user & webform page*/
 
 /*Thematic (hackathon, speech, codesprint) pages*/
 
 .site_button {
-	float: left;
-	margin: 40px 50px 20px;
+    float: left;
+    margin: 40px 50px 20px;
 }
 
 .site_button:hover {
-	opacity: 0.7;
+    opacity: 0.7;
 }
 
 /*@end thematic pages*/
