@@ -819,6 +819,10 @@ aside#region-sidebar-first {
   line-height: 1;
 }
 
+.page-node #region-content .field-name-field-date {
+  margin-bottom: 15px;
+}
+
 .page-node #region-content .date-display-single {
   color: #939393;
 }
@@ -887,7 +891,7 @@ aside#region-sidebar-first {
 
 #block-block-21 {
   float: right;
-  margin: -46px 60px 0 0;
+  margin: -46px 110px 0 0;
 }
 
 #block-block-21 img {
