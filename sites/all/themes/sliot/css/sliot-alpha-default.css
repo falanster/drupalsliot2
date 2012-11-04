@@ -864,6 +864,9 @@ aside#region-sidebar-first {
   margin-right: 15%; 
 } */
 
+.page-node .field-name-body {
+  margin-top: 20px;
+}
 
 .page-node .field-name-body img {
   text-align: center;
@@ -1185,7 +1188,6 @@ div.warning {
 .statistics_counter {
   margin-left: 30px;
   margin-top: 10px;
-  padding: 0;
   float: left;
 }
 
