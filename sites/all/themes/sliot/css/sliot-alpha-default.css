@@ -68,6 +68,10 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
 } 
 
+#zone-footer2-wrapper {
+  margin-top: 90px;
+}
+
 #zone-branding-wrapper {
   padding-top: 25px;
 }
@@ -882,7 +886,8 @@ aside#region-sidebar-first {
 }
 
 #block-block-21 {
-  margin-bottom: 90px;
+  float: right;
+  margin: -46px 60px 0 0;
 }
 
 #block-block-21 img {
