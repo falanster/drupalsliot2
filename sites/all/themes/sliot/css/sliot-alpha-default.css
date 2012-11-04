@@ -1189,6 +1189,10 @@ div.warning {
   float: left;
 }
 
+ul.links li.statistics_counter {
+  padding: 0;
+}
+
 /* Disqus comments */
 
 #disqus_thread {
