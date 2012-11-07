@@ -377,6 +377,11 @@ aside#region-sidebar-first {
   padding-bottom: 10px;
 }
 
+#block-views-sponsor-block-1 .views-field-field-image {
+  width: 150px;
+  height: 150px;
+}
+
 #block-views-sponsor-block-1 .views-field-field-image img {
   margin-left: 45px;
   margin-bottom: 40px;
