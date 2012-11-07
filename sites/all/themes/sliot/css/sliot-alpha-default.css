@@ -499,12 +499,14 @@ aside#region-sidebar-first {
 #block-views-sponsor-block-3 .views-field-field-image {
   width: 150px;
   height: 150px;
+  float: left;
+  margin: 10px 38px 10px 0;
 }
 
-#block-views-sponsor-block-3 .views-field-field-image img {
+/*#block-views-sponsor-block-3 .views-field-field-image img {
   float: left;
-  margin: 10px 40px 10px 0;
-}
+  margin: 10px 38px 10px 0;
+} */
 
 /* @end footer */
 
