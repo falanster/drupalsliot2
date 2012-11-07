@@ -1212,7 +1212,7 @@ ul.links li.statistics_counter {
 /* @end disqus comments */
 /* Donatation block */
 #block-block-25 {
-  width: 260px;
+  width: 240px;
   float: left;
   margin: 20px 0;
   padding: 0 30px 30px 30px;
@@ -1222,6 +1222,7 @@ ul.links li.statistics_counter {
 #block-block-25 h2.block-title {
   color: #5A9EE0;
   margin-left: 0px;
+  font-size: 30px;
 }
 
 /* @end donatation block */
