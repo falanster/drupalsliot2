@@ -377,11 +377,6 @@ aside#region-sidebar-first {
   padding-bottom: 10px;
 }
 
-#block-views-sponsor-block-1 .views-field-field-image {
-  width: 150px;
-  height: 150px;
-}
-
 #block-views-sponsor-block-1 .views-field-field-image img {
   margin-left: 45px;
   margin-bottom: 40px;
@@ -498,6 +493,12 @@ aside#region-sidebar-first {
 #block-views-sponsor-block-3 h2.block-title {
   margin-left: 30px;
   color: #a3a3a3;
+}
+
+
+#block-views-sponsor-block-3 .views-field-field-image {
+  width: 150px;
+  height: 150px;
 }
 
 #block-views-sponsor-block-3 .views-field-field-image img {
