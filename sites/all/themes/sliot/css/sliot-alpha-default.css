@@ -503,10 +503,9 @@ aside#region-sidebar-first {
   margin: 10px 38px 10px 0;
 }
 
-/*#block-views-sponsor-block-3 .views-field-field-image img {
-  float: left;
-  margin: 10px 38px 10px 0;
-} */
+#block-views-sponsor-block-3 .views-field-field-image img {
+  text-align: center;
+}
 
 /* @end footer */
 
