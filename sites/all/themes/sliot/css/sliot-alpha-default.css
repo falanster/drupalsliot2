@@ -737,14 +737,12 @@ aside#region-sidebar-first {
 }
 
 .view-front-reg .item-list .pager li,
-.page-attendees .item-list .pager li,
 .page-news-drupalclub .item-list .pager li,
 .page-news .item-list .pager li {
   padding: 0;
 }
 
 .view-front-reg .item-list .pager li a,
-.page-attendees .item-list .pager li a,
 .page-news-drupalclub .item-list .pager li a,
 .page-news .item-list .pager li a {
   color: #fffefe;
@@ -761,7 +759,6 @@ aside#region-sidebar-first {
 }
 
 .view-front-reg .item-list .pager .pager-current,
-.page-attendees .item-list .pager .pager-current,
 .page-news-drupalclub .item-list .pager .pager-current,
 .page-news .item-list .pager .pager-current {
   font-size: 16px;
@@ -1226,3 +1223,10 @@ ul.links li.statistics_counter {
 }
 
 /* @end donatation block */
+
+/*Pager settings*/
+
+.item-list ul {
+    padding: 20px 0 0;
+    margin-right: 15px;
+}
