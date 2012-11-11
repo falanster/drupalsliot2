@@ -246,6 +246,11 @@ h2.block-title {
   text-decoration: underline;
 }
 
+.view-tweets .view-content .item-list ul {
+  padding: 0px;
+}
+ 
+
 /* @end twitter block */
 
 /* @end social network */
