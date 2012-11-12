@@ -138,7 +138,7 @@ h2.block-title {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
-  margin-top: -10px;
+ /* margin-top: -10px ; */
 }
 
 #nice-menu-1 li ul li a {
@@ -154,6 +154,15 @@ h2.block-title {
 
 #nice-menu-1 li.menu-342 ul li {
   width: 175px;
+}
+
+ul.nice-menu a {
+  padding: 5px 0 3px;
+}
+
+#nice-menu-1 ul li {
+  position: relative;
+  top: -6px;
 }
 
 /* @end main menu */
