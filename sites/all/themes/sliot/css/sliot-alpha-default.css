@@ -122,7 +122,7 @@ h2.block-title {
 }
 
 #nice-menu-1 li ul li {
-  margin: 0px;
+  margin: 23px; /* edit this string */
 }
 
 #nice-menu-1 li a {
