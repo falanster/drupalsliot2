@@ -5,5 +5,24 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
+<<<<<<< HEAD
 *htaccess
 *.htaccess
+=======
+.htaccess
+
+
+# Ignore cache files
+sites/default/files/css/*
+sites/default/files/js/*
+sites/default/files/languages/*
+
+# Remove rubbish from repo
+/nbproject/private/
+nbproject
+nbproject/*
+*.swp
+Thumbs.db
+*~*
+.DS_Store?
+>>>>>>> 544186f87ada8bcb584b21de91ecb4d993a99cb1
