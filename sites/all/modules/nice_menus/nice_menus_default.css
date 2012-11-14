@@ -33,7 +33,7 @@ ul.nice-menu a {
 }
 
 ul.nice-menu ul {
-  top: 1.8em;
+  top: 1.8em; 
   left: -1px; /* LTR */
   border: 0;
   border-top: 1px solid #ccc;
