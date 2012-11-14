@@ -121,10 +121,6 @@ h2.block-title {
   background: rgba(0, 0, 0, 0.7);
 }
 
-#nice-menu-1 li ul {
-  margin-top: 23px;
-}
-
 #nice-menu-1 li ul li {
   margin: 0px;
 }
@@ -160,9 +156,8 @@ ul.nice-menu a {
   padding: 5px 0 3px;
 }
 
-#nice-menu-1 ul li {
-  position: relative;
-  top: -7px;
+#nice-menu-1 ul {
+  top: 0;
 }
 
 /* @end main menu */
