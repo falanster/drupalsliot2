@@ -121,8 +121,12 @@ h2.block-title {
   background: rgba(0, 0, 0, 0.7);
 }
 
-#nice-menu-1 li ul li {
+#nice-menu-1 li ul {
   margin-top: 23px; /* edit this string */
+}
+
+#nice-menu-1 li ul li {
+  margin: 0px; 
 }
 
 #nice-menu-1 li a {
