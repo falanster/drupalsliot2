@@ -101,7 +101,11 @@ h2.block-title {
 
 #nice-menu-1 {
   float: right;
-  margin: 10px 40px 0px 0;
+  margin: 10px 40px 0px;
+}
+
+#nice-menu-1 li.menuparent {
+  height: 45px;
 }
 
 #nice-menu-1 li,
@@ -122,7 +126,7 @@ h2.block-title {
 }
 
 #nice-menu-1 li ul {
-  margin-top: 23px; /* edit this string */
+  /*margin-top: 23px; /* edit this string */
 }
 
 #nice-menu-1 li ul li {
@@ -161,7 +165,7 @@ ul.nice-menu a {
 }
 
 #nice-menu-1 ul {
- /* top: 0; */
+ top: 45px;
 }
 
 /* @end main menu */
