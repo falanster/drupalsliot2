@@ -117,7 +117,7 @@ h2.block-title {
 
 #nice-menu-1 li,
 #nice-menu-1 li ul li {
-  padding: 0 20px;
+  /*padding: 0 20px; */
 }  
 
 #nice-menu-1 li:hover,
@@ -161,7 +161,7 @@ h2.block-title {
 }
 
 ul.nice-menu a {
-  padding: 5px 0 3px;
+  padding: 3px 20px 5px; 
 }
 
 #nice-menu-1 ul {
