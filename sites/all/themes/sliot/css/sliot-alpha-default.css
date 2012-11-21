@@ -164,12 +164,20 @@ ul.nice-menu-down .menuparent {
   width: 175px;
 }
 
-ul.nice-menu a {
+#nice-menu-1 li.menuparent a {
   padding: 3px 20px 5px; 
 }
 
+#nice-menu-1 li.menuparent ul li a {
+  padding: 0 5px 0  20px;  
+}
+
 #nice-menu-1 ul {
- top: 45px;
+  top: 45px;
+}
+
+ul.nice-menu ul li {
+  width: 13em;
 }
 
 /* @end main menu */
