@@ -108,8 +108,8 @@ h2.block-title {
   height: 45px;
 }
 
-ul.nice-menu-down .menuparent {
-  /*line-height: 40px; */
+ul.nice-menu-down .menuparent + a {
+  line-height: 40px; 
 }
 
 #nice-menu-1 li,
