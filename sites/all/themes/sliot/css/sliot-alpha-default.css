@@ -109,7 +109,7 @@ h2.block-title {
 }
 
 ul.nice-menu-down .menuparent {
-  line-height: 40px;
+  /*line-height: 40px; */
 }
 
 #nice-menu-1 li,
@@ -160,16 +160,12 @@ ul.nice-menu-down .menuparent {
   color: #5a9ee0;
 }
 
-#nice-menu-1 li.menu-342 ul li {
-  width: 175px;
-}
-
 #nice-menu-1 li.menuparent a {
-  padding: 3px 20px 5px; 
+  padding: 5px 20px; 
 }
 
 #nice-menu-1 li.menuparent ul li a {
-  padding: 0 5px 0  20px;  
+  padding: 3px 5px 3px 20px;  
 }
 
 #nice-menu-1 ul {
