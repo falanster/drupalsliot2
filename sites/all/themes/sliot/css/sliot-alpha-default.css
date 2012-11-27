@@ -534,6 +534,8 @@ aside#region-sidebar-first {
 
 #block-views-sponsor-block-3 .views-field-field-image img {
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* @end footer */
