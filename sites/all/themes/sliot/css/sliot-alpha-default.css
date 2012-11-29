@@ -1006,6 +1006,9 @@ div.warning {
   text-align: center;
 }
 
+.page-projects .warning { 
+  margin-top: -100px; 
+}
 
 .page-codesprint-modules #zone-content #region-content,
 .page-projects #zone-content #region-content,
