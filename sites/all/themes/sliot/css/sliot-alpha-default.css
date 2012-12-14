@@ -310,6 +310,7 @@ ul.nice-menu ul li {
 }
 
 .logged-in #block-aggregator-feed-1 {
+    margin-top: 25px;
     width: 300px;
     float: right;
     margin-bottom: 40px;
