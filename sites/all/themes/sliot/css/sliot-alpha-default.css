@@ -282,6 +282,7 @@ ul.nice-menu ul li {
 #block-aggregator-feed-1 {
   background-color: #3F3C40;
   margin-top: 30px;
+  padding-bottom: 25px;
 }
 
 #block-aggregator-feed-1 ul li {
@@ -313,6 +314,7 @@ ul.nice-menu ul li {
     width: 300px;
     float: right;
     margin-bottom: 40px;
+    padding-booto: 25px;
 }
 
 /* @end Twitter #block*/
