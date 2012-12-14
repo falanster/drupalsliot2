@@ -295,8 +295,7 @@ ul.nice-menu ul li {
 
 
 #block-aggregator-feed-1 .more-link {
-    margin-right: 25px;
-    margin-bottom: 20px;
+    display: none;
 }
 
 #block-aggregator-feed-1 .more-link a {
