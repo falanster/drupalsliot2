@@ -833,10 +833,9 @@ aside#region-sidebar-first {
   margin-top: 25px;
 }
 
-/*
-.view-front-reg {
+#block-views-front-reg-block .view-front-reg {
   margin-top: 25px;
-} */
+} 
 
 .view-front-reg .item-list .pager li,
 .page-news-drupalclub .item-list .pager li,
