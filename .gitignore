@@ -5,6 +5,21 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
+*htaccess
+*.htaccess
 
+
+# Ignore cache files
+sites/default/files/css/*
+sites/default/files/js/*
+sites/default/files/languages/*
+
+# Remove rubbish from repo
+/nbproject/private/
+nbproject
+nbproject/*
 *.swp
-*.swo
+Thumbs.db
+*~*
+.DS_Store?
+
