@@ -323,30 +323,12 @@ h2.block-title {
 
 /* Right sidebar*/
 
-/* Timer block */
-/*
-#block-jquery-countdown-jquery-countdown {
-  background: #3f3c40;
-  margin-top: 30px;
-}
-
-#jquery-countdown-jquery-countdown {
-  background: none;
-  border: none;
-  padding: 15px 0;
-}
-
-#jquery-countdown-jquery-countdown .countdown_section {
-  color: #dedede;
-}*/
-
-/* @end timer block */
-
 
 aside#region-sidebar-first {
   float: right;
 }
 
+/*
 #block-views-sponsor-block-1 h2.block-title {
   padding-bottom: 10px;
 }
@@ -428,7 +410,7 @@ aside#region-sidebar-first {
   margin-left: 30px;
 }
 
-#block-views-sponsor-block-2  .views-field-field-image img,
+#block-views-sponsor-block-2  .views-field-field-image img, 
 #block-system-main .views-field-field-image img {
   float: left;
   margin: 10px 8px 20px 32px; 
@@ -502,7 +484,7 @@ aside#region-sidebar-first {
 /* Front page */
 
 /* Video block for anonimous*/
-
+/*
 #block-block-27 {
    background-color: #F3F3F3;
    margin-bottom: 35px;
@@ -516,9 +498,6 @@ aside#region-sidebar-first {
   margin: 0 0 10px 0;
   padding: 0;
 }
-
-
-
 
 /* @end Video block for anonymous */
 
@@ -925,10 +904,6 @@ aside#region-sidebar-first {
   line-height: 1;
 }
 
-/*.page-node #region-content .field-name-field-date {
-  margin-bottom: 15px;
-} */
-
 .page-node #region-content .date-display-single {
   color: #939393;
 }
@@ -959,13 +934,6 @@ aside#region-sidebar-first {
   margin-top: 20px;
 }
 
-/*.page-node .field-name-field-image img {
-  margin-top: 20px;
-  width: auto;
-  margin-left: 15%;
-  margin-right: 15%; 
-} */
-
 .page-node .field-name-body {
   margin-top: 20px;
 }
@@ -973,7 +941,6 @@ aside#region-sidebar-first {
 .page-node .field-name-body img {
   text-align: center;
 }
-
 
 /* @end inner page */
 
@@ -1010,9 +977,7 @@ aside#region-sidebar-first {
 /* @end zhuki blocks */
 
 /*user list page*/
-/*.page-attendees {
-}
-*/
+
 .page-attendees #region-content .region-inner {
   float: left;
   width: 600px;
@@ -1043,7 +1008,6 @@ aside#region-sidebar-first {
   width: 100px;
   text-align: center;
 }
-
 
 .page-attendees .view-id-users .views-field-field-name a {
   color: #5A9EE0;
@@ -1174,14 +1138,6 @@ div.warning {
   margin: 20px 0 0 0;
 }
 
-/*
-.not-logged-in .page-codesprint-modules #region-content #add_module_button a,
-.not-logged-in .page-projects #region-content #add_project_button a,
-.not-logged-in .page-speeches #region-content #add_speech_button a {
-  display: none;  
-} */
-
-
 .page-codesprint-modules #region-content #add_module_button a,
 .page-projects #region-content #add_project_button a,
 .page-speeches #region-content #add_speech_button a {
@@ -1226,7 +1182,6 @@ div.warning {
 .page-speeches #block-views-front-reg-block .views-row, #block-system-main {
   margin-bottom: 0;
 }
-
 
 /*@end vote page*/
 
@@ -1300,6 +1255,7 @@ ul.links li.statistics_counter {
 }
 
 /* @end disqus comments */
+
 /* Donatation block */
 #block-block-25 {
   width: 240px;
