@@ -402,9 +402,9 @@ ul.nice-menu ul li {
 }
 
 .block-logintoboggan {
-  clear: left;
   float: right;
-  margin-right: 92px; 
+  margin: -36px -70px 0 0;
+  font-size: 22px;
 }
 
 .block-logintoboggan a,
