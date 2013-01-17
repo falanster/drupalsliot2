@@ -832,7 +832,12 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-body .field-content,
 .page-club #block-system-main .views-row .views-field-body .field-content,
 .page-drupal-day #block-system-main .views-row .views-field-body .field-content,
-.page-translate #block-system-main .views-row .views-field-body .field-content {
+.page-translate #block-system-main .views-row .views-field-body .field-content,
+#block-views-main-pages-block-5 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-4 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-3 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-2 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-1 .views-row .views-field-body .field-content  {
   margin: 10px 30px 0px 30px; 
 }
 
