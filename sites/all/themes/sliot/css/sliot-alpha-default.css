@@ -108,14 +108,14 @@ h2.block-title {
   height: 45px;
   margin-bottom: 10px;
 }
-
+/*
 ul.nice-menu-down .menuparent a {
   line-height: 35px; 
 }
 
 ul.nice-menu-down .menuparent ul li a {
   line-height: normal;
-}
+} */
 
 #nice-menu-1 li,
 #nice-menu-1 li ul,
@@ -123,15 +123,6 @@ ul.nice-menu-down .menuparent ul li a {
   background: none;
   border: none;
 }
-
-
-/*
-#nice-menu-1 li:hover,
-#nice-menu-1 li ul li {
-  background: rgba(0, 0, 0, 0.7);
-}
-*/
-
 
 #nice-menu-1 li ul li {
   margin: 0px; 
@@ -146,19 +137,18 @@ ul.nice-menu-down .menuparent ul li a {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
- /* margin-top: -10px ; */
 }
-
+/*
 #nice-menu-1 li ul li a {
   font-size: 20px;
-}
+} */
 
 #nice-menu-1 li a:hover,
-#nice-menu-1 li ul li a:hover,
+/*#nice-menu-1 li ul li a:hover, */
 #block-menu-menu-footer-menu ul li a:hover,
 #block-menu-menu-header-menu ul li a:hover,
 #nice-menu-1 li a.active,
-#nice-menu-1 li ul li a.active,
+/*#nice-menu-1 li ul li a.active, */
 #block-menu-menu-footer-menu ul li a.active,
 #block-menu-menu-header-menu ul li a.active {
   color: #5a9ee0;
@@ -167,10 +157,10 @@ ul.nice-menu-down .menuparent ul li a {
 #nice-menu-1 li a {
   padding: 5px 20px; 
 }
-
+/*
 #nice-menu-1 li ul li a {
   padding: 3px 5px 3px 20px;  
-}
+} */
 
 #nice-menu-1 ul {
   top: 45px;
@@ -278,7 +268,7 @@ ul.nice-menu ul li {
 /* @end twitter block */
 
 /* Twitter #block */
-
+/*
 #block-aggregator-feed-1 {
   background-color: #3F3C40;
   margin-top: 30px;
@@ -315,7 +305,7 @@ ul.nice-menu ul li {
     float: right;
     margin-bottom: 40px;
     padding-booto: 25px;
-}
+} */
 
 /* @end Twitter #block*/
 
