@@ -545,8 +545,13 @@ aside#region-sidebar-first {
   margin: 0 15px;
 }
 
+#block-menu-menu-header-menu ul {
+  margin: -5px 0 10px 35px;
+}
+
 #block-menu-menu-header-menu ul li {
   display: inline;
+  margin-right: 15px;
 }
 
 #block-menu-menu-footer-menu ul li a,
