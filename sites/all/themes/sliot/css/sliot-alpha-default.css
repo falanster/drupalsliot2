@@ -155,8 +155,12 @@ ul.nice-menu-down .menuparent ul li a {
 
 #nice-menu-1 li a:hover,
 #nice-menu-1 li ul li a:hover,
+#block-menu-menu-footer-menu ul li a:hover,
+#block-menu-menu-header-menu ul li a:hover,
 #nice-menu-1 li a.active,
-#nice-menu-1 li ul li a.active {
+#nice-menu-1 li ul li a.active,
+#block-menu-menu-footer-menu ul li a.active,
+#block-menu-menu-header-menu ul li a.active {
   color: #5a9ee0;
 }
 
