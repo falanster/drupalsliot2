@@ -127,19 +127,6 @@ h2.block-title {
   color: #5a9ee0;
 }
 
-/*
-#nice-menu-1 li ul li a {
-  padding: 3px 5px 3px 20px;  
-} 
-
-#nice-menu-1 ul {
-  top: 45px;
-}
-
-ul.nice-menu ul li {
-  width: 13em;
-}*/
-
 /* @end main menu */
 
 /* Social network */
@@ -234,57 +221,13 @@ ul.nice-menu ul li {
   padding: 0px;
 }
  
-
 /* @end twitter block */
-
-/* Twitter #block */
-/*
-#block-aggregator-feed-1 {
-  background-color: #3F3C40;
-  margin-top: 30px;
-  padding-bottom: 25px;
-}
-
-#block-aggregator-feed-1 ul li {
-    margin-bottom: 10px;
-}
-
-#block-aggregator-feed-1 a {
-  color: #DEDEDE;
-  font-size: 12px;
-}
-
-
-#block-aggregator-feed-1 .more-link {
-    display: none;
-}
-
-#block-aggregator-feed-1 .more-link a {
-  text-decoration: none;
-  color: #CAD96B;
-  font-size: 32px;
-}
-
-#block-aggregator-feed-1 .more-link a:hover {
-  text-decoration: underline;
-}
-
-.logged-in #block-aggregator-feed-1 {
-    margin-top: 25px;
-    width: 300px;
-    float: right;
-    margin-bottom: 40px;
-    padding-booto: 25px;
-} */
-
-/* @end Twitter #block*/
-
 
 /* @end social network */
 
 
 /* User login */
-
+/*
 #user-login-form {
   float: left;
   margin-left: 40px;
@@ -328,7 +271,6 @@ ul.nice-menu ul li {
 #user-login-form #edit-actions,
 #edit-actions--2 {
   float: right;
-/*  margin: -40px -18px 10px 30px; */
   width: 60px;
   margin: -10px -10px 0 0;
 }
@@ -359,7 +301,7 @@ ul.nice-menu ul li {
 
 #user-login-form .item-list .last {
   display: none;
-}
+} */
 
 .block-logintoboggan {
   float: right;
