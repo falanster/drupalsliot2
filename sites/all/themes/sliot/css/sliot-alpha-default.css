@@ -112,13 +112,10 @@ h2.block-title {
 }
 
 #nice-menu-1 li a {
-  background: none;
-}
-
-#nice-menu-1 li a {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
+  padding: 5px 20px; 
 }
 
 #nice-menu-1 li a:hover,
@@ -130,13 +127,10 @@ h2.block-title {
   color: #5a9ee0;
 }
 
-#nice-menu-1 li a {
-  padding: 5px 20px; 
-}
 /*
 #nice-menu-1 li ul li a {
   padding: 3px 5px 3px 20px;  
-} */
+} 
 
 #nice-menu-1 ul {
   top: 45px;
@@ -144,7 +138,7 @@ h2.block-title {
 
 ul.nice-menu ul li {
   width: 13em;
-}
+}*/
 
 /* @end main menu */
 
