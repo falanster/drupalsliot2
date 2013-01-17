@@ -746,8 +746,16 @@ aside#region-sidebar-first {
 #block-views-front-reg-block .views-row,
 .page-news-drupalclub #block-system-main .views-row,
 .page-news #block-system-main .views-row,
-.page-blogs #block-views-main-pages-block-1 .views-row,
 .page-blogs #block-system-main .views-row,
+.page-sliot #block-system-main .views-row,
+.page-club #block-system-main .views-row,
+.page-drupal-day #block-system-main .views-row,
+.page-translate #block-system-main .views-row,
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row,
 #block-block-3 {
   background: #f3f3f3;
   float: left;
