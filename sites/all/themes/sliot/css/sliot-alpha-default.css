@@ -888,7 +888,12 @@ aside#region-sidebar-first {
   margin-top: 25px;
 }
 
-#block-views-front-reg-block .view-front-reg {
+#block-views-front-reg-block .view-front-reg,
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row {
   margin-top: 25px;
 } 
 
