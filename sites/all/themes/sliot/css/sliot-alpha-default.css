@@ -907,7 +907,7 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-view-node a:hover,
 .page-club #block-system-main .views-row .views-field-view-node a:hover,
 .page-drupal-day #block-system-main .views-row .views-field-view-node a:hover,
-.page-translate  .views-row .views-field-view-node a:hover {
+.page-translate #block-system-main .views-row .views-field-view-node a:hover {
   text-decoration: underline;
 }
 
