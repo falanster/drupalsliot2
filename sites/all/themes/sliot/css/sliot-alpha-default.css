@@ -159,11 +159,11 @@ ul.nice-menu-down .menuparent ul li a {
   color: #5a9ee0;
 }
 
-#nice-menu-1 li.menuparent a {
+#nice-menu-1 li a {
   padding: 5px 20px; 
 }
 
-#nice-menu-1 li.menuparent ul li a {
+#nice-menu-1 li ul li a {
   padding: 3px 5px 3px 20px;  
 }
 
