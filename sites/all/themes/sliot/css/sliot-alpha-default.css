@@ -855,7 +855,12 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-view-node,
 .page-club #block-system-main .views-row .views-field-view-node,
 .page-drupal-day #block-system-main .views-row .views-field-view-node,
-.page-translate #block-system-main .views-row .views-field-view-node {
+.page-translate #block-system-main .views-row .views-field-view-node,
+#block-views-main-pages-block-5 .views-row .views-field-view-node,
+#block-views-main-pages-block-4 .views-row .views-field-view-node,
+#block-views-main-pages-block-3 .views-row .views-field-view-node,
+#block-views-main-pages-block-2 .views-row .views-field-view-node,
+#block-views-main-pages-block-1 .views-row .views-field-view-node {
   float: right;
   padding-bottom: 30px;
   margin-right: 30px;
@@ -866,7 +871,12 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-view-node a,
 .page-club #block-system-main .views-row .views-field-view-node a,
 .page-drupal-day #block-system-main .views-row .views-field-view-node a,
-.page-translate #block-system-main .views-row .views-field-view-node a {
+.page-translate #block-system-main .views-row .views-field-view-node a,
+#block-views-main-pages-block-5 .views-row .views-field-view-node a,
+#block-views-main-pages-block-4 .views-row .views-field-view-node a,
+#block-views-main-pages-block-3 .views-row .views-field-view-node a,
+#block-views-main-pages-block-2 .views-row .views-field-view-node a,
+#block-views-main-pages-block-1 .views-row .views-field-view-node a {
   text-decoration: none;
   color: #5a9ee0;  
   font-size: 16px;
@@ -888,7 +898,17 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-title a:hover,
 .page-club #block-system-main .views-row .views-field-title a:hover,
 .page-drupal-day #block-system-main .views-row .views-field-title a:hover,
-.page-translate #block-system-main .views-row .views-field-title a:hover {
+.page-translate #block-system-main .views-row .views-field-title a:hover,
+#block-views-main-pages-block-5 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-4 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-3 .views-row ..views-field-view-node a:hover,
+#block-views-main-pages-block-2 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-1 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-5 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-4 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-3 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-2 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-1 .views-row .views-field-title a:hover {
   text-decoration: underline;
 }
 
