@@ -123,19 +123,14 @@ ul.nice-menu-down .menuparent ul li a {
   border: none;
 }
 
-#nice-menu-1 li,
-#nice-menu-1 li ul li {
-  /*padding: 0 20px; */
-}  
 
+/*
 #nice-menu-1 li:hover,
 #nice-menu-1 li ul li {
   background: rgba(0, 0, 0, 0.7);
 }
+*/
 
-#nice-menu-1 li ul {
-  /*margin-top: 23px; /* edit this string */
-}
 
 #nice-menu-1 li ul li {
   margin: 0px; 
@@ -544,12 +539,14 @@ aside#region-sidebar-first {
   margin-top: 10px;
 }
 
-#block-menu-menu-footer-menu ul li {
+#block-menu-menu-footer-menu ul li,
+#block-menu-menu-header-menu ul li {
   display: inline;
   margin: 0 15px;
 }
 
-#block-menu-menu-footer-menu ul li a {
+#block-menu-menu-footer-menu ul li a,
+#block-menu-menu-header-menu ul li a {
   text-decoration: none;
   color: #dedede;
   font-size: 24px;
