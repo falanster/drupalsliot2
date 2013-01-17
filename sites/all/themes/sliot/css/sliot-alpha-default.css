@@ -847,8 +847,11 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node a,
-.page-news-drupalclub #block-system-main .views-row .views-field-view-node a,
-.page-news #block-system-main .views-row .views-field-view-node a {
+.page-blogs #block-system-main .views-row .views-field-view-node a,
+.page-sliot #block-system-main .views-row .views-field-view-node a,
+.page-club #block-system-main .views-row .views-field-view-node a,
+.page-drupal-day #block-system-main .views-row .views-field-view-node a,
+.page-translate #block-system-main .views-row .views-field-view-node a {
   text-decoration: none;
   color: #5a9ee0;  
   font-size: 16px;
@@ -860,7 +863,17 @@ aside#region-sidebar-first {
 .page-news-drupalclub #block-system-main .views-row .views-field-title a:hover,
 .page-news-drupalclub #block-system-main .views-row .views-field-view-node a:hover,
 .page-news #block-system-main .views-row .views-field-view-node a:hover, 
-.page-news #block-system-main .views-row .views-field-title a:hover {
+.page-news #block-system-main .views-row .views-field-title a:hover
+.page-blogs #block-system-main .views-row .views-field-view-node a:hover,
+.page-sliot #block-system-main .views-row .views-field-view-node a:hover,
+.page-club #block-system-main .views-row .views-field-view-node a:hover,
+.page-drupal-day #block-system-main .views-row .views-field-view-node a:hover,
+.page-translate #block-system-main .views-row .views-field-view-node a:hover,
+.page-blogs #block-system-main .views-row .views-field-title a:hover,
+.page-sliot #block-system-main .views-row .views-field-title a:hover,
+.page-club #block-system-main .views-row .views-field-title a:hover,
+.page-drupal-day #block-system-main .views-row .views-field-title a:hover,
+.page-translate #block-system-main .views-row .views-field-title a:hover {
   text-decoration: underline;
 }
 
