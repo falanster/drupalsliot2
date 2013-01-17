@@ -403,7 +403,7 @@ ul.nice-menu ul li {
 
 .block-logintoboggan {
   float: right;
-  margin: -36px -70px 0 0;
+  margin: -42px -80px 0 0;
 }
 
 .block-logintoboggan a,
@@ -422,7 +422,7 @@ ul.nice-menu ul li {
 /* Right sidebar*/
 
 /* Timer block */
-
+/*
 #block-jquery-countdown-jquery-countdown {
   background: #3f3c40;
   margin-top: 30px;
@@ -436,7 +436,7 @@ ul.nice-menu ul li {
 
 #jquery-countdown-jquery-countdown .countdown_section {
   color: #dedede;
-}
+}*/
 
 /* @end timer block */
 
