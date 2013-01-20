@@ -189,7 +189,7 @@ h2.block-title {
 .view-tweets .views-field-text,
 #block-block-25 .content p,
 #block-block-25 .content p strong,
-block-aggregator-feed-2 ul li a {
+#block-aggregator-feed-2 ul li a {
   font-size: 12px; 
   float: left;
   padding-bottom: 10px;
