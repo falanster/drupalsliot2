@@ -12,9 +12,7 @@ body {
 }
 
 a, p, ul, ol, li, strong, em,
-#block-views-front-reg-block .views-row .views-field-body div,
-.page-news-drupalclub .views-row .views-field-body div,
-.page-news .views-row .views-field-body div {
+#block-views-front-reg-block .views-row .views-field-body div {
   color: #0e0e0e;
   font-size: 15px;
 }
@@ -43,10 +41,6 @@ a:hover {
 
 .node-type-static-page #section-content,
 .node-type-news #section-content,
-.page-speeches #section-content,
-.page-projects #section-content,
-.page-codesprint-modules #section-content,
-.page-sponsors #section-content,
 .node-type-drupal-club #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
   min-height: 850px;
@@ -56,8 +50,6 @@ a:hover {
 }
 
 .node-type-webform #section-content,
-.page-news #section-content,
-.page-news-drupalclub #section-content,
 .page-user #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
   width: 1260px;
@@ -236,7 +228,7 @@ h2.block-title {
 
 /* @end social network */
 
-
+/* User login */
 .block-logintoboggan {
   float: right;
   margin: -42px -80px 0 0;
@@ -260,7 +252,6 @@ h2.block-title {
 aside#region-sidebar-first {
   float: right;
 }
-
 
 /* @end right sidebar */
 
@@ -348,8 +339,6 @@ aside#region-sidebar-first {
 /* @end footer */
 
 /* Front page */
-
-/* Anonimus user */
 
 .block-block-24 {
   margin-top: 30px;
@@ -461,10 +450,6 @@ aside#region-sidebar-first {
 #registration_block_main_button {
   margin: 40px 110px 55px 110px;
 }
-
-/* @end anonimus user */
-
-/* register user */
 
 #block-block-1 {
   margin-top: 30px;
@@ -659,52 +644,30 @@ aside#region-sidebar-first {
   margin-top: 25px;
 } 
 
-.view-front-reg .item-list .pager li,
-.page-news-drupalclub .item-list .pager li,
-.page-news .item-list .pager li {
+.view-front-reg .item-list .pager li {
   padding: 0;
 }
 
-.view-front-reg .item-list .pager li a,
-.page-news-drupalclub .item-list .pager li a,
-.page-news .item-list .pager li a {
+.view-front-reg .item-list .pager li a {
   color: #fffefe;
   font-size: 14px;
   text-decoration: none;
   font-weight: normal;
 }
 
-.view-front-reg .item-list .pager li a:hover,
-.page-attendees .item-list .pager li a:hover,
-.page-news-drupalclub .item-list .pager li a:hover,
-.page-news .item-list .pager li a:hover {
+.view-front-reg .item-list .pager li a:hover{
   text-decoration: underline;
 }
 
-.view-front-reg .item-list .pager .pager-current,
-.page-news-drupalclub .item-list .pager .pager-current,
-.page-news .item-list .pager .pager-current {
+.view-front-reg .item-list .pager .pager-current {
   font-size: 16px;
   color: #fffefe;
   font-weight: normal;
 }
 
-.view-front-reg .item-list .pager .pager-ellipsis,
-.page-attendees .item-list .pager .pager-ellipsis,
-.page-news-drupalclub .item-list .pager .pager-ellipsis,
-.page-news .item-list .pager .pager-ellipsis {
+.view-front-reg .item-list .pager .pager-ellipsis {
   display: none;
 }
-
-
-.page-news-drupalclub h1#page-title,
-.page-news h1#page-title {
-  font-size: 50px;
-  color: #FBF169;
-  margin-bottom: 10px;
-}
-
-/* @end register user */
 
 /* @end front page */
 
@@ -726,22 +689,15 @@ aside#region-sidebar-first {
   color: #4d87bf;
 }
 
-.page-node #region-content,
-.page-sponsors #region-content  {
+.page-node #region-content {
   margin-top: 30px;
 }
 
-.page-node #region-content .region-content-inner,
-.page-sponsors #region-content .region-content-inner {
+.page-node #region-content .region-content-inner {
   background: #f3f3f3;  
 }
 
 .page-node #region-content h1#page-title,
-.page-sponsors #region-content h1#page-title,
-.page-attendees h1#page-title,
-.page-speeches h1#page-title,
-.page-codesprint-modules h1#page-title,
-.page-projects h1#page-title,
 .page-settings h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
@@ -822,48 +778,6 @@ aside#region-sidebar-first {
 }
 /* @end zhuki blocks */
 
-/*user list page*/
-
-.page-attendees #region-content .region-inner {
-  float: left;
-  width: 600px;
-  background: none repeat scroll 0 0 #F3F3F3;
-  padding: 0px 0px 15px 0px;
-  margin: 30px 0 0 0;
-}
-
-.page-attendees #block-system-main .content {
-  float: left;
-  margin: 10px 0 0 15px;
-}
-
-.page-attendees .view-id-users .views-row {
-  float: left;
-  width: 110px;
-  height: 145px;
-  padding: 7px 1px 2px;
-}
-
-.page-attendees .view-id-users .view-id-users {
-  float: left;
-  width: 100%;
-}
-
-.page-attendees .view-id-users .views-row .views-field-field-name {
-  float: left;
-  width: 100px;
-  text-align: center;
-}
-
-.page-attendees .view-id-users .views-field-field-name a {
-  color: #5A9EE0;
-  line-height: 0.8;
-  font-size: 13px;
-}
-
-/* @end user list page*/
-
-
 /*vote page*/
 
 div.warning {
@@ -879,17 +793,11 @@ div.warning {
 
 /* Webform */
 
-.page-node-9 .webform-confirmation,
-.page-node-18 .webform-confirmation,
-.page-node-13 .webform-confirmation,
-.page-node-19 .webform-confirmation {
+.page-node-9 .webform-confirmation {
   margin: 10px 0 0 30px;
 }
 
-.page-node-9 .links,
-.page-node-18 .links,
-.page-node-13 .links,
-.page-node-19 .links {
+.page-node-9 .links {
   margin: 0 0 20px 30px;
 } 
 
