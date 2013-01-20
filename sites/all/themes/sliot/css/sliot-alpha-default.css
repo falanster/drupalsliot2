@@ -1257,7 +1257,8 @@ ul.links li.statistics_counter {
 /* @end disqus comments */
 
 /* Donatation block */
-#block-block-25 {
+#block-block-25,
+#block-aggregator-feed-2 {
   width: 240px;
   float: left;
   margin: 30px 0 40px 0;
