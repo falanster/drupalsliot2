@@ -1266,6 +1266,11 @@ ul.links li.statistics_counter {
   background-color: #F3F3F3;
 }
 
+#block-aggregator-feed-2 .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+
 #block-aggregator-feed-2 .item-list ul li {
   margin: 10px 0 0 0;
 }
