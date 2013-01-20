@@ -169,7 +169,8 @@ h2.block-title {
 }
 
 .view-tweets .views-field-screen-name,
-.view-tweets .views-field-text {
+.view-tweets .views-field-text,
+#block-block-25 .content p {
   color: #dedede;
 }
 
@@ -1284,12 +1285,6 @@ ul.links li.statistics_counter {
 
 #block-aggregator-feed-2 .more-link {
   display: none;
-}
-
-#block-block-25 h2.block-title {
-  color: #5A9EE0;
-  margin-left: 0px;
-  font-size: 30px;
 }
 
 /* @end donatation block */
