@@ -170,7 +170,8 @@ h2.block-title {
 
 .view-tweets .views-field-screen-name,
 .view-tweets .views-field-text,
-#block-block-25 .content p {
+#block-block-25 .content p,
+#block-block-25 .content p strong{
   color: #dedede;
 }
 
@@ -187,6 +188,7 @@ h2.block-title {
 
 .view-tweets .views-field-text,
 #block-block-25 .content p,
+#block-block-25 .content p strong,
 block-aggregator-feed-2 ul li {
   font-size: 12px; 
   float: left;
@@ -234,83 +236,6 @@ block-aggregator-feed-2 ul li {
 
 /* @end social network */
 
-
-/* User login */
-/*
-#user-login-form {
-  float: left;
-  margin-left: 40px;
-  margin-top: -10px;
-}
-
-#user-login-form .form-item-pass {
-  margin-top: -5px;
-  float: right;
-}
-
-#user-login-form .form-item-name label,
-#user-login-form .form-item-pass label {
-  float: left;
-  padding-right: 10px;
-  color: #dddddd;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-
-#user-login-form .form-item-name label .form-required,
-#user-login-form .form-item-pass label .form-required {
-  display: none;
-}
-
-#user-login-form .form-item-name input {
-  width: 94px;
-  height: 16px;
-  background-color: #dedede;
-  border: none;
-}
-
-#user-login-form .form-item-pass input {
-  width: 85px;
-  height: 16px;
-  background-color: #dedede;
-  border: none;
-}
-
-#user-login-form #edit-actions,
-#edit-actions--2 {
-  float: right;
-  width: 60px;
-  margin: -10px -10px 0 0;
-}
-
-#user-login-form #edit-actions input,
-#edit-actions--2 input {
-  background: none;
-  border: none;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-
-#user-login-form .item-list .first {
-  float: right;
-  clear: right;
-  margin: 10px -2px 0 0;
-}
-
-#user-login-form .item-list .first a {
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: lowercase;
-  color: #dddddd;
-}
-
-#user-login-form .item-list .last {
-  display: none;
-} */
 
 .block-logintoboggan {
   float: right;
