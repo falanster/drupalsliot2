@@ -96,7 +96,6 @@ h2.block-title {
   margin-top: -9px;
 }
 
-
 /* Main menu */
 
 #nice-menu-1 {
@@ -1273,6 +1272,10 @@ ul.links li.statistics_counter {
 
 #block-aggregator-feed-2 .item-list ul li {
   margin: 10px 0 0 0;
+}
+
+#block-aggregator-feed-2 .more-link {
+  display: none;
 }
 
 #block-block-25 h2.block-title {
