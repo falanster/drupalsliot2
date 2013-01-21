@@ -905,7 +905,10 @@ article .user-picture {
 }
 
 article .submitted {
-  
+    float: right;
+    margin-right: 80px;
+    margin-top: -12px;
+    width: 400px;
 }
 
 article .submitted a {
