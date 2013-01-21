@@ -903,3 +903,12 @@ ul.links li.statistics_counter {
 article .user-picture {
   display: none;
 }
+
+article .submitted {
+  
+}
+
+article .submitted a {
+  color: #727171;
+  font-size: 26px;
+}
