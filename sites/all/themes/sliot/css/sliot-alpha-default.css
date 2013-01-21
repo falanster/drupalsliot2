@@ -519,7 +519,8 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-4 .views-row .views-field-title,
 #block-views-main-pages-block-3 .views-row .views-field-title,
 #block-views-main-pages-block-2 .views-row .views-field-title,
-#block-views-main-pages-block-1 .views-row .views-field-title {
+#block-views-main-pages-block-1 .views-row .views-field-title,
+.view-front-reg .views-field-title {
   margin: 25px 30px 10px 30px;
   line-height: 1;
 } 
@@ -534,7 +535,8 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-4 .views-row .views-field-title a,
 #block-views-main-pages-block-3 .views-row .views-field-title a,
 #block-views-main-pages-block-2 .views-row .views-field-title a,
-#block-views-main-pages-block-1 .views-row .views-field-title a {
+#block-views-main-pages-block-1 .views-row .views-field-title a,
+.view-front-reg .views-field-title a {
   font-size: 45px;
   color: #5a9ee0;
   text-decoration: none;
@@ -545,7 +547,8 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-field-date span,
 .page-club #block-system-main .views-row .views-field-field-date span,
 .page-drupal-day #block-system-main .views-row .views-field-field-date span,
-.page-translate #block-system-main .views-row .views-field-field-date span {
+.page-translate #block-system-main .views-row .views-field-field-date span,
+.view-front-reg .views-field-field-date span {
   color: #939393;
   font-size: 12px;
   margin: 10px 30px;
@@ -556,7 +559,8 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-field-image img,
 .page-club #block-system-main .views-row .views-field-field-image img,
 .page-drupal-day #block-system-main .views-row .views-field-field-image img,
-.page-translate #block-system-main .views-row .views-field-field-image img {
+.page-translate #block-system-main .views-row .views-field-field-image img,
+.view-front-reg .views-field-field-image img {
   float: left;  
   margin: 10px 20px 20px 30px;
 }
@@ -571,7 +575,8 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-4 .views-row .views-field-body .field-content,
 #block-views-main-pages-block-3 .views-row .views-field-body .field-content,
 #block-views-main-pages-block-2 .views-row .views-field-body .field-content,
-#block-views-main-pages-block-1 .views-row .views-field-body .field-content  {
+#block-views-main-pages-block-1 .views-row .views-field-body .field-content,
+.view-front-reg .views-field-body .field-content {
   margin: 10px 30px 0px 30px; 
 }
 
@@ -580,7 +585,8 @@ aside#region-sidebar-first {
 .page-sliot #block-system-main .views-row .views-field-body ul li,
 .page-club #block-system-main .views-row .views-field-body ul li,
 .page-drupal-day #block-system-main .views-row .views-field-body ul li,
-.page-translate #block-system-main .views-row .views-field-body ul li {
+.page-translate #block-system-main .views-row .views-field-body ul li,
+.view-front-reg .views-field-body ul li {
   margin-left: 17px;
 }
 
