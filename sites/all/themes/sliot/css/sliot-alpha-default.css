@@ -478,6 +478,14 @@ aside#region-sidebar-first {
   width: 620px;
 }
 
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row {
+  background: #d4d4d4;
+}
+
 #top_voting_block_text .title {
   font-size: 16px;
   padding: 20px 0 0 25px;
