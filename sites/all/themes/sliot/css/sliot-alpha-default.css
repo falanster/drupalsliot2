@@ -200,6 +200,10 @@ h2.block-title {
   text-decoration: underline;
 }
 
+.view-tweets .views-row-last .views-field-text {
+  padding-bottom: 20px;
+}
+
 .view-tweets .views-row {
   font-size: 0;
   margin-bottom: 15px;
