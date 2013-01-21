@@ -556,7 +556,7 @@ aside#region-sidebar-first {
 }
 
 .page-blogs #block-system-main .views-row .views-field-field-date span,
-#block-views-front-reg-block .views-row .views-field-field-date span,{
+#block-views-front-reg-block .views-row .views-field-field-date span {
   float: left;
 }
 
