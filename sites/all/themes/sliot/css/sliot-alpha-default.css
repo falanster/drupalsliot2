@@ -882,7 +882,8 @@ ul.links li.statistics_counter {
   display: none;
 }
 
-#block-block-25 h2.block-title {
+#block-block-25 h2.block-title,
+#block-aggregator-feed-2 h2.block-title {
   margin-left: 0px;
 }
 
