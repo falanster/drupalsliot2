@@ -663,7 +663,12 @@ aside#region-sidebar-first {
 }
 
 #block-views-tweets-block,
-#block-views-front-reg-block-1 { 
+#block-views-front-reg-block-1,
+.page-blogs #block-system-main .views-row-first,
+.page-sliot #block-system-main .views-row-first,
+.page-club #block-system-main .views-row-first,
+.page-drupal-day #block-system-main .views-row-first,
+.page-translate #block-system-main .views-row-first { 
   margin-top: 25px;
 }
 
