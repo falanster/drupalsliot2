@@ -952,10 +952,14 @@ article .user-picture {
 }
 
 article .submitted {
-    float: right;
-    margin-right: 80px;
-    margin-top: -11px;
-    width: 400px;
+  float: right;
+  margin-right: 80px;
+  margin-top: -11px;
+  width: 400px;
+}
+
+.views-field-uid {
+  margin-top: -5px;
 }
 
 article .submitted a,
