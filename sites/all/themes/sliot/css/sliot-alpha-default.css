@@ -255,7 +255,6 @@ h2.block-title {
 
 aside#region-sidebar-first {
   float: right;
-  margin-right: -140px;
 }
 
 /* @end right sidebar */
@@ -927,4 +926,5 @@ article .submitted a {
 
 #region-user-first {
   float:right;
+  margin-right: -140px;
 }
