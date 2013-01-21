@@ -936,3 +936,22 @@ article .submitted a {
   float:right;
   margin-right: -140px;
 }
+
+/* Timer block */
+
+#block-jquery-countdown-jquery-countdown {
+  background: #3f3c40;
+  margin-top: 30px;
+}
+
+#jquery-countdown-jquery-countdown {
+  background: none;
+  border: none;
+  padding: 15px 0;
+}
+
+#jquery-countdown-jquery-countdown .countdown_section {
+  color: #dedede;
+}
+
+/* @end timer block */
