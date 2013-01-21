@@ -255,6 +255,7 @@ h2.block-title {
 
 aside#region-sidebar-first {
   float: right;
+  margin-right: -140px;
 }
 
 /* @end right sidebar */
