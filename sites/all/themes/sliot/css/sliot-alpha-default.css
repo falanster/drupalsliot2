@@ -953,7 +953,8 @@ article .submitted {
     width: 400px;
 }
 
-article .submitted a {
+article .submitted a,
+.views-field-uid a {
   color: #727171;
   font-size: 26px;
 }
