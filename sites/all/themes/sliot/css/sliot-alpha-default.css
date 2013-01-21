@@ -899,3 +899,7 @@ ul.links li.statistics_counter {
     padding: 20px 0 0;
     margin-right: 15px;
 }
+
+article .user-picture {
+  display: none;
+}
