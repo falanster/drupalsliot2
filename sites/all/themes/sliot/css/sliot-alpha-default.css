@@ -748,6 +748,10 @@ aside#region-sidebar-first {
   text-align: center;
 }
 
+.page-node .field-name-field-file .field-item {
+  margin-bottom: 10px;
+}
+
 /* @end inner page */
 
 /* Zhuki blocks */
