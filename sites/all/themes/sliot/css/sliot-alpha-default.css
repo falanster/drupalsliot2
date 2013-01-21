@@ -298,8 +298,12 @@ aside#region-sidebar-first {
   margin: 0 15px;
 }
 
+.not-logged-in #block-menu-menu-header-menu ul {
+  float: right;  
+}
+
+
 #block-menu-menu-header-menu ul {
-  float: right;
   margin: -5px 0 10px 35px;
 }
 
