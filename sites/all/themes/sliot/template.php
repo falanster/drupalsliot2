@@ -12,7 +12,7 @@
  */
  
 function sliot_preprocess_node(&$variables) {
-  if ($variables['node']->type == 'blog') {
+  if ($variables['node']->type = 'blog') {
     $variables['submitted'] = $variables['autor'];
   }
 }
