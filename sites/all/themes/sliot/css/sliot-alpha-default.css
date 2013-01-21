@@ -520,7 +520,7 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-3 .views-row .views-field-title,
 #block-views-main-pages-block-2 .views-row .views-field-title,
 #block-views-main-pages-block-1 .views-row .views-field-title,
-.view-front-reg .views-field-title {
+.view-front-reg .views-row .views-field-title {
   margin: 25px 30px 10px 30px;
   line-height: 1;
 } 
@@ -536,7 +536,7 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-3 .views-row .views-field-title a,
 #block-views-main-pages-block-2 .views-row .views-field-title a,
 #block-views-main-pages-block-1 .views-row .views-field-title a,
-.view-front-reg .views-field-title a {
+.view-front-reg .views-row .views-field-title a {
   font-size: 45px;
   color: #5a9ee0;
   text-decoration: none;
@@ -548,7 +548,7 @@ aside#region-sidebar-first {
 .page-club #block-system-main .views-row .views-field-field-date span,
 .page-drupal-day #block-system-main .views-row .views-field-field-date span,
 .page-translate #block-system-main .views-row .views-field-field-date span,
-.view-front-reg .views-field-field-date span {
+.view-front-reg .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
   margin: 10px 30px;
