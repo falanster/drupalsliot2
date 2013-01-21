@@ -552,7 +552,12 @@ aside#region-sidebar-first {
 #block-views-front-reg-block-3 .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
-  margin: 10px 30px;
+  margin: 10px 10px 0 30px;
+}
+
+.page-blogs #block-system-main .views-row .views-field-field-date span,
+#block-views-front-reg-block-3 .views-row .views-field-field-date span {
+  float: left;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-image img,
