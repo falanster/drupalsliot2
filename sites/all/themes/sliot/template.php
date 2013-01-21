@@ -13,7 +13,7 @@
 <?php
 function sliot_preprocess_node(&$variables) {
   switch($variables['type']) {
-    case 'blog': {
+    case 'autor': {
       $variables['submitted'] = $variables['created'];
       break;
     }
