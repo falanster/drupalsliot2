@@ -1,4 +1,4 @@
-
+<?php
 
 /**
  * @file
@@ -10,13 +10,10 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
-<?php
+ 
 function sliot_preprocess_node(&$variables) {
-  switch($variables['type']) {
-    case 'autor': {
-      $variables['submitted'] = $variables['created'];
-      break;
-    }
+  if ($variables['node']->type == 'blog') {
+    $variables['submitted'] = $variables['autor'];
   }
 }
 ?>
