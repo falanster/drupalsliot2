@@ -299,6 +299,7 @@ aside#region-sidebar-first {
 }
 
 #block-menu-menu-header-menu ul {
+  float: right;
   margin: -5px 0 10px 35px;
 }
 
