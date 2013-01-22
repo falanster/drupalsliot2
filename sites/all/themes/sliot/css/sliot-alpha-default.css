@@ -751,6 +751,10 @@ aside#region-sidebar-first {
   line-height: 1;
 }
 
+.node-type-webform #region-content h1#page-title {
+  margin: 0px;
+}
+
 .page-node #region-content .date-display-single {
   color: #939393;
 }
