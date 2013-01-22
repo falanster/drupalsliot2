@@ -999,4 +999,8 @@ article .submitted a,
   color: #dedede;
 }
 
+#block-jquery-countdown-jquery-countdown  h2.block-title {
+  font-size: 25px;
+}
+
 /* @end timer block */
