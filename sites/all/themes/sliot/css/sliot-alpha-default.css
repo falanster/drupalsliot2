@@ -118,9 +118,6 @@ h2.block-title {
   color: #5a9ee0;
 }
 
-#block-menu-menu-header-menu {
-  
-}
 
 /* @end main menu */
 
@@ -139,6 +136,11 @@ h2.block-title {
   margin-right: -160px;
   margin-top: 20px;
 }
+
+#node-static-page-69 .field-name-body {
+  margin-bottom: 30px;
+}
+
 
 /* Twitter block */
 
