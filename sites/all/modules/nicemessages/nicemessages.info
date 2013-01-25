@@ -1,0 +1,12 @@
+
+
+name = Nice messages
+description = Displays drupal messages with jGrowl.
+core = 7.x
+files[] = nicemessages.module
+; Information added by drupal.org packaging script on 2011-09-16
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "nicemessages"
+datestamp = "1316133516"
+

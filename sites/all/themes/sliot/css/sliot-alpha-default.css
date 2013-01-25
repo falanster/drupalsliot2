@@ -12,9 +12,7 @@ body {
 }
 
 a, p, ul, ol, li, strong, em,
-#block-views-front-reg-block .views-row .views-field-body div,
-.page-news-drupalclub .views-row .views-field-body div,
-.page-news .views-row .views-field-body div {
+#block-views-front-reg-block .views-row .views-field-body div {
   color: #0e0e0e;
   font-size: 15px;
 }
@@ -43,10 +41,6 @@ a:hover {
 
 .node-type-static-page #section-content,
 .node-type-news #section-content,
-.page-speeches #section-content,
-.page-projects #section-content,
-.page-codesprint-modules #section-content,
-.page-sponsors #section-content,
 .node-type-drupal-club #section-content {
   background: url(../images/nadpisi_stena_2.png) no-repeat;
   min-height: 850px;
@@ -56,8 +50,6 @@ a:hover {
 }
 
 .node-type-webform #section-content,
-.page-news #section-content,
-.page-news-drupalclub #section-content,
 .page-user #section-content {
   background: url(../images/nadpisi_stena_3.png) no-repeat;
   width: 1260px;
@@ -81,7 +73,7 @@ a:hover {
 }
 
 h2.block-title {
-  font-size: 32px;
+  font-size: 30px;
   color: #fbf169;
   margin-left: 20px;
   padding-top: 10px;
@@ -96,7 +88,6 @@ h2.block-title {
   margin-top: -9px;
 }
 
-
 /* Main menu */
 
 #nice-menu-1 {
@@ -104,88 +95,35 @@ h2.block-title {
   margin: 10px 40px 0px;
 }
 
-#nice-menu-1 li.menuparent {
+#nice-menu-1 li {
   height: 45px;
-}
-
-ul.nice-menu-down .menuparent a {
-  line-height: 35px; 
-}
-
-ul.nice-menu-down .menuparent ul li a {
-  line-height: normal;
-}
-
-#nice-menu-1 li,
-#nice-menu-1 li ul,
-#nice-menu-1 li ul li {
+  margin-bottom: 10px;
   background: none;
   border: none;
 }
 
-#nice-menu-1 li,
-#nice-menu-1 li ul li {
-  /*padding: 0 20px; */
-}  
-
-#nice-menu-1 li:hover,
-#nice-menu-1 li ul li {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#nice-menu-1 li ul {
-  /*margin-top: 23px; /* edit this string */
-}
-
-#nice-menu-1 li ul li {
-  margin: 0px; 
-}
-
 #nice-menu-1 li a {
-  background: none;
-}
-
-#nice-menu-1 li a,
-#nice-menu-1 li ul li a {
   text-decoration: none;
   font-size: 30px;
   color: #f3f3f3;
- /* margin-top: -10px ; */
-}
-
-#nice-menu-1 li ul li a {
-  font-size: 20px;
-}
-
-#nice-menu-1 li a:hover,
-#nice-menu-1 li ul li a:hover,
-#nice-menu-1 li a.active,
-#nice-menu-1 li ul li a.active {
-  color: #5a9ee0;
-}
-
-#nice-menu-1 li.menuparent a {
   padding: 5px 20px; 
 }
 
-#nice-menu-1 li.menuparent ul li a {
-  padding: 3px 5px 3px 20px;  
+#nice-menu-1 li a:hover,
+#nice-menu-1 li a.active,
+#block-menu-menu-footer-menu ul li a:hover,
+#block-menu-menu-header-menu ul li a:hover,
+#block-menu-menu-footer-menu ul li a.active,
+#block-menu-menu-header-menu ul li a.active {
+  color: #5a9ee0;
 }
 
-#nice-menu-1 ul {
-  top: 45px;
-}
-
-ul.nice-menu ul li {
-  width: 13em;
-}
 
 /* @end main menu */
 
 /* Social network */
 #block-block-5 {
-  float: left;
-  margin-left: 40px;
+  float: right;
 }
 
 #block-block-5 .content p a:hover {
@@ -199,11 +137,21 @@ ul.nice-menu ul li {
   margin-top: 20px;
 }
 
+#node-static-page-69 .field-name-body {
+  margin-bottom: 30px;
+}
+
+
 /* Twitter block */
 
 #block-views-tweets-block,
-#block-views-sponsor-block-1 {
+#block-views-sponsor-block-1,
+#block-block-25,
+#block-aggregator-feed-2 {
   background: #3f3c40;
+}
+
+#block-views-tweets-block {
   margin-top: 30px;
 }
 
@@ -218,7 +166,9 @@ ul.nice-menu ul li {
 }
 
 .view-tweets .views-field-screen-name,
-.view-tweets .views-field-text {
+.view-tweets .views-field-text,
+#block-block-25 .content p,
+#block-block-25 .content p strong{
   color: #dedede;
 }
 
@@ -233,21 +183,30 @@ ul.nice-menu ul li {
   color: #f3f3f3;
 }
 
-.view-tweets .views-field-text {
+.view-tweets .views-field-text,
+#block-block-25 .content p,
+#block-block-25 .content p strong,
+#block-aggregator-feed-2 ul li a {
   font-size: 12px; 
   float: left;
   padding-bottom: 10px;
   margin-right: 10px;
 }
 
-.view-tweets .views-field-text .field-content a {
+.view-tweets .views-field-text .field-content a,
+#block-block-25 .content a {
   text-decoration: none;
   color: #5a9ee0;
   font-size: 12px;
 }
 
-.view-tweets .views-field-text .field-content a:hover {
+.view-tweets .views-field-text .field-content a:hover,
+#block-block-25 .content a:hover {
   text-decoration: underline;
+}
+
+.view-tweets .views-row-last .views-field-text {
+  padding-bottom: 20px;
 }
 
 .view-tweets .views-row {
@@ -274,143 +233,21 @@ ul.nice-menu ul li {
   padding: 0px;
 }
  
-
 /* @end twitter block */
-
-/* Twitter #block */
-
-#block-aggregator-feed-1 {
-  background-color: #3F3C40;
-  margin-top: 30px;
-  padding-bottom: 25px;
-}
-
-#block-aggregator-feed-1 ul li {
-    margin-bottom: 10px;
-}
-
-#block-aggregator-feed-1 a {
-  color: #DEDEDE;
-  font-size: 12px;
-}
-
-
-#block-aggregator-feed-1 .more-link {
-    display: none;
-}
-
-#block-aggregator-feed-1 .more-link a {
-  text-decoration: none;
-  color: #CAD96B;
-  font-size: 32px;
-}
-
-#block-aggregator-feed-1 .more-link a:hover {
-  text-decoration: underline;
-}
-
-.logged-in #block-aggregator-feed-1 {
-    margin-top: 25px;
-    width: 300px;
-    float: right;
-    margin-bottom: 40px;
-    padding-booto: 25px;
-}
-
-/* @end Twitter #block*/
-
 
 /* @end social network */
 
-
 /* User login */
-
-#user-login-form {
-  float: left;
-  margin-left: 40px;
-  margin-top: -10px;
-}
-
-#user-login-form .form-item-pass {
-  margin-top: -5px;
-  float: right;
-}
-
-#user-login-form .form-item-name label,
-#user-login-form .form-item-pass label {
-  float: left;
-  padding-right: 10px;
-  color: #dddddd;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-
-#user-login-form .form-item-name label .form-required,
-#user-login-form .form-item-pass label .form-required {
-  display: none;
-}
-
-#user-login-form .form-item-name input {
-  width: 94px;
-  height: 16px;
-  background-color: #dedede;
-  border: none;
-}
-
-#user-login-form .form-item-pass input {
-  width: 85px;
-  height: 16px;
-  background-color: #dedede;
-  border: none;
-}
-
-#user-login-form #edit-actions,
-#edit-actions--2 {
-  float: right;
-/*  margin: -40px -18px 10px 30px; */
-  width: 60px;
-  margin: -10px -10px 0 0;
-}
-
-#user-login-form #edit-actions input,
-#edit-actions--2 input {
-  background: none;
-  border: none;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-
-#user-login-form .item-list .first {
-  float: right;
-  clear: right;
-  margin: 10px -2px 0 0;
-}
-
-#user-login-form .item-list .first a {
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: lowercase;
-  color: #dddddd;
-}
-
-#user-login-form .item-list .last {
-  display: none;
-}
-
 .block-logintoboggan {
-  clear: left;
   float: right;
-  margin-right: 92px; 
+  margin: -42px 10px 0 0;
 }
 
 .block-logintoboggan a,
 .block-logintoboggan .username {
   color: #dedede;
-  font-size: 16px;
+  font-size: 22px;
+  text-transform: lowercase;
 }
 
 .block-logintoboggan a:hover {
@@ -421,93 +258,8 @@ ul.nice-menu ul li {
 
 /* Right sidebar*/
 
-/* Timer block */
-
-#block-jquery-countdown-jquery-countdown {
-  background: #3f3c40;
-  margin-top: 30px;
-}
-
-#jquery-countdown-jquery-countdown {
-  background: none;
-  border: none;
-  padding: 15px 0;
-}
-
-#jquery-countdown-jquery-countdown .countdown_section {
-  color: #dedede;
-}
-
-/* @end timer block */
-
-
 aside#region-sidebar-first {
   float: right;
-}
-
-#block-views-sponsor-block-1 h2.block-title {
-  padding-bottom: 10px;
-}
-
-#block-views-sponsor-block-1 .views-field-field-image img {
-  margin-left: 45px;
-  margin-bottom: 40px;
-}
-
-#block-views-voting-block-1,
-#block-views-voting-block-2,
-#block-views-voting-block-3 {
-  background: #3f3c40; 
-  margin-top: 30px;
-}
-
-.block-views .view-voting .view-content {
-  padding: 10px 25px 0px 25px;
-}
-
-.block-views .view-voting .view-content .views-field-title {
-  color: #dedede;
-  font-size: 16px;
-  line-height: 1;  
-}
-
-.block-views .view-voting .view-content .views-row {
-  display: list-item;
-  list-style: disc;
-  color: #dedede;
-  margin-left: 10px;
-}
-
-.block-views .view-voting .view-content .fivestar-summary {
-  margin-bottom: 20px;
-}
-
-.block-views .view-voting .view-content .fivestar-summary span {
-  font-size: 15px;
-  color: #dedede;
-  margin-bottom: 20px;
-}
-
-#vote_project_button,
-#vote_module_button, 
-#vote_speech_button {
-  float: right;
-  margin-right: 25px;
-  margin-bottom: 20px;
-}
-
-#vote_project_button a,
-#vote_module_button a, 
-#vote_speech_button a {
-  color: #cad96b;
-  font-size: 32px;
-  text-decoration: none;
-}
-
-#vote_project_button a:hover,
-#vote_module_button a:hover, 
-#vote_speech_button a:hover {
-  text-decoration: underline;
 }
 
 /* @end right sidebar */
@@ -526,18 +278,17 @@ aside#region-sidebar-first {
   margin-left: 30px;
 }
 
-#block-views-sponsor-block-2  .views-field-field-image img,
+#block-views-sponsor-block-2  .views-field-field-image img, 
 #block-system-main .views-field-field-image img {
   float: left;
   margin: 10px 8px 20px 32px; 
 }
 
-
 /* @end content */
 
 /* Footer */
 
-/* Footer menu */
+/* Footer and Header menu */
 
 #block-menu-menu-footer-menu ul {
   text-align: center;
@@ -549,14 +300,33 @@ aside#region-sidebar-first {
   margin: 0 15px;
 }
 
-#block-menu-menu-footer-menu ul li a {
+.not-logged-in #block-menu-menu-header-menu ul {
+  float: right;  
+}
+
+
+#block-menu-menu-header-menu ul {
+  margin: -5px 0 10px 35px;
+}
+
+#block-menu-menu-header-menu ul li {
+  display: inline;
+  margin-right: 6px;
+}
+
+#block-menu-menu-footer-menu ul li a,
+#block-menu-menu-header-menu ul li a {
   text-decoration: none;
   color: #dedede;
   font-size: 24px;
   list-style: none;
 }
 
-/* @end footer menu */
+#block-menu-menu-header-menu ul li a {
+  font-size: 22px;
+}
+
+/* @end footer and header menu */
 
 #block-views-sponsor-block-3 {
   padding-bottom: 80px;
@@ -566,7 +336,6 @@ aside#region-sidebar-first {
   margin-left: 30px;
   color: #a3a3a3;
 }
-
 
 #block-views-sponsor-block-3 .views-field-field-image {
   width: 150px;
@@ -584,30 +353,6 @@ aside#region-sidebar-first {
 /* @end footer */
 
 /* Front page */
-
-/* Video block for anonimous*/
-
-#block-block-27 {
-   background-color: #F3F3F3;
-   margin-bottom: 35px;
-   padding: 20px;
-   margin-top: 30px;
-}
-
-#block-block-27 h2.block-title {
-  color: #5A9EE0;
-  font-size: 45px;
-  margin: 0 0 10px 0;
-  padding: 0;
-}
-
-
-
-
-/* @end Video block for anonymous */
-
-
-/* Anonimus user */
 
 .block-block-24 {
   margin-top: 30px;
@@ -720,23 +465,37 @@ aside#region-sidebar-first {
   margin: 40px 110px 55px 110px;
 }
 
-/* @end anonimus user */
-
-/* register user */
-
 #block-block-1 {
   margin-top: 30px;
 } 
 
 #top_voting_block_text,
 #block-views-front-reg-block .views-row,
-.page-news-drupalclub #block-system-main .views-row,
-.page-news #block-system-main .views-row,
-#block-block-3 {
+.page-blogs #block-system-main .views-row,
+.page-sliot #block-system-main .views-row,
+.page-club #block-system-main .views-row,
+.page-drupal-day #block-system-main .views-row,
+.page-translate #block-system-main .views-row,
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row,
+#block-block-3,
+#block-views-front-reg-block-3 .views-row {
   background: #f3f3f3;
   float: left;
   margin-bottom: 35px;
   width: 620px;
+}
+
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row,
+#block-views-front-reg-block-3 .views-row {
+  background: #d4d4d4;
 }
 
 #top_voting_block_text .title {
@@ -754,58 +513,120 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .views-field-title,
-.page-news-drupalclub #block-system-main .views-row .views-field-title,
-.page-news #block-system-main .views-row .views-field-title {
+.page-blogs #block-system-main .views-row .views-field-title,
+.page-sliot #block-system-main .views-row .views-field-title,
+.page-club #block-system-main .views-row .views-field-title,
+.page-drupal-day #block-system-main .views-row .views-field-title,
+.page-translate #block-system-main .views-row .views-field-title,
+#block-views-main-pages-block-5 .views-row .views-field-title,
+#block-views-main-pages-block-4 .views-row .views-field-title,
+#block-views-main-pages-block-3 .views-row .views-field-title,
+#block-views-main-pages-block-2 .views-row .views-field-title,
+#block-views-main-pages-block-1 .views-row .views-field-title,
+#block-views-front-reg-block-3 .views-row .views-field-title {
   margin: 25px 30px 10px 30px;
   line-height: 1;
 } 
 
 #block-views-front-reg-block .views-row .views-field-title a,
-.page-news-drupalclub #block-system-main .views-row .views-field-title a,
-.page-news #block-system-main .views-row .views-field-title a {
+.page-blogs #block-system-main .views-row .views-field-title a,
+.page-sliot #block-system-main .views-row .views-field-title a,
+.page-club #block-system-main .views-row .views-field-title a,
+.page-drupal-day #block-system-main .views-row .views-field-title a,
+.page-translate #block-system-main .views-row .views-field-title a,
+#block-views-main-pages-block-5 .views-row .views-field-title a,
+#block-views-main-pages-block-4 .views-row .views-field-title a,
+#block-views-main-pages-block-3 .views-row .views-field-title a,
+#block-views-main-pages-block-2 .views-row .views-field-title a,
+#block-views-main-pages-block-1 .views-row .views-field-title a,
+#block-views-front-reg-block-3 .views-row .views-field-title a {
   font-size: 45px;
   color: #5a9ee0;
   text-decoration: none;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-date span,
-.page-news-drupalclub #block-system-main .views-row .views-field-field-date span,
-.page-news #block-system-main .views-row .views-field-field-date span {
+.page-blogs #block-system-main .views-row .views-field-field-date span,
+.page-sliot #block-system-main .views-row .views-field-field-date span,
+.page-club #block-system-main .views-row .views-field-field-date span,
+.page-drupal-day #block-system-main .views-row .views-field-field-date span,
+.page-translate #block-system-main .views-row .views-field-field-date span,
+#block-views-front-reg-block-3 .views-row .views-field-field-date span {
   color: #939393;
   font-size: 12px;
-  margin: 10px 30px;
+  margin: 10px 10px 0 30px;
+}
+
+.page-blogs #block-system-main .views-row .views-field-field-date span,
+#block-views-front-reg-block .views-row .views-field-field-date span {
+  float: left;
 }
 
 #block-views-front-reg-block .views-row .views-field-field-image img,
-.page-news-drupalclub #block-system-main .views-row .views-field-field-image img,
-.page-news #block-system-main .views-row .views-field-field-image img {
+.page-blogs #block-system-main .views-row .views-field-field-image img,
+.page-sliot #block-system-main .views-row .views-field-field-image img,
+.page-club #block-system-main .views-row .views-field-field-image img,
+.page-drupal-day #block-system-main .views-row .views-field-field-image img,
+.page-translate #block-system-main .views-row .views-field-field-image img,
+#block-views-front-reg-block-3 .views-row .views-field-field-image img {
   float: left;  
   margin: 10px 20px 20px 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-body .field-content,
-.page-news-drupalclub #block-system-main .views-row .views-field-body .field-content,
-.page-news #block-system-main .views-row .views-field-body .field-content {
+.page-blogs #block-system-main .views-row .views-field-body .field-content,
+.page-sliot #block-system-main .views-row .views-field-body .field-content,
+.page-club #block-system-main .views-row .views-field-body .field-content,
+.page-drupal-day #block-system-main .views-row .views-field-body .field-content,
+.page-translate #block-system-main .views-row .views-field-body .field-content,
+#block-views-main-pages-block-5 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-4 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-3 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-2 .views-row .views-field-body .field-content,
+#block-views-main-pages-block-1 .views-row .views-field-body .field-content,
+#block-views-front-reg-block-3 .views-row .views-field-body .field-content {
   margin: 10px 30px 0px 30px; 
 }
 
 #block-views-front-reg-block .views-row .views-field-body ul li,
-.page-news-drupalclub #block-system-main .views-row .views-field-body ul li,
-.page-news #block-system-main .views-row .views-field-body ul li {
+.page-blogs #block-system-main .views-row .views-field-body ul li,
+.page-sliot #block-system-main .views-row .views-field-body ul li,
+.page-club #block-system-main .views-row .views-field-body ul li,
+.page-drupal-day #block-system-main .views-row .views-field-body ul li,
+.page-translate #block-system-main .views-row .views-field-body ul li,
+#block-views-front-reg-block-3 .views-row .views-field-body ul li {
   margin-left: 17px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node,
-.page-news-drupalclub #block-system-main .views-row .views-field-view-node,
-.page-news #block-system-main .views-row .views-field-view-node {
+.page-blogs #block-system-main .views-row .views-field-view-node,
+.page-sliot #block-system-main .views-row .views-field-view-node,
+.page-club #block-system-main .views-row .views-field-view-node,
+.page-drupal-day #block-system-main .views-row .views-field-view-node,
+.page-translate #block-system-main .views-row .views-field-view-node,
+#block-views-main-pages-block-5 .views-row .views-field-view-node,
+#block-views-main-pages-block-4 .views-row .views-field-view-node,
+#block-views-main-pages-block-3 .views-row .views-field-view-node,
+#block-views-main-pages-block-2 .views-row .views-field-view-node,
+#block-views-main-pages-block-1 .views-row .views-field-view-node,
+#block-views-front-reg-block-3 .views-row .views-field-view-node {
   float: right;
   padding-bottom: 30px;
   margin-right: 30px;
 }
 
 #block-views-front-reg-block .views-row .views-field-view-node a,
-.page-news-drupalclub #block-system-main .views-row .views-field-view-node a,
-.page-news #block-system-main .views-row .views-field-view-node a {
+.page-blogs #block-system-main .views-row .views-field-view-node a,
+.page-sliot #block-system-main .views-row .views-field-view-node a,
+.page-club #block-system-main .views-row .views-field-view-node a,
+.page-drupal-day #block-system-main .views-row .views-field-view-node a,
+.page-translate #block-system-main .views-row .views-field-view-node a,
+#block-views-main-pages-block-5 .views-row .views-field-view-node a,
+#block-views-main-pages-block-4 .views-row .views-field-view-node a,
+#block-views-main-pages-block-3 .views-row .views-field-view-node a,
+#block-views-main-pages-block-2 .views-row .views-field-view-node a,
+#block-views-main-pages-block-1 .views-row .views-field-view-node a,
+#block-views-front-reg-block-3 .views-row .views-field-view-node a {
   text-decoration: none;
   color: #5a9ee0;  
   font-size: 16px;
@@ -813,11 +634,32 @@ aside#region-sidebar-first {
 }
 
 #block-views-front-reg-block .views-row .views-field-title a:hover,
+.page-blogs #block-system-main .views-row .views-field-title a:hover,
+.page-sliot #block-system-main .views-row .views-field-title a:hover,
+.page-club #block-system-main .views-row .views-field-title a:hover,
+.page-drupal-day #block-system-main .views-row .views-field-title a:hover,
+.page-translate #block-system-main .views-row .views-field-title a:hover,
+#block-views-main-pages-block-5 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-4 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-3 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-2 .views-row .views-field-title a:hover,
+#block-views-main-pages-block-1 .views-row .views-field-title a:hover,
+#block-views-front-reg-block-3 .views-row .views-field-title a:hover {
+  text-decoration: underline;
+}
+
 #block-views-front-reg-block .views-row .views-field-view-node a:hover,
-.page-news-drupalclub #block-system-main .views-row .views-field-title a:hover,
-.page-news-drupalclub #block-system-main .views-row .views-field-view-node a:hover,
-.page-news #block-system-main .views-row .views-field-view-node a:hover, 
-.page-news #block-system-main .views-row .views-field-title a:hover {
+#block-views-main-pages-block-5 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-4 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-3 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-2 .views-row .views-field-view-node a:hover,
+#block-views-main-pages-block-1 .views-row .views-field-view-node a:hover,
+.page-blogs #block-system-main .views-row .views-field-view-node a:hover,
+.page-sliot #block-system-main .views-row .views-field-view-node a:hover,
+.page-club #block-system-main .views-row .views-field-view-node a:hover,
+.page-drupal-day #block-system-main .views-row .views-field-view-node a:hover,
+.page-translate #block-system-main .views-row .views-field-view-node a:hover,
+#block-views-front-reg-block-3 .views-row .views-field-title a:hover {
   text-decoration: underline;
 }
 
@@ -825,64 +667,52 @@ aside#region-sidebar-first {
 .context-participation #block-views-tweets-block {
   width: 300px;
   float: right;
-  margin-bottom: 40px;
 }
 
 #block-views-tweets-block,
-#block-views-front-reg-block-1 { 
+#block-views-front-reg-block-1,
+.page-blogs #block-system-main .views-row-first,
+.page-sliot #block-system-main .views-row-first,
+.page-club #block-system-main .views-row-first,
+.page-drupal-day #block-system-main .views-row-first,
+.page-translate #block-system-main .views-row-first { 
   margin-top: 25px;
 }
 
-#block-views-front-reg-block .view-front-reg {
+#block-views-front-reg-block .view-front-reg,
+#block-views-main-pages-block-5 .views-row,
+#block-views-main-pages-block-4 .views-row,
+#block-views-main-pages-block-3 .views-row,
+#block-views-main-pages-block-2 .views-row,
+#block-views-main-pages-block-1 .views-row,
+#block-views-front-reg-block-3 .views-row {
   margin-top: 25px;
 } 
 
-.view-front-reg .item-list .pager li,
-.page-news-drupalclub .item-list .pager li,
-.page-news .item-list .pager li {
+.view-front-reg .item-list .pager li {
   padding: 0;
 }
 
-.view-front-reg .item-list .pager li a,
-.page-news-drupalclub .item-list .pager li a,
-.page-news .item-list .pager li a {
+.view-front-reg .item-list .pager li a {
   color: #fffefe;
   font-size: 14px;
   text-decoration: none;
   font-weight: normal;
 }
 
-.view-front-reg .item-list .pager li a:hover,
-.page-attendees .item-list .pager li a:hover,
-.page-news-drupalclub .item-list .pager li a:hover,
-.page-news .item-list .pager li a:hover {
+.view-front-reg .item-list .pager li a:hover{
   text-decoration: underline;
 }
 
-.view-front-reg .item-list .pager .pager-current,
-.page-news-drupalclub .item-list .pager .pager-current,
-.page-news .item-list .pager .pager-current {
+.view-front-reg .item-list .pager .pager-current {
   font-size: 16px;
   color: #fffefe;
   font-weight: normal;
 }
 
-.view-front-reg .item-list .pager .pager-ellipsis,
-.page-attendees .item-list .pager .pager-ellipsis,
-.page-news-drupalclub .item-list .pager .pager-ellipsis,
-.page-news .item-list .pager .pager-ellipsis {
+.view-front-reg .item-list .pager .pager-ellipsis {
   display: none;
 }
-
-
-.page-news-drupalclub h1#page-title,
-.page-news h1#page-title {
-  font-size: 50px;
-  color: #FBF169;
-  margin-bottom: 10px;
-}
-
-/* @end register user */
 
 /* @end front page */
 
@@ -904,22 +734,15 @@ aside#region-sidebar-first {
   color: #4d87bf;
 }
 
-.page-node #region-content,
-.page-sponsors #region-content  {
+.page-node #region-content {
   margin-top: 30px;
 }
 
-.page-node #region-content .region-content-inner,
-.page-sponsors #region-content .region-content-inner {
+.page-node #region-content .region-content-inner {
   background: #f3f3f3;  
 }
 
 .page-node #region-content h1#page-title,
-.page-sponsors #region-content h1#page-title,
-.page-attendees h1#page-title,
-.page-speeches h1#page-title,
-.page-codesprint-modules h1#page-title,
-.page-projects h1#page-title,
 .page-settings h1#page-title {
   color: #5a9ee0;
   font-size: 45px;
@@ -928,9 +751,9 @@ aside#region-sidebar-first {
   line-height: 1;
 }
 
-/*.page-node #region-content .field-name-field-date {
-  margin-bottom: 15px;
-} */
+.node-type-webform #region-content h1#page-title {
+  margin: 0px;
+}
 
 .page-node #region-content .date-display-single {
   color: #939393;
@@ -939,6 +762,10 @@ aside#region-sidebar-first {
 .page-node #region-content .field-items {
   margin-left: 30px;
   margin-right: 30px;
+} 
+
+#node-webform-9 .field-name-body .field-items {
+  margin: 0px;
 }
 
 .page-node #region-content .field-items p,
@@ -962,13 +789,6 @@ aside#region-sidebar-first {
   margin-top: 20px;
 }
 
-/*.page-node .field-name-field-image img {
-  margin-top: 20px;
-  width: auto;
-  margin-left: 15%;
-  margin-right: 15%; 
-} */
-
 .page-node .field-name-body {
   margin-top: 20px;
 }
@@ -977,6 +797,13 @@ aside#region-sidebar-first {
   text-align: center;
 }
 
+.page-node .field-name-field-file {
+  margin: 10px 0 10px 0;
+}
+
+.page-node .field-name-field-file .field-item {
+  margin-bottom: 10px;
+}
 
 /* @end inner page */
 
@@ -989,7 +816,7 @@ aside#region-sidebar-first {
 
 #block-block-19 img {
   margin-top: 13px;
-  margin-left: 173px;
+  margin-left: 357px;
 }
 
 #block-block-20 {
@@ -1012,58 +839,6 @@ aside#region-sidebar-first {
 }
 /* @end zhuki blocks */
 
-/*user list page*/
-/*.page-attendees {
-}
-*/
-.page-attendees #region-content .region-inner {
-  float: left;
-  width: 600px;
-  background: none repeat scroll 0 0 #F3F3F3;
-  padding: 0px 0px 15px 0px;
-  margin: 30px 0 0 0;
-}
-
-.page-attendees #block-system-main .content {
-  float: left;
-  margin: 10px 0 0 15px;
-}
-
-.page-attendees .view-id-users .views-row {
-  float: left;
-  width: 110px;
-  height: 145px;
-  padding: 7px 1px 2px;
-}
-
-.page-attendees .view-id-users .view-id-users {
-  float: left;
-  width: 100%;
-}
-
-.page-attendees .view-id-users .views-row .views-field-field-name {
-  float: left;
-  width: 100px;
-  text-align: center;
-}
-
-
-.page-attendees .view-id-users .views-field-field-name a {
-  color: #5A9EE0;
-  line-height: 0.8;
-  font-size: 13px;
-}
-
-/* @end user list page*/
-
-/* Sponsors page */
-
-.page-sponsors .block-sponsor-block-2 {
-  margin-bottom: 40px;
-}
-
-/* @end sponsors page */
-
 /*vote page*/
 
 div.warning {
@@ -1076,184 +851,14 @@ div.warning {
   text-align: center;
 }
 
-.page-projects .warning { 
-  margin-top: -100px; 
-}
-
-.page-codesprint-modules #zone-content #region-content,
-.page-projects #zone-content #region-content,
-.page-speeches #zone-content #region-content {
-  float: left;
-  width: 620px;
-  background: none repeat scroll 0 0 #F3F3F3;
-  margin: 30px 0 0 0;
-}
-
-.ui-accordion,
-.page-codesprint-modules #region-content .ui-accordion-header,
-.page-codesprint-modules #region-content .ui-accordion-content,
-.page-projects #region-content .ui-accordion-header,
-.page-projects #region-content .ui-accordion-content,
-.page-speeches #region-content .ui-accordion-header,
-.page-speeches #region-content .ui-accordion-content {
-  float: left;
-  width: 576px;
-  
-}
-
-.page-codesprint-modules #region-content .ui-accordion-header,
-.page-projects #region-content .ui-accordion-header,
-.page-speeches #region-content .ui-accordion-header {
-  margin: 22px 22px 0 22px;
-  background: #c1c1c1;
-}
-
-.page-codesprint-modules #region-content .ui-accordion-content,
-.page-projects #region-content .ui-accordion-content,
-.page-speeches #region-content .ui-accordion-content {
-  margin: 0 22px 22px 22px;
-  padding: 0;
-}
-
-.page-codesprint-modules #region-content .views-row,
-.page-projects #region-content .views-row,
-.page-speeches #region-content .views-row {
-  padding: 15px 20px;
-  width: 536px;
-  background: #fff;
-}
-
-.page-codesprint-modules #region-content .views-row .field-content,
-.page-projects #region-content .views-row .field-content,
-.page-speeches #region-content .views-row .field-content {
-  font-size: 15px;
-  line-height: 20px;
-  float: left;
-  color: #0e0e0e;
-  font-family: Arial, Tahoma;
-  width: 100%;
-  margin: 0 0 20px;
-}
-
-.page-codesprint-modules #region-content div.fivestar-widget-static,
-.page-projects #region-content div.fivestar-widget-static,
-.page-speeches #region-content div.fivestar-widget-static {
-  float: left;
-  width: auto;
-  -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;  
-}
-
-.page-codesprint-modules #region-content div.fivestar-widget-static,
-.page-codesprint-modules #region-content div.fivestar-widget .star,
-.page-projects #region-content div.fivestar-widget-static,
-.page-projects #region-content div.fivestar-widget .star,
-.page-speeches #region-content div.fivestar-widget-static .star,
-.page-speeches #region-content div.fivestar-widget .star {
-  height: 17px;
-}
-
-.page-codesprint-modules #region-content .ui-accordion-header a,
-.page-projects #region-content .ui-accordion-header a,
-.page-speeches #region-content .ui-accordion-header a {
-  font-size: 30px;
-  color: #161616;
-  font-family: Arial, Tahoma, Helvetica;  
-}
-
-.page-codesprint-modules #region-content #fivestar-custom-widget,
-.page-projects #region-content #fivestar-custom-widget,
-.page-speeches #region-content #fivestar-custom-widget {
-  margin: 15px 0;
-  float: left;
-  clear: left;
-}
-
-.page-codesprint-modules #region-content .views-field .views-label,
-.page-projects #region-content .views-field .views-label,
-.page-speeches #region-content .views-field .views-label {
-  float: left;
-  font-size: 20px;
-  color: #000;
-  margin: 20px 0 0 0;
-}
-
-/*
-.not-logged-in .page-codesprint-modules #region-content #add_module_button a,
-.not-logged-in .page-projects #region-content #add_project_button a,
-.not-logged-in .page-speeches #region-content #add_speech_button a {
-  display: none;  
-} */
-
-
-.page-codesprint-modules #region-content #add_module_button a,
-.page-projects #region-content #add_project_button a,
-.page-speeches #region-content #add_speech_button a {
-  width: 155px;
-  height: 77px;
-  font-size: 0;
-  line-height: 0;
-}
-
-.page-codesprint-modules #region-content #add_module_button a:hover,
-.page-projects #region-content #add_project_button a:hover,
-.page-speeches #region-content #add_speech_button a:hover {
-  -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50;  
-}
-
-/*
-.not-logged-in .page-codesprint-modules #region-content #add_module_button,
-.not-logged-in .page-projects #region-content #add_project_button,
-.not-logged-in .page-speeches #region-content #add_speech_button {
-  display: none !important;  
-} */
-
-
-.page-codesprint-modules #region-content #add_module_button,
-.page-projects #region-content #add_project_button,
-.page-speeches #region-content #add_speech_button {
-  float: left;
-  width: 90%;
-  text-align: center;
-  margin: 20px;
-}
-
-.page-codesprint-modules #region-content .block-sharethis-sharethis-block,
-.page-projects #region-content .block-sharethis-sharethis-block,
-.page-speeches #region-content .block-sharethis-sharethis-block {
-  float: left;
-  width: auto;
-  margin: 0 0 15px 22px;
-}
-
-.page-codesprint-modules #region-content .view-footer,
-.page-projects #region-content .view-footer,
-.page-speeches #region-content .view-footer {
-  float: left;
-  width: 100%;
-}
-
-.page-codesprint-modules #block-views-front-reg-block .views-row, #block-system-main,
-.page-projects #block-views-front-reg-block .views-row, #block-system-main,
-.page-speeches #block-views-front-reg-block .views-row, #block-system-main {
-  margin-bottom: 0;
-}
-
-
-/*@end vote page*/
 
 /* Webform */
 
-.page-node-9 .webform-confirmation,
-.page-node-18 .webform-confirmation,
-.page-node-13 .webform-confirmation,
-.page-node-19 .webform-confirmation {
+.page-node-9 .webform-confirmation {
   margin: 10px 0 0 30px;
 }
 
-.page-node-9 .links,
-.page-node-18 .links,
-.page-node-13 .links,
-.page-node-19 .links {
+.page-node-9 .links {
   margin: 0 0 20px 30px;
 } 
 
@@ -1311,19 +916,36 @@ ul.links li.statistics_counter {
 }
 
 /* @end disqus comments */
+
 /* Donatation block */
-#block-block-25 {
+#block-block-25,
+#block-aggregator-feed-2 {
   width: 240px;
   float: left;
-  margin: 30px 0 40px 0;
+  margin: 25px 0 10px 0;
   padding: 0 30px 30px 30px;
-  background-color: #F3F3F3;
 }
 
-#block-block-25 h2.block-title {
-  color: #5A9EE0;
+#block-block-25 {
+  padding: 0 30px;
+}
+
+#block-aggregator-feed-2 .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+#block-aggregator-feed-2 .item-list ul li {
+  margin: 10px 0 0 0;
+}
+
+#block-aggregator-feed-2 .more-link {
+  display: none;
+}
+
+#block-block-25 h2.block-title,
+#block-aggregator-feed-2 h2.block-title {
   margin-left: 0px;
-  font-size: 30px;
 }
 
 /* @end donatation block */
@@ -1334,3 +956,51 @@ ul.links li.statistics_counter {
     padding: 20px 0 0;
     margin-right: 15px;
 }
+
+article .user-picture {
+  display: none;
+}
+
+article .submitted {
+  float: right;
+  margin-right: 80px;
+  margin-top: -11px;
+  width: 400px;
+}
+
+.views-field-uid {
+  margin-top: -2px;
+}
+
+article .submitted a,
+.views-field-uid a {
+  color: #727171;
+  font-size: 26px;
+}
+
+#region-user-first {
+  float:right;
+}
+
+/* Timer block */
+
+#block-jquery-countdown-jquery-countdown {
+  background: #3f3c40;
+  margin-top: 30px;
+}
+
+#jquery-countdown-jquery-countdown {
+  background: none;
+  border: none;
+  padding: 15px 0;
+}
+
+#jquery-countdown-jquery-countdown .countdown_section {
+  color: #dedede;
+}
+
+#block-jquery-countdown-jquery-countdown  h2.block-title {
+  font-size: 25px;
+}
+
+/* @end timer block */
