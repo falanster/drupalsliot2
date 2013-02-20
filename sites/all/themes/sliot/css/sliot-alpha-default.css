@@ -152,7 +152,8 @@ h2.block-title {
   background: #3f3c40;
 }
 
-#block-views-tweets-block {
+#block-views-tweets-block,
+#block-block-30 {
   margin-top: 30px;
 }
 
