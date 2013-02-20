@@ -159,8 +159,12 @@ h2.block-title {
 
 #block-views-tweets-block .view-content li,
 #block-views-tweets-block .view-tweets img,
-#block-block-30 p {
+#block-block-30 img {
   margin-left: 25px;
+}
+
+#block-block-30 img {
+  margin-top: 20px;
 }
 
 #block-views-tweets-block .view-tweets img {
