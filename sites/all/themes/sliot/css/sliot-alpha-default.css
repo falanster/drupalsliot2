@@ -147,7 +147,8 @@ h2.block-title {
 #block-views-tweets-block,
 #block-views-sponsor-block-1,
 #block-block-25,
-#block-aggregator-feed-2 {
+#block-aggregator-feed-2,
+#block-block-30 {
   background: #3f3c40;
 }
 
@@ -156,7 +157,8 @@ h2.block-title {
 }
 
 #block-views-tweets-block .view-content li,
-#block-views-tweets-block .view-tweets img {
+#block-views-tweets-block .view-tweets img,
+#block-block-30 p {
   margin-left: 25px;
 }
 
