@@ -672,6 +672,7 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-2 .views-row .views-field-view-node a:hover,
 #block-views-main-pages-block-1 .views-row .views-field-view-node a:hover,
 .page-blogs #block-system-main .views-row .views-field-view-node a:hover,
+.page-blogs #block-system-main .views-row .views-field-view-node a:hover,
 .page-sliot #block-system-main .views-row .views-field-view-node a:hover,
 .page-club #block-system-main .views-row .views-field-view-node a:hover,
 .page-drupal-day #block-system-main .views-row .views-field-view-node a:hover,
@@ -679,6 +680,12 @@ aside#region-sidebar-first {
 #block-views-front-reg-block-3 .views-row .views-field-title a:hover {
   text-decoration: underline;
 }
+
+.page-blog h1#page-title {
+  margin-top: 25px;
+  color: #FBF169;
+}
+
 
 #block-views-tweets-block, 
 .context-participation #block-views-tweets-block {
