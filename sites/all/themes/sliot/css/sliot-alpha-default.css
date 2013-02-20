@@ -522,6 +522,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title,
 .page-blogs #block-system-main .views-row .views-field-title,
+.page-blog .view-user-blogs .views-row .views-field-title,
 .page-sliot #block-system-main .views-row .views-field-title,
 .page-club #block-system-main .views-row .views-field-title,
 .page-drupal-day #block-system-main .views-row .views-field-title,
@@ -538,6 +539,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title a,
 .page-blogs #block-system-main .views-row .views-field-title a,
+.page-blog .view-user-blogs .views-row .views-field-title a,
 .page-sliot #block-system-main .views-row .views-field-title a,
 .page-club #block-system-main .views-row .views-field-title a,
 .page-drupal-day #block-system-main .views-row .views-field-title a,
