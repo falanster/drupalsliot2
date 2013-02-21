@@ -501,9 +501,14 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-4 .views-row,
 #block-views-main-pages-block-3 .views-row,
 #block-views-main-pages-block-2 .views-row,
-#block-views-main-pages-block-1 .view-main-pages,
+#block-views-main-pages-block-1 .views-row,
+#block-views-main-pages-block-1 .view-footer,
 #block-views-front-reg-block-3 .views-row {
   background: #d4d4d4;
+}
+
+#block-views-main-pages-block-1 .view-footer {
+  float: left;
 }
 
 #top_voting_block_text .title {
