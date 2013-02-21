@@ -487,7 +487,6 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-4 .views-row,
 #block-views-main-pages-block-3 .views-row,
 #block-views-main-pages-block-2 .views-row,
-#block-views-main-pages-block-1 .views-row,
 #block-block-3,
 #block-views-front-reg-block-3 .views-row,
 .page-blog .view-user-blogs .views-row  {
@@ -504,6 +503,10 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-1 .content,
 #block-views-front-reg-block-3 .views-row {
   background: #d4d4d4;
+}
+
+#block-views-main-pages-block-1 .view-footer img {
+  margin: -30px 185px 20px;
 }
 
 #top_voting_block_text .title {
