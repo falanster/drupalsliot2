@@ -489,7 +489,7 @@ aside#region-sidebar-first {
 #block-views-main-pages-block-2 .views-row,
 #block-block-3,
 #block-views-front-reg-block-3 .views-row,
-.page-blog .view-user-blogs .views-row  {
+.page-blog .view-user-blog .views-row  {
   background: #f3f3f3;
   float: left;
   margin-bottom: 35px;
@@ -525,7 +525,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title,
 .page-blogs #block-system-main .views-row .views-field-title,
-.page-blog .view-user-blogs .views-row .views-field-title,
+.page-blog .view-user-blog .views-row .views-field-title,
 .page-sliot #block-system-main .views-row .views-field-title,
 .page-club #block-system-main .views-row .views-field-title,
 .page-drupal-day #block-system-main .views-row .views-field-title,
@@ -545,7 +545,7 @@ aside#region-sidebar-first {
 }
 #block-views-front-reg-block .views-row .views-field-title a,
 .page-blogs #block-system-main .views-row .views-field-title a,
-.page-blog .view-user-blogs .views-row .views-field-title a,
+.page-blog .view-user-blog .views-row .views-field-title a,
 .page-sliot #block-system-main .views-row .views-field-title a,
 .page-club #block-system-main .views-row .views-field-title a,
 .page-drupal-day #block-system-main .views-row .views-field-title a,
@@ -563,7 +563,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-field-date span,
 .page-blogs #block-system-main .views-row .views-field-field-date span,
-.page-blog .view-user-blogs .views-row .views-field-field-date span,
+.page-blog .view-user-blog .views-row .views-field-field-date span,
 .page-sliot #block-system-main .views-row .views-field-field-date span,
 .page-club #block-system-main .views-row .views-field-field-date span,
 .page-drupal-day #block-system-main .views-row .views-field-field-date span,
@@ -581,7 +581,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-field-image img,
 .page-blogs #block-system-main .views-row .views-field-field-image img,
-.page-blog .view-user-blogs .views-row .views-field-field-image img,
+.page-blog .view-user-blog .views-row .views-field-field-image img,
 .page-sliot #block-system-main .views-row .views-field-field-image img,
 .page-club #block-system-main .views-row .views-field-field-image img,
 .page-drupal-day #block-system-main .views-row .views-field-field-image img,
@@ -593,7 +593,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-body .field-content,
 .page-blogs #block-system-main .views-row .views-field-body .field-content,
-.page-blog .view-user-blogs .views-row .views-field-body .field-content,
+.page-blog .view-user-blog .views-row .views-field-body .field-content,
 .page-sliot #block-system-main .views-row .views-field-body .field-content,
 .page-club #block-system-main .views-row .views-field-body .field-content,
 .page-drupal-day #block-system-main .views-row .views-field-body .field-content,
@@ -609,7 +609,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-body ul li,
 .page-blogs #block-system-main .views-row .views-field-body ul li,
-.page-blog .view-user-blogs .views-row .views-field-body ul li,
+.page-blog .view-user-blog .views-row .views-field-body ul li,
 .page-sliot #block-system-main .views-row .views-field-body ul li,
 .page-club #block-system-main .views-row .views-field-body ul li,
 .page-drupal-day #block-system-main .views-row .views-field-body ul li,
@@ -620,7 +620,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-view-node,
 .page-blogs #block-system-main .views-row .views-field-view-node,
-.page-blog .view-user-blogs .views-row .views-field-view-node,
+.page-blog .view-user-blog .views-row .views-field-view-node,
 .page-sliot #block-system-main .views-row .views-field-view-node,
 .page-club #block-system-main .views-row .views-field-view-node,
 .page-drupal-day #block-system-main .views-row .views-field-view-node,
@@ -638,7 +638,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-view-node a,
 .page-blogs #block-system-main .views-row .views-field-view-node a,
-.page-blog .view-user-blogs .views-row .views-field-view-node a,
+.page-blog .view-user-blog .views-row .views-field-view-node a,
 .page-sliot #block-system-main .views-row .views-field-view-node a,
 .page-club #block-system-main .views-row .views-field-view-node a,
 .page-drupal-day #block-system-main .views-row .views-field-view-node a,
@@ -657,7 +657,7 @@ aside#region-sidebar-first {
 
 #block-views-front-reg-block .views-row .views-field-title a:hover,
 .page-blogs #block-system-main .views-row .views-field-title a:hover,
-.page-blog .view-user-blogs .views-row .views-field-view-node a:hover,
+.page-blog .view-user-blog .views-row .views-field-view-node a:hover,
 .page-sliot #block-system-main .views-row .views-field-title a:hover,
 .page-club #block-system-main .views-row .views-field-title a:hover,
 .page-drupal-day #block-system-main .views-row .views-field-title a:hover,
