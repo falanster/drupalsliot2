@@ -927,9 +927,10 @@ div.warning {
   margin-left: 0;
 }
 
-#block-block-31 {
+#block-block-31 img {
   float: right;
-  opacity: 60%;
+  margin: -80px 15px 0 0;
+  opacity: 0.7;
 }
 
 /*@end User profile page*/
