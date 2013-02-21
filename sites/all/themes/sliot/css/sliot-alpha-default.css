@@ -540,6 +540,9 @@ aside#region-sidebar-first {
   line-height: 1;
 } 
 
+#block-views-main-pages-block-1 .views-row .views-field-title {
+  padding-top: 25px;
+}
 #block-views-front-reg-block .views-row .views-field-title a,
 .page-blogs #block-system-main .views-row .views-field-title a,
 .page-blog .view-user-blogs .views-row .views-field-title a,
