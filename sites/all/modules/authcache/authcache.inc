@@ -40,6 +40,11 @@ if ($delivered) {
 function authcache_retrieve_cache_page(){
 	global $base_root;
 
+	// Do not attempt to serve page from cache, when invoked by drush.
+	if (drupal_is_cli()) {
+		return FALSE;
+	}
+
 	// User is logged in but their role should not receive any cached pages
 	// (i.e., cached anonymous pages, since they have no authcache key)
 	/* simg: this logic doesn't work, because a visitor can have the drupal_user cookie set whilst not logged in */
@@ -62,10 +67,10 @@ function authcache_retrieve_cache_page(){
 	// Attempt to retrieve page from cache
 	if (empty($_POST)) {
 		
-		// Connect to database if default database cache hander is
-		// selected
-		if (get_class(_cache_get_object('cache_page')) == 'DrupalDatabaseCache') {
-			drupal_bootstrap(DRUPAL_BOOTSTRAP_DATABASE, FALSE);
+		// Connect to database and initialzie configuration if not
+		// disabled from within settings.php
+		if (!variable_get('page_cache_without_database')) {
+			drupal_bootstrap(DRUPAL_BOOTSTRAP_VARIABLES, FALSE);
 		}
 
 		// Authenticated cache role(s) key

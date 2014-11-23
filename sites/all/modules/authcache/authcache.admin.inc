@@ -173,7 +173,8 @@ function authcache_admin_config_submit($form, &$form_state) {
       ->condition('sid', session_id(), '<>')
       ->execute();
     // Set cookie for current user
-    authcache_user_login($edit = NULL, $user);
+    $edit_ignored = NULL;
+    authcache_user_login($edit_ignored, $user);
     drupal_set_message(t('%num user sessions have been invalidated.', array('%num' => $num_deleted)));
   }
 
@@ -209,23 +210,23 @@ function authcache_admin_config_submit($form, &$form_state) {
 /**
  * Add new page caching rule to form (part of ajax)
  */
-function _authcache_pagecache_form($details) {
+function _authcache_pagecache_form($delta, $details, $count) {
   $form['#tree'] = TRUE;
-  $delta = $details['delta'];
 
   $roles = user_roles();
   $roles[DRUPAL_AUTHENTICATED_RID] .= ' ' . t('(without additional roles)');
 
-  // Cacheability settings
+  // Cacheability settings.
   $options = array(t('Cache every page except the listed pages.'), t('Cache only the listed pages.'));
-  $description = t("To delete this ruleset, leave the textbox empty.") . ' ' . t("Enter one page per line as Drupal paths. The '*' character is a wildcard. Example paths are '%blog' for the blog page and %blog-wildcard for every personal blog. %front is the front page.", array('%blog' => 'blog', '%blog-wildcard' => 'blog/*', '%front' => '<front>'));
+  $description = t("Enter one page per line as Drupal paths. The '*' character is a wildcard. Example paths are '%blog' for the blog page and %blog-wildcard for every personal blog. %front is the front page.", array(
+    '%blog' => 'blog', '%blog-wildcard' => 'blog/*', '%front' => '<front>'));
   if (user_access('use PHP for settings')) {
     $options[] = t('Cache pages for which the following PHP code returns <code>TRUE</code> (PHP-mode, experts only).');
     $description .= t('If the PHP-mode is chosen, enter PHP code between %php. Note that executing incorrect PHP-code can severely break your Drupal site.', array('%php' => '<?php ?>'));
   }
   $form['fieldset'] = array(
     '#type' => 'fieldset',
-    '#title' => t('Caching Ruleset # %delta', array('%delta' => $delta + 1)),
+    '#title' => t('Caching Ruleset #%delta', array('%delta' => $delta + 1)),
     '#collapsible' => TRUE,
   );
   $form['fieldset']['option'] = array(
@@ -254,6 +255,19 @@ function _authcache_pagecache_form($details) {
     '#default_value' => (is_array($details['roles'])) ? $details['roles'] : array(),
   );
 
+  if ($count > 1) {
+    $form['fieldset']['remove_rule'] = array(
+      '#type' => 'submit',
+      '#value' => t('Delete ruleset #@delta', array('@delta' => $delta + 1)),
+      '#submit' => array('authcache_admin_pagecaching_remove_one'),
+      '#ajax' => array(
+        'callback' => 'authcache_admin_pagecaching_ajax_callback',
+        'wrapper' => 'ajax-wrapper',
+      ),
+      '#authcache_rule_id' => $delta,
+    );
+  }
+
   return $form;
 
 }
@@ -261,25 +275,12 @@ function _authcache_pagecache_form($details) {
 /**
  * Page caching rules form
  */
-function authcache_admin_pagecaching($form, $form_state, $ajax_form = array()) {
+function authcache_admin_pagecaching($form, &$form_state) {
   drupal_set_title(t('Authcache Page Caching Settings'));
-  drupal_add_css(drupal_get_path('module', 'authcache') . '/authcache.css');
 
   if (!count(variable_get('authcache_roles', array()))) {
     drupal_set_message(t('You must first select roles to cache before defining page caching setting.'), 'error');
     return $form;
-  }
-
-  $form['#cache'] = TRUE;
-
-  // The contents of ajax_form will either come from the db or from $form_state
-  if (isset($form_state['ajax_form'])) {
-    $ajax_form = $form_state['ajax_form'] + (array) $ajax_form;
-  }
-
-  // Default values
-  if (empty($ajax_form)) {
-    $ajax_form['ajax_form'] = variable_get('authcache_pagecaching', array(array()));
   }
 
   $form['ajax_wrapper'] = array(
@@ -288,29 +289,24 @@ function authcache_admin_pagecaching($form, $form_state, $ajax_form = array()) {
     '#suffix' => '</div>',
   );
 
-  $form['ajax_wrapper']['ajax']['#tree'] = TRUE;
-
-
-  foreach ($ajax_form['ajax_form'] as $delta => $details) {
-    $details = (isset($details['fieldset'])) ? $details['fieldset'] : $details; // fieldset inserted from ajax postback
-    $details['delta'] = $delta;
-
-    $form['ajax_wrapper']['ajax'][$delta] = _authcache_pagecache_form($details);
+  if (empty($form_state['rules'])) {
+    $form_state['rules'] = variable_get('authcache_pagecaching', array(array()));
   }
 
-  // ajax-enabled "Add" button
-  $form['authcache_add_cache'] = array(
+  $form['ajax_wrapper']['ajax']['#tree'] = TRUE;
+  $count = count($form_state['rules']);
+  foreach ($form_state['rules'] as $delta => $detail) {
+    $form['ajax_wrapper']['ajax'][$delta] = _authcache_pagecache_form($delta, $detail, $count);
+  }
+
+  $form['ajax_wrapper']['add_rule'] = array(
     '#type' => 'submit',
-    '#value' => t('Add new ruleset') . '...',
-    '#description' => t("If the above ruleset isn't, click here to add more choices."),
-    '#submit' => array('authcache_ajax_add'),
+    '#value' => t('Add ruleset'),
+    '#submit' => array('authcache_admin_pagecaching_add_one'),
     '#ajax' => array(
-      'callback' => 'authcache_ajax_add',
+      'callback' => 'authcache_admin_pagecaching_ajax_callback',
       'wrapper' => 'ajax-wrapper',
-      'method' => 'replace',
-      'effect' => 'fade',
     ),
-    '#attributes' => array('class' => array('authcache-add')),
   );
 
   $form['nonhtmlfs'] = array(
@@ -340,43 +336,70 @@ function authcache_admin_pagecaching($form, $form_state, $ajax_form = array()) {
  * Page caching rules form submit
  */
 function authcache_admin_pagecaching_submit($form, &$form_state) {
+  $pagecaching = array();
 
-  // Ignore ajax events
-  if ($form_state['clicked_button']['#id'] == 'edit-submit') {
-    $pagecaching = array();
-
-    foreach ($form_state['values']['ajax'] as $key => $ray) {
-      $values = $ray['fieldset'];
-      if ($values['pages']) {
-        $pagecaching[$key] = $values;
-      }
-      if (!array_sum($values['roles'])) {
-        drupal_set_message(t('Ruleset #%key is disabled since no roles are associated with it.', array('%key' => ($key + 1))), 'warning');
-      }
+  foreach ($form_state['values']['ajax'] as $key => $ray) {
+    $values = $ray['fieldset'];
+    if ($values['pages']) {
+      $pagecaching[$key] = $values;
     }
-
-    if (!empty($pagecaching)) {
-      variable_set('authcache_pagecaching', $pagecaching);
+    if (!array_sum($values['roles'])) {
+      drupal_set_message(t('Ruleset #%key is disabled since no roles are associated with it.', array('%key' => ($key + 1))), 'warning');
     }
-    else {
-      variable_set('authcache_pagecaching', array(
-        array(
-          'option' => 0,
-          'pages' => AUTHCACHE_NOCACHE_DEFAULT,
-          'noadmin' => 1,
-          'roles' => $cache_roles,
-        ),
-      )
-      );
-    }
-
-    variable_set('authcache_nonhtml', $form_state['values']['nonhtml']);
-
-    drupal_set_message(t('Your page caching settings have been saved.'));
-    cache_clear_all();
-    drupal_set_message(t('Cached pages cleared.'));
-
   }
+
+  if (!empty($pagecaching)) {
+    variable_set('authcache_pagecaching', $pagecaching);
+  }
+  else {
+    variable_set('authcache_pagecaching', array(
+      array(
+        'option' => 0,
+        'pages' => AUTHCACHE_NOCACHE_DEFAULT,
+        'noadmin' => 1,
+        'roles' => $cache_roles,
+      ),
+    ));
+  }
+
+  variable_set('authcache_nonhtml', $form_state['values']['nonhtml']);
+
+  drupal_set_message(t('Your page caching settings have been saved.'));
+  cache_clear_all();
+  drupal_set_message(t('Cached pages cleared.'));
+}
+
+/**
+ * Callback for ajax-enabled buttons.
+ *
+ * Selects and returns the fieldset with the names in it.
+ */
+function authcache_admin_pagecaching_ajax_callback($form, $form_state) {
+  return $form['ajax_wrapper'];
+}
+
+/**
+ * Submit handler for the add button.
+ *
+ * Appends a new item to the end of the rules array.
+ */
+function authcache_admin_pagecaching_add_one($form, &$form_state) {
+  list($first_rule) = variable_get('authcache_pagecaching', array(array()));
+  $form_state['rules'][] = $first_rule;
+  $form_state['rebuild'] = TRUE;
+}
+
+/**
+ * Submit handler for the remove button.
+ *
+ * Removes the item specified in the #authcache_rule_id attribute specified in
+ * the triggering_element.
+ */
+function authcache_admin_pagecaching_remove_one($form, &$form_state) {
+  if (isset($form_state['triggering_element']['#authcache_rule_id'])) {
+    unset($form_state['rules'][$form_state['triggering_element']['#authcache_rule_id']]);
+  }
+  $form_state['rebuild'] = TRUE;
 }
 
 /**
@@ -435,76 +458,6 @@ function authcache_admin_blocks($form, &$form_state) {
   }
 
   $form['#suffix'] .= '<em>' . t('To add an Authcache Ajax block, visit the !blocks page and click "configure" next to the block.', array('!blocks' => l(t('Blocks'), 'admin/structure/block'))) . '</em>';
-  return $form;
-}
-
-
-/**
- * Advanced Rulesets
- * @todo
- */
-function authcache_admin_advanced() {
-  drupal_set_title(t('Authcache Advanced Rulesets'));
-  $form = array();
-
-  if (!count(variable_get('authcache_roles', array()))) {
-    drupal_set_message(t('You must first select roles to cache before setting up advanced caching.'), 'error');
-    return $form;
-  }
-
-  $form['#prefix'] = 'test';
-  return $form;
-}
-
-/**
- * @todo View all cached pages?
- */
-function authcache_admin_lookup() {
-
-}
-
-
-
-/**
- * Generic ajax menu callback (['#ajax']['path'])
- */
-function authcache_ajax() {
-  $form_state = array(
-    'storage' => NULL,
-    'submitted' => FALSE,
-  );
-  $form_build_id = $_POST['form_build_id'];
-  $form = form_get_cache($form_build_id, $form_state);
-  $args = $form['#parameters'];
-  $form_id = array_shift($args);
-  $form['#post'] = $form_state['post'] = $_POST;
-  $form_state['#redirect'] = $form['#programmed'] = FALSE;
-  drupal_process_form($form_id, $form, $form_state);
-  $form = drupal_rebuild_form($form_id, $form_state, $args, $form_build_id);
-  $ajax_form = $form['ajax_wrapper']['ajax'];
-  unset($ajax_form['#prefix'], $ajax_form['#suffix']); // Prevent duplicate wrappers.
-  // TODO Please change this theme call to use an associative array for the $variables parameter.
-  // TODO Please change this theme call to use an associative array for the $variables parameter.
-  drupal_json_output(array(
-    'status' => TRUE,
-    'data' => theme('status_messages') . drupal_render($ajax_form),
-  ));
-}
-
-/**
- * Generic ajax add
- */
-function authcache_ajax_add($form, &$form_state) {
-  if (isset($form_state['values']['ajax'])) {
-    $ajax_form['ajax_form'] = $form_state['values']['ajax'];
-  }
-
-  $ajax_form['ajax_form'][] = array();
-
-  unset($form_state['submit_handlers']);
-  form_execute_handlers('submit', $form, $form_state);
-  $form_state['ajax_form'] = $ajax_form;
-  $form_state['rebuild'] = TRUE;
   return $form;
 }
 

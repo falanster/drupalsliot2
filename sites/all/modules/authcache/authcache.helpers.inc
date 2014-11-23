@@ -5,6 +5,19 @@
  * Helper functions for the Authcache module (no Drupal hooks here).
  */
 
+/**
+ * Returns an array containing all the roles from account_roles that are not
+ * present in allowed_roles.
+ */
+function _authcache_diff_roles($account_roles, $allowed_roles) {
+  // Remove "authenticated user"-role from the account roles except when it is
+  // the only role on the account.
+  if (array_keys($account_roles) != array(DRUPAL_AUTHENTICATED_RID)) {
+    unset($account_roles[DRUPAL_AUTHENTICATED_RID]);
+  }
+
+  return array_diff_key($account_roles, $allowed_roles);
+}
 
 /**
  * Should the current page be cached?
@@ -91,14 +104,7 @@ function _authcache_is_cacheable() {
   foreach ($pagecaching as $page_rules) {
      
     // Do caching page roles apply to current user?
-    $keys = array_keys($user->roles);
-
-    // Match up authenticated roles correctly in case "authenticated user" is unchecked
-    if (in_array(DRUPAL_AUTHENTICATED_RID, $keys) && !in_array(DRUPAL_AUTHENTICATED_RID, $page_rules['roles'])) {
-      unset($keys[array_search(DRUPAL_AUTHENTICATED_RID, $keys)]);
-    }
-
-    $extra_roles = array_diff($keys, $page_rules['roles']);
+    $extra_roles = _authcache_diff_roles($user->roles, $page_rules['roles']);
     if (empty($extra_roles)) {
       switch ($page_rules['option']) {
         case '0': // Cache every page except the listed pages.
@@ -161,14 +167,7 @@ function _authcache_is_account_cacheable($account = FALSE) {
   }
   // Logged-in
   elseif ($account->uid) {
-    unset($cache_roles[DRUPAL_ANONYMOUS_RID]);
-    $extra_roles = array_diff(array_keys($account->roles), $cache_roles);
-
-    // Admin selected a role, but did not selected "authenticated user"
-    if ($extra_roles && count($extra_roles) == 1 && count($account->roles) > 1 && $extra_roles[1] == DRUPAL_AUTHENTICATED_RID  ) {
-      return TRUE;
-    }
-
+    $extra_roles = _authcache_diff_roles($account->roles, $cache_roles);
     if (!empty($extra_roles)) {
       return FALSE;
     }
@@ -300,7 +299,6 @@ function _authcache_shutdown_save_page() {
   
   // Get buffered HTML
   $buffer = ob_get_contents();
- //  ob_end_clean(); 
 
   if (substr($buffer, 0, 5) == '<?xml') {
     $is_cached_nonhtml = TRUE; // don't append JS to XML pages
@@ -364,6 +362,9 @@ function _authcache_shutdown_save_page() {
     return;
   }
 
+  // Check whether the current page might be compressed.
+  $page_compressed = variable_get('page_compression', TRUE) && extension_loaded('zlib');
+
   $cache = (object) array(
     'cid' => $key,
     'data' => array(
@@ -371,6 +372,9 @@ function _authcache_shutdown_save_page() {
       'body' => $buffer,
       'title' => drupal_get_title(),
       'headers' => array(),
+      // We need to store whether page was compressed or not,
+      // because by the time it is read, the configuration might change.
+      'page_compressed' => $page_compressed,
     ),
     'expire' => CACHE_TEMPORARY, 
     'created' => REQUEST_TIME,
@@ -387,9 +391,8 @@ function _authcache_shutdown_save_page() {
   }
 
   if ($cache->data['body']) {
-    // Check for page compression
-    if (variable_get('page_compression', TRUE) && extension_loaded('zlib')) {
-      $cache->data['body'] = gzencode($buffer, 9, FORCE_GZIP);
+    if ($page_compressed) {
+      $cache->data['body'] = gzencode($cache->data['body'], 9, FORCE_GZIP);
     }
     cache_set($cache->cid, $cache->data, 'cache_page', $cache->expire); 
   } 
@@ -425,7 +428,15 @@ function _authcache_key($account) {
      return '';
     }
     $keys = implode('.', array_keys($account->roles));
-    return substr(md5($keys . drupal_get_private_key()), 0, 6);
+    $key = md5($keys . drupal_get_private_key());
+
+    // Make sure superuser has its own key not shared with anyone else (though
+    // it would be better if superuser would'nt be allowed to use the cache in
+    // the first place).
+    if ($account->uid == 1) {
+      $key = md5($key . $keys . drupal_get_private_key());
+    }
+    return substr($key, 0, 6);
   }
 }
 
